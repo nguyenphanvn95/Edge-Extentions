@@ -1,0 +1,370 @@
+{
+  "EXT_NAME": {
+    "message": "Anki Tool"
+  },
+  "EXT_DESC": {
+    "message": "Effortlessly convert any web content into Anki flashcards for smarter, faster learning."
+  },
+  "SETTINGS_TITLE": {
+    "message": "Настройки Anki Tool"
+  },
+  "ABOUT_TITLE": {
+    "message": "О Anki Tool"
+  },
+  "ABOUT_DESCRIPTION": {
+    "message": "Anki Tool помогает вам быстро и эффективно создавать карточки для Anki. Основные функции включают:"
+  },
+  "DECK_SELECTION": {
+    "message": "Выбор колоды:"
+  },
+  "DECK_SELECTION_DESC": {
+    "message": "Выберите колоду Anki, в которую будет добавлена карточка."
+  },
+  "CARD_TYPE": {
+    "message": "Тип карточки:"
+  },
+  "CARD_TYPE_DESC": {
+    "message": "Выберите модель (Basic, Cloze и т.д.) для формата карточки."
+  },
+  "FRONT_BACK": {
+    "message": "Передняя & Задняя стороны:"
+  },
+  "FRONT_BACK_DESC": {
+    "message": "Введите или отредактируйте содержимое передней и задней сторон карточки."
+  },
+  "ADD_AUDIO": {
+    "message": "Добавить аудио:"
+  },
+  "ADD_AUDIO_DESC": {
+    "message": "Загрузите и прикрепите аудиофайлы к полю карточки для обучения с использованием звука."
+  },
+  "IMAGE_SUPPORT": {
+    "message": "Поддержка изображений:"
+  },
+  "IMAGE_SUPPORT_DESC": {
+    "message": "Копируйте и вставляйте изображения непосредственно в текстовые поля для визуального обогащения карточек."
+  },
+  "SHORTCUTS_TITLE": {
+    "message": "Горячие клавиши"
+  },
+  "SHORTCUT_DESC": {
+    "message": "Alt + G — Открыть всплывающее окно Anki Tool"
+  },
+  "SHORTCUT_DESC_SIDE_PANEL": {
+    "message": "Alt + B — Открыть боковую панель Anki Tool"
+  },
+  "SHORTCUT_DESC_CLOSE_SIDE_PANEL": {
+    "message": "Alt + X — Закрыть боковую панель Anki Tool"
+  },
+  "SHORTCUT_INSTRUCTIONS": {
+    "message": "Чтобы настроить горячие клавиши для Anki Tool, выполните следующие шаги:"
+  },
+  "SHORTCUT_STEP_1": {
+    "message": "Откройте Chrome и перейдите по адресу <strong>chrome://extensions/shortcuts</strong>."
+  },
+  "SHORTCUT_STEP_2": {
+    "message": "Найдите <strong>Anki Tool</strong> в списке расширений."
+  },
+  "SHORTCUT_STEP_3": {
+    "message": "Нажмите на текущую горячую клавишу для \"Открыть всплывающее окно Anki Tool\" и нажмите желаемое сочетание клавиш."
+  },
+  "SHORTCUT_STEP_4": {
+    "message": "Убедитесь, что новая горячая клавиша не конфликтует с существующими сочетаниями клавиш."
+  },
+  "RATE_BUTTON_TEXT": {
+    "message": "Оценить это расширение"
+  },
+  "LANGUAGE_SELECTION": {
+    "message": "Язык"
+  },
+  "LANGUAGE_EN": {
+    "message": "English"
+  },
+  "LANGUAGE_ES": {
+    "message": "Español"
+  },
+  "LANGUAGE_FR": {
+    "message": "Français"
+  },
+  "LANGUAGE_DE": {
+    "message": "Deutsch"
+  },
+  "LANGUAGE_ZH": {
+    "message": "中文"
+  },
+  "LANGUAGE_PT": {
+    "message": "Português"
+  },
+  "LANGUAGE_JA": {
+    "message": "日本語"
+  },
+  "LANGUAGE_RU": {
+    "message": "Русский"
+  },
+  "LANGUAGE_TR": {
+    "message": "Türkçe"
+  },
+  "LANGUAGE_KO": {
+    "message": "한국어"
+  },
+  "LANGUAGE_IT": {
+    "message": "Italiano"
+  },
+  "LANGUAGE_AR": {
+    "message": "العربية"
+  },
+  "LANGUAGE_HI": {
+    "message": "हिन्दी"
+  },
+  "LANGUAGE_VI": {
+    "message": "Tiếng Việt"
+  },
+  "LANGUAGE_ID": {
+    "message": "Bahasa Indonesia"
+  },
+  "LANGUAGE_FA": {
+    "message": "فارسی"
+  },
+  "TOGGLE_THEME": {
+    "message": "Переключить темную/светлую тему"
+  },
+  "OPEN_SETTINGS": {
+    "message": "Открыть настройки"
+  },
+  "ANKI_MESSAGE_PARAGRAPH_1": {
+    "message": "Чтобы использовать эту расширение, необходимо установить и запустить Anki и AnkiConnect. Следуйте этим шагам:"
+  },
+  "ANKI_MESSAGE_STEP_1": {
+    "message": "Установите Anki с"
+  },
+  "ANKI_MESSAGE_STEP_2": {
+    "message": "Откройте Anki, затем перейдите в Инструменты > Дополнения > Получить дополнения..."
+  },
+  "ANKI_MESSAGE_STEP_3": {
+    "message": "Введите код"
+  },
+  "ANKI_MESSAGE_STEP_3b": {
+    "message": "и нажмите OK, чтобы установить AnkiConnect."
+  },
+  "ANKI_MESSAGE_STEP_4": {
+    "message": "Перезапустите Anki, чтобы завершить установку."
+  },
+  "ANKI_MESSAGE_FINAL": {
+    "message": "После выполнения этих шагов перезагрузите это расширение."
+  },
+  "SELECT_PRESET": {
+    "message": "Выбрать предустановку:"
+  },
+  "SELECT_PRESET_DEFAULT": {
+    "message": "Выбрать предустановку"
+  },
+  "SELECT_DECK": {
+    "message": "Выбрать колоду"
+  },
+  "SELECT_MODEL": {
+    "message": "Выбрать модель"
+  },
+  "SELECT_AUDIO_FIELD": {
+    "message": "Выбрать поле для аудио"
+  },
+  "REMOVE_AUDIO": {
+    "message": "Удалить запись аудио"
+  },
+  "ADD_AUDIO_RECORDING": {
+    "message": "Добавить запись аудио"
+  },
+  "ADD_CARD_BUTTON": {
+    "message": "Добавить карточку"
+  },
+  "ADD_CARD_ERROR": {
+    "message": "Невозможно создать заметку, так как она пуста"
+  },
+  "DUPLICATE_ERROR": {
+    "message": "Невозможно создать заметку, так как она дубликат."
+  },
+  "ANKI_ERROR": {
+    "message": "Ошибка Anki"
+  },
+  "SUCCESS": {
+    "message": "Успех"
+  },
+  "CARD_ADDED_SUCCESS": {
+    "message": "Карточка успешно добавлена."
+  },
+  "INVALID_AUDIO": {
+    "message": "Предоставлены недействительные аудиоданные для загрузки."
+  },
+  "AUDIO_UPLOAD_ERROR": {
+    "message": "Ошибка загрузки аудио"
+  },
+  "RATE_PROMPT_TITLE": {
+    "message": "Вам нравится Anki Tool?"
+  },
+  "RATE_PROMPT_MESSAGE": {
+    "message": "Если вам нравится Anki Tool, пожалуйста, найдите время, чтобы оценить его!"
+  },
+  "RATE_NOW": {
+    "message": "Оценить сейчас"
+  },
+  "MAYBE_LATER": {
+    "message": "Может быть позже"
+  },
+  "FEATURE_TOGGLES": {
+    "message": "Настройки функций"
+  },
+  "ENABLE_AUDIO": {
+    "message": "Включить аудио"
+  },
+  "ENABLE_FORMATTING": {
+    "message": "Включить панель форматирования"
+  },
+  "ENABLE_TAGS": {
+    "message": "Включить теги"
+  },
+  "TAGS_LABEL": {
+    "message": "Теги:"
+  },
+  "TAGS_PLACEHOLDER": {
+    "message": "Добавить теги..."
+  },
+  "REQUIRE_ALL_FIELDS": {
+    "message": "Требовать все поля"
+  },
+  "HIGHLIGHT_SEND": {
+    "message": "Всплывающее окно выделения:"
+  },
+  "HIGHLIGHT_SEND_DESC": {
+    "message": "Выделите любой текст на веб-странице, чтобы мгновенно показать всплывающее окно, которое отправляет его прямо в поле расширения."
+  },
+  "ENABLE_HIGHLIGHT_POPUP": {
+    "message": "Включить всплывающее окно выделения"
+  },
+  "LANGUAGE_DESC": {
+    "message": "Выберите предпочтительный язык интерфейса"
+  },
+  "ENABLE_CLOZE": {
+    "message": "Включить Cloze-карточки"
+  },
+  "ENABLE_PREVIEW": {
+    "message": "Включить предпросмотр карточки"
+  },
+  "CLOZE_CARDS": {
+    "message": "Cloze-карточки:"
+  },
+  "CLOZE_CARDS_DESC": {
+    "message": "Скройте части текста, чтобы проверить свою память. Выделите любой текст в поле, затем нажмите C1, C2 или C3, чтобы создать пропуск. Пример: Выделите \"Париж\" в \"Париж - столица Франции\" и нажмите C1, чтобы создать карточку, на лицевой стороне которой будет \"[...] - столица Франции\". Используйте разные номера для создания отдельных карточек или используйте C+ для автоматической нумерации."
+  },
+  "CARD_PREVIEW": {
+    "message": "Предпросмотр карточки:"
+  },
+  "CARD_PREVIEW_DESC": {
+    "message": "Предварительно просмотрите, как ваши карточки будут выглядеть в Anki, прежде чем создавать их. Предпросмотр показывает как лицевую, так и оборотную сторону ваших карточек с фактическим стилем вашего типа заметки, чтобы вы могли убедиться, что все выглядит правильно."
+  },
+  "PREVIEW_CARD_BUTTON_TITLE": {
+    "message": "Предпросмотр карточки"
+  },
+  "CREATE_CLOZE_MODEL_BUTTON_TITLE": {
+    "message": "Создать тип карточки Cloze по умолчанию"
+  },
+  "OPEN_SIDE_PANEL_BUTTON_TITLE": {
+    "message": "Открыть в боковой панели"
+  },
+  "CLOZE_TOOLTIP_TEXT": {
+    "message": "Выберите текст и нажмите кнопку C#, чтобы создать пропуск cloze. Используйте разные номера для отдельных карточек или C+ для автоматического увеличения."
+  },
+  "ERROR": {
+    "message": "Ошибка"
+  },
+  "DUPLICATE_ERROR_TITLE": {
+    "message": "Ошибка дублирования"
+  },
+  "SIDE_PANEL_API_NOT_AVAILABLE": {
+    "message": "API боковой панели недоступно. Обновите Chrome до версии 116 или новее."
+  },
+  "SIDE_PANEL_ERROR": {
+    "message": "Произошла ошибка при открытии боковой панели (см. консоль)."
+  },
+  "CREATE_CLOZE_MODEL_FAILED": {
+    "message": "Не удалось создать модель cloze"
+  },
+  "SELECT_CARD_TYPE_FIRST": {
+    "message": "Сначала выберите тип карточки."
+  },
+  "NO_CLOZE_DELETIONS_FOUND": {
+    "message": "Пропуски cloze не найдены. Сначала добавьте пропуски cloze (например, {{c1::текст}})."
+  },
+  "UPLOAD_AUDIO_FAILED": {
+    "message": "Не удалось загрузить аудио"
+  },
+  "SELECT_VALID_AUDIO_FILE": {
+    "message": "Выберите действительный аудиофайл."
+  },
+  "CLOZE_DELETION_TITLE": {
+    "message": "Пропуск cloze $num$",
+    "placeholders": {
+      "num": {
+        "content": "$1"
+      }
+    }
+  },
+  "CLOZE_AUTO_INCREMENT_TITLE": {
+    "message": "Автоувеличение cloze"
+  },
+  "CLOZE_HELP_TITLE": {
+    "message": "Справка по Cloze"
+  },
+  "SUPPORT_CONNECT_TITLE": {
+    "message": "Поддержка и связь"
+  },
+  "SUPPORT_CONNECT_DESC": {
+    "message": "Оставляйте отзывы и изучайте другие проекты"
+  },
+  "RATE_DESC": {
+    "message": "Нравится Anki Tool? Оставьте отзыв в Chrome Web Store"
+  },
+  "CONTACT_DESC": {
+    "message": "Есть вопросы или отзывы? Я хотел бы услышать вас"
+  },
+  "CONTACT_BUTTON": {
+    "message": "Связаться со мной"
+  },
+  "PROJECTS_DESC": {
+    "message": "Откройте для себя другие инструменты и проекты, которые я создал"
+  },
+  "PROJECTS_BUTTON": {
+    "message": "Посмотреть проекты"
+  },
+  "CLOZE_TOOLTIP_INSTRUCTIONS": {
+    "message": "Выберите текст в поле и нажмите C1, C2 или C3, чтобы создать пропуски cloze. Используйте C+ для автоматического увеличения. Дополнительные сведения см. в настройках."
+  },
+  "BACK_TO_FORM": {
+    "message": "Назад к форме"
+  },
+  "CARD_PREVIEW_TITLE": {
+    "message": "Предпросмотр карточки"
+  },
+  "PREVIEW_FRONT": {
+    "message": "Лицевая сторона"
+  },
+  "PREVIEW_BACK": {
+    "message": "Оборотная сторона"
+  },
+  "CLOZE_REQUIRED_ERROR": {
+    "message": "Это тип заметки Cloze, но пропуски cloze не найдены. Пожалуйста, создайте пропуск cloze (например, {{c1::текст}}) в одном из полей."
+  },
+  "ENABLE_AI_AUTOFILL": {
+    "message": "Включить автозаполнение ИИ"
+  },
+  "AI_AUTOFILL": {
+    "message": "Автозаполнение ИИ:"
+  },
+  "AI_AUTOFILL_DESC": {
+    "message": "Автоматически заполняйте пустые поля карточек с помощью ИИ. Просто заполните одно поле, и ИИ создаст контент для остальных. Ограничено 10 использованиями в день."
+  },
+  "HIGHLIGHT_POPUP": {
+    "message": "Всплывающее окно выделения:"
+  },
+  "HIGHLIGHT_POPUP_DESC": {
+    "message": "Выделите любой текст на веб-странице, чтобы увидеть всплывающее окно с полями вашей карточки. Нажмите на поле, чтобы мгновенно отправить в него выделенный текст."
+  }
+}

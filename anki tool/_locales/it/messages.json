@@ -1,0 +1,370 @@
+{
+  "EXT_NAME": {
+    "message": "Anki Tool"
+  },
+  "EXT_DESC": {
+    "message": "Effortlessly convert any web content into Anki flashcards for smarter, faster learning."
+  },
+  "SETTINGS_TITLE": {
+    "message": "Impostazioni Anki Tool"
+  },
+  "ABOUT_TITLE": {
+    "message": "Informazioni su Anki Tool"
+  },
+  "ABOUT_DESCRIPTION": {
+    "message": "Anki Tool ti aiuta a creare flashcards per Anki in modo rapido ed efficiente. Le funzionalità principali includono:"
+  },
+  "DECK_SELECTION": {
+    "message": "Selezione del Mazzo:"
+  },
+  "DECK_SELECTION_DESC": {
+    "message": "Scegli il mazzo Anki a cui verrà aggiunta la flashcard."
+  },
+  "CARD_TYPE": {
+    "message": "Tipo di Scheda:"
+  },
+  "CARD_TYPE_DESC": {
+    "message": "Seleziona un modello (Basic, Cloze, ecc.) per il formato della scheda."
+  },
+  "FRONT_BACK": {
+    "message": "Fronte & Retro:"
+  },
+  "FRONT_BACK_DESC": {
+    "message": "Inserisci o modifica il contenuto per il fronte e il retro della flashcard."
+  },
+  "ADD_AUDIO": {
+    "message": "Aggiungi Audio:"
+  },
+  "ADD_AUDIO_DESC": {
+    "message": "Carica e allega file audio a un campo della scheda per un apprendimento potenziato con il suono."
+  },
+  "IMAGE_SUPPORT": {
+    "message": "Supporto Immagini:"
+  },
+  "IMAGE_SUPPORT_DESC": {
+    "message": "Copia e incolla immagini direttamente nei campi di testo per arricchire visivamente le flashcards."
+  },
+  "SHORTCUTS_TITLE": {
+    "message": "Scorciatoie da Tastiera"
+  },
+  "SHORTCUT_DESC": {
+    "message": "Alt + G — Apri il popup di Anki Tool"
+  },
+  "SHORTCUT_DESC_SIDE_PANEL": {
+    "message": "Alt + B — Apri il pannello laterale di Anki Tool"
+  },
+  "SHORTCUT_DESC_CLOSE_SIDE_PANEL": {
+    "message": "Alt + X — Chiudi il pannello laterale di Anki Tool"
+  },
+  "SHORTCUT_INSTRUCTIONS": {
+    "message": "Per personalizzare la scorciatoia da tastiera per Anki Tool, segui questi passaggi:"
+  },
+  "SHORTCUT_STEP_1": {
+    "message": "Apri Chrome e naviga a <strong>chrome://extensions/shortcuts</strong>."
+  },
+  "SHORTCUT_STEP_2": {
+    "message": "Individua <strong>Anki Tool</strong> nell'elenco delle estensioni."
+  },
+  "SHORTCUT_STEP_3": {
+    "message": "Clicca sulla scorciatoia attuale per \"Apri popup Anki Tool\" e premi la combinazione di tasti desiderata."
+  },
+  "SHORTCUT_STEP_4": {
+    "message": "Assicurati che la nuova scorciatoia non confligga con scorciatoie esistenti."
+  },
+  "RATE_BUTTON_TEXT": {
+    "message": "Valuta questa Estensione"
+  },
+  "LANGUAGE_SELECTION": {
+    "message": "Lingua"
+  },
+  "LANGUAGE_EN": {
+    "message": "English"
+  },
+  "LANGUAGE_ES": {
+    "message": "Español"
+  },
+  "LANGUAGE_FR": {
+    "message": "Français"
+  },
+  "LANGUAGE_DE": {
+    "message": "Deutsch"
+  },
+  "LANGUAGE_ZH": {
+    "message": "中文"
+  },
+  "LANGUAGE_PT": {
+    "message": "Português"
+  },
+  "LANGUAGE_JA": {
+    "message": "日本語"
+  },
+  "LANGUAGE_RU": {
+    "message": "Русский"
+  },
+  "LANGUAGE_TR": {
+    "message": "Türkçe"
+  },
+  "LANGUAGE_KO": {
+    "message": "한국어"
+  },
+  "LANGUAGE_IT": {
+    "message": "Italiano"
+  },
+  "LANGUAGE_AR": {
+    "message": "العربية"
+  },
+  "LANGUAGE_HI": {
+    "message": "हिन्दी"
+  },
+  "LANGUAGE_VI": {
+    "message": "Tiếng Việt"
+  },
+  "LANGUAGE_ID": {
+    "message": "Bahasa Indonesia"
+  },
+  "LANGUAGE_FA": {
+    "message": "فارسی"
+  },
+  "TOGGLE_THEME": {
+    "message": "Alterna Modalità Scura/Chiara"
+  },
+  "OPEN_SETTINGS": {
+    "message": "Apri Impostazioni"
+  },
+  "ANKI_MESSAGE_PARAGRAPH_1": {
+    "message": "Per utilizzare questa estensione, è necessario avere Anki e AnkiConnect installati ed in esecuzione. Segui questi passaggi:"
+  },
+  "ANKI_MESSAGE_STEP_1": {
+    "message": "Installa Anki da"
+  },
+  "ANKI_MESSAGE_STEP_2": {
+    "message": "Apri Anki, poi vai su Strumenti > Componenti aggiuntivi > Ottieni Componenti aggiuntivi..."
+  },
+  "ANKI_MESSAGE_STEP_3": {
+    "message": "Inserisci il codice"
+  },
+  "ANKI_MESSAGE_STEP_3b": {
+    "message": "e fai clic su OK per installare AnkiConnect."
+  },
+  "ANKI_MESSAGE_STEP_4": {
+    "message": "Riavvia Anki per completare l'installazione."
+  },
+  "ANKI_MESSAGE_FINAL": {
+    "message": "Una volta completati questi passaggi, ricarica questa estensione."
+  },
+  "SELECT_PRESET": {
+    "message": "Seleziona Preimpostazione:"
+  },
+  "SELECT_PRESET_DEFAULT": {
+    "message": "Seleziona Preimpostazione"
+  },
+  "SELECT_DECK": {
+    "message": "Seleziona Mazzo"
+  },
+  "SELECT_MODEL": {
+    "message": "Seleziona Modello"
+  },
+  "SELECT_AUDIO_FIELD": {
+    "message": "Seleziona campo per audio"
+  },
+  "REMOVE_AUDIO": {
+    "message": "Rimuovi registrazione audio"
+  },
+  "ADD_AUDIO_RECORDING": {
+    "message": "Aggiungi registrazione audio"
+  },
+  "ADD_CARD_BUTTON": {
+    "message": "Aggiungi Scheda"
+  },
+  "ADD_CARD_ERROR": {
+    "message": "Impossibile creare la nota perché è vuota"
+  },
+  "DUPLICATE_ERROR": {
+    "message": "Impossibile creare la nota perché è un duplicato."
+  },
+  "ANKI_ERROR": {
+    "message": "Errore Anki"
+  },
+  "SUCCESS": {
+    "message": "Successo"
+  },
+  "CARD_ADDED_SUCCESS": {
+    "message": "Scheda aggiunta con successo."
+  },
+  "INVALID_AUDIO": {
+    "message": "Dati audio non validi forniti per il caricamento."
+  },
+  "AUDIO_UPLOAD_ERROR": {
+    "message": "Errore nel caricamento dell'audio"
+  },
+  "RATE_PROMPT_TITLE": {
+    "message": "Ti piace Anki Tool?"
+  },
+  "RATE_PROMPT_MESSAGE": {
+    "message": "Se ti piace Anki Tool, ti preghiamo di dedicare un momento per valutarlo!"
+  },
+  "RATE_NOW": {
+    "message": "Valuta Ora"
+  },
+  "MAYBE_LATER": {
+    "message": "Forse Più Tardi"
+  },
+  "FEATURE_TOGGLES": {
+    "message": "Opzioni delle Funzionalità"
+  },
+  "ENABLE_AUDIO": {
+    "message": "Abilita Audio"
+  },
+  "ENABLE_FORMATTING": {
+    "message": "Abilita Barra di Formattazione"
+  },
+  "ENABLE_TAGS": {
+    "message": "Abilita Tag"
+  },
+  "TAGS_LABEL": {
+    "message": "Tag:"
+  },
+  "TAGS_PLACEHOLDER": {
+    "message": "Aggiungi tag..."
+  },
+  "REQUIRE_ALL_FIELDS": {
+    "message": "Richiedi tutti i campi"
+  },
+  "HIGHLIGHT_SEND": {
+    "message": "Popup di Evidenziazione:"
+  },
+  "HIGHLIGHT_SEND_DESC": {
+    "message": "Seleziona qualsiasi testo su una pagina web per mostrare istantaneamente un popup che lo invia direttamente a un campo nell'estensione."
+  },
+  "ENABLE_HIGHLIGHT_POPUP": {
+    "message": "Abilita Popup di Evidenziazione"
+  },
+  "LANGUAGE_DESC": {
+    "message": "Scegli la tua lingua preferita per l'interfaccia"
+  },
+  "ENABLE_CLOZE": {
+    "message": "Abilita Schede Cloze"
+  },
+  "ENABLE_PREVIEW": {
+    "message": "Abilita Anteprima Scheda"
+  },
+  "CLOZE_CARDS": {
+    "message": "Schede Cloze:"
+  },
+  "CLOZE_CARDS_DESC": {
+    "message": "Nascondi parti del testo per testare la tua memoria. Seleziona un testo in un campo, quindi fai clic su C1, C2 o C3 per creare una cancellazione. Esempio: seleziona \"Parigi\" in \"Parigi è la capitale della Francia\" e fai clic su C1 per creare una scheda che mostra \"[...] è la capitale della Francia\" sul fronte. Usa numeri diversi per creare schede separate o usa C+ per la numerazione automatica."
+  },
+  "CARD_PREVIEW": {
+    "message": "Anteprima Scheda:"
+  },
+  "CARD_PREVIEW_DESC": {
+    "message": "Visualizza in anteprima come appariranno le tue schede in Anki prima di crearle. L'anteprima mostra sia il fronte che il retro delle tue schede con lo stile effettivo del tuo tipo di nota, così puoi verificare che tutto sembri corretto."
+  },
+  "PREVIEW_CARD_BUTTON_TITLE": {
+    "message": "Anteprima scheda"
+  },
+  "CREATE_CLOZE_MODEL_BUTTON_TITLE": {
+    "message": "Crea un tipo di scheda Cloze predefinito"
+  },
+  "OPEN_SIDE_PANEL_BUTTON_TITLE": {
+    "message": "Apri nel pannello laterale"
+  },
+  "CLOZE_TOOLTIP_TEXT": {
+    "message": "Seleziona il testo e fai clic su un pulsante C# per creare un'eliminazione cloze. Usa numeri diversi per schede separate o C+ per l'incremento automatico."
+  },
+  "ERROR": {
+    "message": "Errore"
+  },
+  "DUPLICATE_ERROR_TITLE": {
+    "message": "Errore duplicato"
+  },
+  "SIDE_PANEL_API_NOT_AVAILABLE": {
+    "message": "L'API del pannello laterale non è disponibile. Aggiorna a Chrome 116 o versioni successive."
+  },
+  "SIDE_PANEL_ERROR": {
+    "message": "Si è verificato un errore durante l'apertura del pannello laterale (vedi console)."
+  },
+  "CREATE_CLOZE_MODEL_FAILED": {
+    "message": "Impossibile creare il modello cloze"
+  },
+  "SELECT_CARD_TYPE_FIRST": {
+    "message": "Seleziona prima un tipo di scheda."
+  },
+  "NO_CLOZE_DELETIONS_FOUND": {
+    "message": "Nessuna eliminazione cloze trovata. Aggiungi prima alcune eliminazioni cloze (ad es. {{c1::testo}})."
+  },
+  "UPLOAD_AUDIO_FAILED": {
+    "message": "Impossibile caricare l'audio"
+  },
+  "SELECT_VALID_AUDIO_FILE": {
+    "message": "Seleziona un file audio valido."
+  },
+  "CLOZE_DELETION_TITLE": {
+    "message": "Eliminazione cloze $num$",
+    "placeholders": {
+      "num": {
+        "content": "$1"
+      }
+    }
+  },
+  "CLOZE_AUTO_INCREMENT_TITLE": {
+    "message": "Incremento automatico cloze"
+  },
+  "CLOZE_HELP_TITLE": {
+    "message": "Guida Cloze"
+  },
+  "SUPPORT_CONNECT_TITLE": {
+    "message": "Supporto e Connessione"
+  },
+  "SUPPORT_CONNECT_DESC": {
+    "message": "Lascia un feedback ed esplora altri progetti"
+  },
+  "RATE_DESC": {
+    "message": "Ti piace Anki Tool? Lascia una recensione sul Chrome Web Store"
+  },
+  "CONTACT_DESC": {
+    "message": "Hai domande o feedback? Mi piacerebbe sentirti"
+  },
+  "CONTACT_BUTTON": {
+    "message": "Contattami"
+  },
+  "PROJECTS_DESC": {
+    "message": "Scopri altri strumenti e progetti che ho creato"
+  },
+  "PROJECTS_BUTTON": {
+    "message": "Visualizza Progetti"
+  },
+  "CLOZE_TOOLTIP_INSTRUCTIONS": {
+    "message": "Seleziona il testo in un campo e fai clic su C1, C2 o C3 per creare eliminazioni cloze. Usa C+ per l'incremento automatico. Vedi Impostazioni per maggiori dettagli."
+  },
+  "BACK_TO_FORM": {
+    "message": "Torna al Modulo"
+  },
+  "CARD_PREVIEW_TITLE": {
+    "message": "Anteprima Scheda"
+  },
+  "PREVIEW_FRONT": {
+    "message": "Fronte"
+  },
+  "PREVIEW_BACK": {
+    "message": "Retro"
+  },
+  "CLOZE_REQUIRED_ERROR": {
+    "message": "Questo è un tipo di nota Cloze, ma non sono state trovate eliminazioni cloze. Crea un'eliminazione cloze (ad es. {{c1::testo}}) in uno dei campi."
+  },
+  "ENABLE_AI_AUTOFILL": {
+    "message": "Abilita riempimento automatico IA"
+  },
+  "AI_AUTOFILL": {
+    "message": "Riempimento automatico IA:"
+  },
+  "AI_AUTOFILL_DESC": {
+    "message": "Riempi automaticamente i campi vuoti delle carte usando l'IA. Riempi semplicemente un campo e lascia che l'IA generi il contenuto per gli altri. Limitato a 10 utilizzi al giorno."
+  },
+  "HIGHLIGHT_POPUP": {
+    "message": "Popup di Evidenziazione:"
+  },
+  "HIGHLIGHT_POPUP_DESC": {
+    "message": "Seleziona qualsiasi testo su una pagina web per vedere un popup fluttuante con i campi della tua carta. Clicca su un campo per inviare istantaneamente il testo selezionato."
+  }
+}

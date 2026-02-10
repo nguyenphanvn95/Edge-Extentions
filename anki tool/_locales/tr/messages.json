@@ -1,0 +1,370 @@
+{
+  "EXT_NAME": {
+    "message": "Anki Tool"
+  },
+  "EXT_DESC": {
+    "message": "Effortlessly convert any web content into Anki flashcards for smarter, faster learning."
+  },
+  "SETTINGS_TITLE": {
+    "message": "Anki Tool Ayarları"
+  },
+  "ABOUT_TITLE": {
+    "message": "Anki Tool Hakkında"
+  },
+  "ABOUT_DESCRIPTION": {
+    "message": "Anki Tool, Anki için hızlı ve verimli bir şekilde flash kartlar oluşturmanıza yardımcı olur. Temel özellikler şunları içerir:"
+  },
+  "DECK_SELECTION": {
+    "message": "Destek Seçimi:"
+  },
+  "DECK_SELECTION_DESC": {
+    "message": "Flash kartın ekleneceği Anki destesini seçin."
+  },
+  "CARD_TYPE": {
+    "message": "Kart Türü:"
+  },
+  "CARD_TYPE_DESC": {
+    "message": "Kart formatı için bir model (Basic, Cloze, vb.) seçin."
+  },
+  "FRONT_BACK": {
+    "message": "Ön & Arka:"
+  },
+  "FRONT_BACK_DESC": {
+    "message": "Flash kartın ön ve arka içeriğini girin veya düzenleyin."
+  },
+  "ADD_AUDIO": {
+    "message": "Ses Ekle:"
+  },
+  "ADD_AUDIO_DESC": {
+    "message": "Ses destekli öğrenme için kart alanına ses dosyaları yükleyin ve ekleyin."
+  },
+  "IMAGE_SUPPORT": {
+    "message": "Görüntü Desteği:"
+  },
+  "IMAGE_SUPPORT_DESC": {
+    "message": "Flash kartları görsel olarak zenginleştirmek için görüntüleri doğrudan metin alanlarına kopyalayıp yapıştırın."
+  },
+  "SHORTCUTS_TITLE": {
+    "message": "Klavye Kısayolları"
+  },
+  "SHORTCUT_DESC": {
+    "message": "Alt + G — Anki Tool popup'unu aç"
+  },
+  "SHORTCUT_DESC_SIDE_PANEL": {
+    "message": "Alt + B — Anki Tool yan panelini aç"
+  },
+  "SHORTCUT_DESC_CLOSE_SIDE_PANEL": {
+    "message": "Alt + X — Anki Tool yan panelini kapat"
+  },
+  "SHORTCUT_INSTRUCTIONS": {
+    "message": "Anki Tool için klavye kısayolunu özelleştirmek için lütfen şu adımları izleyin:"
+  },
+  "SHORTCUT_STEP_1": {
+    "message": "Chrome'u açın ve <strong>chrome://extensions/shortcuts</strong> adresine gidin."
+  },
+  "SHORTCUT_STEP_2": {
+    "message": "Uzantılar listesinde <strong>Anki Tool</strong>'u bulun."
+  },
+  "SHORTCUT_STEP_3": {
+    "message": "\"Anki Tool popup'unu aç\" için mevcut kısayola tıklayın ve istediğiniz tuş kombinasyonunu basın."
+  },
+  "SHORTCUT_STEP_4": {
+    "message": "Yeni kısayolun mevcut kısayollarla çakışmadığından emin olun."
+  },
+  "RATE_BUTTON_TEXT": {
+    "message": "Bu Eklentiyi Değerlendir"
+  },
+  "LANGUAGE_SELECTION": {
+    "message": "Dil"
+  },
+  "LANGUAGE_EN": {
+    "message": "English"
+  },
+  "LANGUAGE_ES": {
+    "message": "Español"
+  },
+  "LANGUAGE_FR": {
+    "message": "Français"
+  },
+  "LANGUAGE_DE": {
+    "message": "Deutsch"
+  },
+  "LANGUAGE_ZH": {
+    "message": "中文"
+  },
+  "LANGUAGE_PT": {
+    "message": "Português"
+  },
+  "LANGUAGE_JA": {
+    "message": "日本語"
+  },
+  "LANGUAGE_RU": {
+    "message": "Русский"
+  },
+  "LANGUAGE_TR": {
+    "message": "Türkçe"
+  },
+  "LANGUAGE_KO": {
+    "message": "한국어"
+  },
+  "LANGUAGE_IT": {
+    "message": "Italiano"
+  },
+  "LANGUAGE_AR": {
+    "message": "العربية"
+  },
+  "LANGUAGE_HI": {
+    "message": "हिन्दी"
+  },
+  "LANGUAGE_VI": {
+    "message": "Tiếng Việt"
+  },
+  "LANGUAGE_ID": {
+    "message": "Bahasa Indonesia"
+  },
+  "LANGUAGE_FA": {
+    "message": "فارسی"
+  },
+  "TOGGLE_THEME": {
+    "message": "Koyu/Açık Moda Geçiş Yap"
+  },
+  "OPEN_SETTINGS": {
+    "message": "Ayarları Aç"
+  },
+  "ANKI_MESSAGE_PARAGRAPH_1": {
+    "message": "Bu eklentiyi kullanmak için Anki ve AnkiConnect'in yüklü ve çalışır durumda olması gerekir. Aşağıdaki adımları izleyin:"
+  },
+  "ANKI_MESSAGE_STEP_1": {
+    "message": "Anki'yi buradan yükleyin"
+  },
+  "ANKI_MESSAGE_STEP_2": {
+    "message": "Anki'yi açın, ardından Araçlar > Eklentiler > Eklenti al... bölümüne gidin"
+  },
+  "ANKI_MESSAGE_STEP_3": {
+    "message": "Kodu girin"
+  },
+  "ANKI_MESSAGE_STEP_3b": {
+    "message": "ve AnkiConnect'i yüklemek için OK'ye tıklayın."
+  },
+  "ANKI_MESSAGE_STEP_4": {
+    "message": "Kurulumu tamamlamak için Anki'yi yeniden başlatın."
+  },
+  "ANKI_MESSAGE_FINAL": {
+    "message": "Bu adımları tamamladıktan sonra, bu eklentiyi yeniden yükleyin."
+  },
+  "SELECT_PRESET": {
+    "message": "Ön Ayarı Seçin:"
+  },
+  "SELECT_PRESET_DEFAULT": {
+    "message": "Ön Ayarı Seçin"
+  },
+  "SELECT_DECK": {
+    "message": "Destek Seçin"
+  },
+  "SELECT_MODEL": {
+    "message": "Model Seçin"
+  },
+  "SELECT_AUDIO_FIELD": {
+    "message": "Ses alanını seçin"
+  },
+  "REMOVE_AUDIO": {
+    "message": "Ses kaydını kaldır"
+  },
+  "ADD_AUDIO_RECORDING": {
+    "message": "Ses kaydı ekle"
+  },
+  "ADD_CARD_BUTTON": {
+    "message": "Kart Ekle"
+  },
+  "ADD_CARD_ERROR": {
+    "message": "Not oluşturulamıyor çünkü boş"
+  },
+  "DUPLICATE_ERROR": {
+    "message": "Not oluşturulamıyor çünkü bu bir kopya."
+  },
+  "ANKI_ERROR": {
+    "message": "Anki Hatası"
+  },
+  "SUCCESS": {
+    "message": "Başarı"
+  },
+  "CARD_ADDED_SUCCESS": {
+    "message": "Kart Başarıyla Eklendi."
+  },
+  "INVALID_AUDIO": {
+    "message": "Yükleme için geçersiz ses verisi sağlandı."
+  },
+  "AUDIO_UPLOAD_ERROR": {
+    "message": "Ses Yükleme Hatası"
+  },
+  "RATE_PROMPT_TITLE": {
+    "message": "Anki Tool'u Beğendiniz mi?"
+  },
+  "RATE_PROMPT_MESSAGE": {
+    "message": "Anki Tool'u beğeniyorsanız, lütfen biraz zaman ayırıp değerlendirin!"
+  },
+  "RATE_NOW": {
+    "message": "Şimdi Değerlendir"
+  },
+  "MAYBE_LATER": {
+    "message": "Belki Daha Sonra"
+  },
+  "FEATURE_TOGGLES": {
+    "message": "Özellik Seçenekleri"
+  },
+  "ENABLE_AUDIO": {
+    "message": "Sesi Etkinleştir"
+  },
+  "ENABLE_FORMATTING": {
+    "message": "Biçimlendirme Araç Çubuğunu Etkinleştir"
+  },
+  "ENABLE_TAGS": {
+    "message": "Etiketleri Etkinleştir"
+  },
+  "TAGS_LABEL": {
+    "message": "Etiketler:"
+  },
+  "TAGS_PLACEHOLDER": {
+    "message": "Etiket ekle..."
+  },
+  "REQUIRE_ALL_FIELDS": {
+    "message": "Tüm Alanları Gerektir"
+  },
+  "HIGHLIGHT_SEND": {
+    "message": "Vurgulama Açılır Penceresi:"
+  },
+  "HIGHLIGHT_SEND_DESC": {
+    "message": "Herhangi bir web sayfasındaki metni seçin ve anında eklentideki bir alana gönderen bir açılır pencere gösterin."
+  },
+  "ENABLE_HIGHLIGHT_POPUP": {
+    "message": "Vurgulama Açılır Penceresini Etkinleştir"
+  },
+  "LANGUAGE_DESC": {
+    "message": "Arayüz için tercih ettiğiniz dili seçin"
+  },
+  "ENABLE_CLOZE": {
+    "message": "Boşluk Doldurma Kartlarını Etkinleştir"
+  },
+  "ENABLE_PREVIEW": {
+    "message": "Kart Önizlemesini Etkinleştir"
+  },
+  "CLOZE_CARDS": {
+    "message": "Boşluk Doldurma Kartları:"
+  },
+  "CLOZE_CARDS_DESC": {
+    "message": "Hafızanızı test etmek için metninizin bölümlerini gizleyin. Bir alanda herhangi bir metni seçin, ardından bir silme oluşturmak için C1, C2 veya C3'e tıklayın. Örnek: \"Paris, Fransa'nın başkentidir\" ifadesindeki \"Paris\" kelimesini seçin ve C1'e tıklayarak ön yüzünde \"[...] Fransa'nın başkentidir\" yazan bir kart oluşturun. Ayrı kartlar oluşturmak için farklı numaralar kullanın veya otomatik numaralandırma için C+ kullanın."
+  },
+  "CARD_PREVIEW": {
+    "message": "Kart Önizlemesi:"
+  },
+  "CARD_PREVIEW_DESC": {
+    "message": "Kartlarınızı oluşturmadan önce Anki'de nasıl görüneceklerini önizleyin. Önizleme, kartlarınızın hem ön hem de arka yüzünü not türünüzün gerçek stiliyle gösterir, böylece her şeyin doğru göründüğünü doğrulayabilirsiniz."
+  },
+  "PREVIEW_CARD_BUTTON_TITLE": {
+    "message": "Kartı Önizle"
+  },
+  "CREATE_CLOZE_MODEL_BUTTON_TITLE": {
+    "message": "Varsayılan bir Cloze kart türü oluştur"
+  },
+  "OPEN_SIDE_PANEL_BUTTON_TITLE": {
+    "message": "Yan Panelde Aç"
+  },
+  "CLOZE_TOOLTIP_TEXT": {
+    "message": "Bir cloze silme oluşturmak için metni seçin ve bir C# düğmesine tıklayın. Ayrı kartlar için farklı numaralar kullanın veya otomatik artırmak için C+ kullanın."
+  },
+  "ERROR": {
+    "message": "Hata"
+  },
+  "DUPLICATE_ERROR_TITLE": {
+    "message": "Yinelenen Hata"
+  },
+  "SIDE_PANEL_API_NOT_AVAILABLE": {
+    "message": "Yan Panel API'si mevcut değil. Lütfen Chrome 116 veya daha yenisine güncelleyin."
+  },
+  "SIDE_PANEL_ERROR": {
+    "message": "Yan paneli açarken bir hata oluştu (konsola bakın)."
+  },
+  "CREATE_CLOZE_MODEL_FAILED": {
+    "message": "Cloze modeli oluşturulamadı"
+  },
+  "SELECT_CARD_TYPE_FIRST": {
+    "message": "Lütfen önce bir kart türü seçin."
+  },
+  "NO_CLOZE_DELETIONS_FOUND": {
+    "message": "Cloze silme bulunamadı. Lütfen önce bazı cloze silmeleri ekleyin (ör. {{c1::metin}})."
+  },
+  "UPLOAD_AUDIO_FAILED": {
+    "message": "Ses yüklenemedi"
+  },
+  "SELECT_VALID_AUDIO_FILE": {
+    "message": "Lütfen geçerli bir ses dosyası seçin."
+  },
+  "CLOZE_DELETION_TITLE": {
+    "message": "Cloze silme $num$",
+    "placeholders": {
+      "num": {
+        "content": "$1"
+      }
+    }
+  },
+  "CLOZE_AUTO_INCREMENT_TITLE": {
+    "message": "Cloze'u otomatik artır"
+  },
+  "CLOZE_HELP_TITLE": {
+    "message": "Cloze yardımı"
+  },
+  "SUPPORT_CONNECT_TITLE": {
+    "message": "Destek ve Bağlantı"
+  },
+  "SUPPORT_CONNECT_DESC": {
+    "message": "Geri bildirim bırakın ve daha fazla proje keşfedin"
+  },
+  "RATE_DESC": {
+    "message": "Anki Tool'u beğeniyor musunuz? Chrome Web Mağazası'nda bir yorum bırakın"
+  },
+  "CONTACT_DESC": {
+    "message": "Sorularınız veya geri bildiriminiz var mı? Sizden haber almak isterim"
+  },
+  "CONTACT_BUTTON": {
+    "message": "Bana Ulaşın"
+  },
+  "PROJECTS_DESC": {
+    "message": "Oluşturduğum diğer araçları ve projeleri keşfedin"
+  },
+  "PROJECTS_BUTTON": {
+    "message": "Projeleri Görüntüle"
+  },
+  "CLOZE_TOOLTIP_INSTRUCTIONS": {
+    "message": "Bir alanda metin seçin ve cloze silmeleri oluşturmak için C1, C2 veya C3'e tıklayın. Otomatik artırma için C+ kullanın. Daha fazla ayrıntı için Ayarlar'a bakın."
+  },
+  "BACK_TO_FORM": {
+    "message": "Forma Geri Dön"
+  },
+  "CARD_PREVIEW_TITLE": {
+    "message": "Kart Önizlemesi"
+  },
+  "PREVIEW_FRONT": {
+    "message": "Ön"
+  },
+  "PREVIEW_BACK": {
+    "message": "Arka"
+  },
+  "CLOZE_REQUIRED_ERROR": {
+    "message": "Bu bir Cloze not türüdür, ancak hiçbir cloze silme işlemi bulunamadı. Lütfen alanlardan birinde bir cloze silme işlemi oluşturun (ör. {{c1::metin}})."
+  },
+  "ENABLE_AI_AUTOFILL": {
+    "message": "AI Otomatik Doldurmayı Etkinleştir"
+  },
+  "AI_AUTOFILL": {
+    "message": "AI Otomatik Doldurma:"
+  },
+  "AI_AUTOFILL_DESC": {
+    "message": "AI kullanarak boş kart alanlarını otomatik olarak doldurun. Sadece bir alanı doldurun ve AI'nın diğerleri için içerik oluşturmasına izin verin. Günde 10 kullanım ile sınırlıdır."
+  },
+  "HIGHLIGHT_POPUP": {
+    "message": "Vurgulama Penceresi:"
+  },
+  "HIGHLIGHT_POPUP_DESC": {
+    "message": "Kart alanlarınızın bulunduğu yüzen bir pencereyi görmek için bir web sayfasındaki herhangi bir metni seçin. Seçilen metni anında o alana göndermek için bir alana tıklayın."
+  }
+}

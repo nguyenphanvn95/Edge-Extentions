@@ -1,0 +1,391 @@
+{
+  "EXT_NAME": {
+    "message": "Anki Tool"
+  },
+  "EXT_DESC": {
+    "message": "Effortlessly convert any web content into Anki flashcards for smarter, faster learning."
+  },
+  "SETTINGS_TITLE": {
+    "message": "Anki Tool Settings"
+  },
+  "ABOUT_TITLE": {
+    "message": "About Anki Tool"
+  },
+  "ABOUT_DESCRIPTION": {
+    "message": "Anki Tool helps you create flashcards for Anki quickly and efficiently. Key features include:"
+  },
+  "DECK_SELECTION": {
+    "message": "Deck Selection:"
+  },
+  "DECK_SELECTION_DESC": {
+    "message": "Choose the Anki deck where the flashcard will be added."
+  },
+  "CARD_TYPE": {
+    "message": "Card Type:"
+  },
+  "CARD_TYPE_DESC": {
+    "message": "Select a model (Basic, Cloze, etc.) for the card format."
+  },
+  "FRONT_BACK": {
+    "message": "Front & Back:"
+  },
+  "FRONT_BACK_DESC": {
+    "message": "Enter or edit content for the front and back of the flashcard."
+  },
+  "ADD_AUDIO": {
+    "message": "Add Audio:"
+  },
+  "ADD_AUDIO_DESC": {
+    "message": "Upload and attach audio files to a card field for sound-enhanced learning."
+  },
+  "IMAGE_SUPPORT": {
+    "message": "Image Support:"
+  },
+  "IMAGE_SUPPORT_DESC": {
+    "message": "Copy and paste images directly into the text fields to enrich flashcards visually."
+  },
+  "SHORTCUTS_TITLE": {
+    "message": "Keyboard Shortcuts"
+  },
+  "SHORTCUT_DESC": {
+    "message": "Alt + G — Open the Anki Tool popup"
+  },
+  "SHORTCUT_DESC_SIDE_PANEL": {
+    "message": "Alt + B — Open the Anki Tool sidepanel"
+  },
+  "SHORTCUT_DESC_CLOSE_SIDE_PANEL": {
+    "message": "Alt + X — Close the Anki Tool sidepanel"
+  },
+  "SHORTCUT_INSTRUCTIONS": {
+    "message": "To customize the keyboard shortcut for Anki Tool, please follow these steps:"
+  },
+  "SHORTCUT_STEP_1": {
+    "message": "Open Chrome and navigate to <strong>chrome://extensions/shortcuts</strong>."
+  },
+  "SHORTCUT_STEP_2": {
+    "message": "Locate <strong>Anki Tool</strong> in the list of extensions."
+  },
+  "SHORTCUT_STEP_3": {
+    "message": "Click on the current shortcut for \"Open the Anki Tool popup\" and press your desired key combination."
+  },
+  "SHORTCUT_STEP_4": {
+    "message": "Ensure that the new shortcut does not conflict with existing shortcuts."
+  },
+  "RATE_BUTTON_TEXT": {
+    "message": "Rate this Extension"
+  },
+  "LANGUAGE_SELECTION": {
+    "message": "Language"
+  },
+  "LANGUAGE_EN": {
+    "message": "English"
+  },
+  "LANGUAGE_ES": {
+    "message": "Español"
+  },
+  "LANGUAGE_FR": {
+    "message": "Français"
+  },
+  "LANGUAGE_DE": {
+    "message": "Deutsch"
+  },
+  "LANGUAGE_ZH": {
+    "message": "中文"
+  },
+  "LANGUAGE_PT": {
+    "message": "Português"
+  },
+  "LANGUAGE_JA": {
+    "message": "日本語"
+  },
+  "LANGUAGE_RU": {
+    "message": "Русский"
+  },
+  "LANGUAGE_TR": {
+    "message": "Türkçe"
+  },
+  "LANGUAGE_KO": {
+    "message": "한국어"
+  },
+  "LANGUAGE_IT": {
+    "message": "Italiano"
+  },
+  "LANGUAGE_AR": {
+    "message": "العربية"
+  },
+  "LANGUAGE_HI": {
+    "message": "हिन्दी"
+  },
+  "LANGUAGE_VI": {
+    "message": "Tiếng Việt"
+  },
+  "LANGUAGE_ID": {
+    "message": "Bahasa Indonesia"
+  },
+  "LANGUAGE_FA": {
+    "message": "فارسی"
+  },
+  "TOGGLE_THEME": {
+    "message": "Toggle Dark/Light Mode"
+  },
+  "OPEN_SETTINGS": {
+    "message": "Open Settings"
+  },
+  "ANKI_MESSAGE_PARAGRAPH_1": {
+    "message": "To use this extension, you need to have Anki and AnkiConnect installed and running. Follow these steps:"
+  },
+  "ANKI_MESSAGE_STEP_1": {
+    "message": "Install Anki from"
+  },
+  "ANKI_MESSAGE_STEP_2": {
+    "message": "Open Anki, then go to Tools > Add-ons > Get Add-ons..."
+  },
+  "ANKI_MESSAGE_STEP_3": {
+    "message": "Enter the code"
+  },
+  "ANKI_MESSAGE_STEP_3b": {
+    "message": "and click OK to install AnkiConnect."
+  },
+  "ANKI_MESSAGE_STEP_4": {
+    "message": "Restart Anki to complete the installation."
+  },
+  "ANKI_MESSAGE_FINAL": {
+    "message": "Once you have completed these steps, reload this extension."
+  },
+  "SELECT_PRESET": {
+    "message": "Select Preset:"
+  },
+  "SELECT_PRESET_DEFAULT": {
+    "message": "Select Preset"
+  },
+  "SELECT_DECK": {
+    "message": "Select Deck"
+  },
+  "SELECT_MODEL": {
+    "message": "Select Model"
+  },
+  "SELECT_AUDIO_FIELD": {
+    "message": "Select field for audio"
+  },
+  "REMOVE_AUDIO": {
+    "message": "Remove audio recording"
+  },
+  "ADD_AUDIO_RECORDING": {
+    "message": "Add audio recording"
+  },
+  "ADD_CARD_BUTTON": {
+    "message": "Add Card"
+  },
+  "ADD_CARD_ERROR": {
+    "message": "Cannot create note because it is empty"
+  },
+  "DUPLICATE_ERROR": {
+    "message": "Cannot create note because it is a duplicate."
+  },
+  "ANKI_ERROR": {
+    "message": "Anki Error"
+  },
+  "SUCCESS": {
+    "message": "Success"
+  },
+  "CARD_ADDED_SUCCESS": {
+    "message": "Card Added Successfully."
+  },
+  "INVALID_AUDIO": {
+    "message": "Invalid audio data provided for upload."
+  },
+  "AUDIO_UPLOAD_ERROR": {
+    "message": "Audio Upload Error"
+  },
+  "RATE_PROMPT_TITLE": {
+    "message": "Enjoying Anki Tool?"
+  },
+  "RATE_PROMPT_MESSAGE": {
+    "message": "If you're enjoying Anki Tool, please take a moment to rate it!"
+  },
+  "RATE_NOW": {
+    "message": "Rate Now"
+  },
+  "MAYBE_LATER": {
+    "message": "Maybe Later"
+  },
+  "FEATURE_TOGGLES": {
+    "message": "Feature Toggles"
+  },
+  "ENABLE_AUDIO": {
+    "message": "Enable Audio"
+  },
+  "ENABLE_FORMATTING": {
+    "message": "Enable Formatting Toolbar"
+  },
+  "ENABLE_TAGS": {
+    "message": "Enable Tags"
+  },
+  "TAGS_LABEL": {
+    "message": "Tags:"
+  },
+  "TAGS_PLACEHOLDER": {
+    "message": "Add tags..."
+  },
+  "REQUIRE_ALL_FIELDS": {
+    "message": "Require All Fields"
+  },
+  "HIGHLIGHT_SEND": {
+    "message": "Highlight Popup:"
+  },
+  "HIGHLIGHT_SEND_DESC": {
+    "message": "Select any text on a webpage to instantly show a popup that sends it directly to a field in the extension."
+  },
+  "ENABLE_HIGHLIGHT_POPUP": {
+    "message": "Enable Highlight Popup"
+  },
+  "LANGUAGE_DESC": {
+    "message": "Choose your preferred language for the interface"
+  },
+  "ENABLE_CLOZE": {
+    "message": "Enable Cloze Cards"
+  },
+  "ENABLE_PREVIEW": {
+    "message": "Enable Card Preview"
+  },
+  "CLOZE_CARDS": {
+    "message": "Cloze Cards:"
+  },
+  "CLOZE_CARDS_DESC": {
+    "message": "Hide parts of your text to test your memory. Select any text in a field, then click C1, C2, or C3 to create a deletion. Example: Select \"Paris\" in \"Paris is the capital of France\" and click C1 to create a card showing \"[...] is the capital of France\" on the front. Use different numbers to create separate cards, or use C+ for auto-numbering."
+  },
+  "CARD_PREVIEW": {
+    "message": "Card Preview:"
+  },
+  "CARD_PREVIEW_DESC": {
+    "message": "Preview how your cards will look in Anki before creating them. The preview shows both the front and back of your cards with the actual styling from your note type, so you can verify everything looks correct."
+  },
+  "PREVIEW_CARD_BUTTON_TITLE": {
+    "message": "Preview Card"
+  },
+  "CREATE_CLOZE_MODEL_BUTTON_TITLE": {
+    "message": "Create a default Cloze card type"
+  },
+  "OPEN_SIDE_PANEL_BUTTON_TITLE": {
+    "message": "Open in Side Panel"
+  },
+  "CLOZE_TOOLTIP_TEXT": {
+    "message": "Select text and click a C# button to create a cloze deletion. Use different numbers for separate cards, or C+ to auto-increment."
+  },
+  "ERROR": {
+    "message": "Error"
+  },
+  "DUPLICATE_ERROR_TITLE": {
+    "message": "Duplicate Error"
+  },
+  "SIDE_PANEL_API_NOT_AVAILABLE": {
+    "message": "Side Panel API not available. Please update to Chrome 116 or later."
+  },
+  "SIDE_PANEL_ERROR": {
+    "message": "An error occurred while opening the side panel (see console)."
+  },
+  "CREATE_CLOZE_MODEL_FAILED": {
+    "message": "Failed to create cloze model"
+  },
+  "SELECT_CARD_TYPE_FIRST": {
+    "message": "Please select a card type first."
+  },
+  "NO_CLOZE_DELETIONS_FOUND": {
+    "message": "No cloze deletions found. Please add some cloze deletions first (e.g., {{c1::text}})."
+  },
+  "UPLOAD_AUDIO_FAILED": {
+    "message": "Failed to upload audio"
+  },
+  "SELECT_VALID_AUDIO_FILE": {
+    "message": "Please select a valid audio file."
+  },
+  "CLOZE_DELETION_TITLE": {
+    "message": "Cloze deletion $num$",
+    "placeholders": {
+      "num": {
+        "content": "$1"
+      }
+    }
+  },
+  "CLOZE_AUTO_INCREMENT_TITLE": {
+    "message": "Auto-increment cloze"
+  },
+  "CLOZE_HELP_TITLE": {
+    "message": "Cloze help"
+  },
+  "SUPPORT_CONNECT_TITLE": {
+    "message": "Support & Connect"
+  },
+  "SUPPORT_CONNECT_DESC": {
+    "message": "Leave feedback and explore more projects"
+  },
+  "RATE_DESC": {
+    "message": "Enjoying Anki Tool? Leave a review on the Chrome Web Store"
+  },
+  "CONTACT_DESC": {
+    "message": "Have questions or feedback? I'd love to hear from you"
+  },
+  "CONTACT_BUTTON": {
+    "message": "Contact Me"
+  },
+  "PROJECTS_DESC": {
+    "message": "Discover other tools and projects I've created"
+  },
+  "PROJECTS_BUTTON": {
+    "message": "View Projects"
+  },
+  "CLOZE_TOOLTIP_INSTRUCTIONS": {
+    "message": "Select text in a field and click C1, C2, or C3 to create cloze deletions. Use C+ for auto-increment. See Settings for more details."
+  },
+  "BACK_TO_FORM": {
+    "message": "Back to Form"
+  },
+  "CARD_PREVIEW_TITLE": {
+    "message": "Card Preview"
+  },
+  "PREVIEW_FRONT": {
+    "message": "Front"
+  },
+  "PREVIEW_BACK": {
+    "message": "Back"
+  },
+  "CLOZE_REQUIRED_ERROR": {
+    "message": "This is a Cloze note type, but no cloze deletions were found. Please create a cloze deletion (e.g., {{c1::text}}) in one of the fields."
+  },
+  "AI_AUTOFILL_BUTTON_TITLE": {
+    "message": "AI Auto-fill (fills empty fields)"
+  },
+  "AI_SELECT_DECK_MODEL": {
+    "message": "Please select a deck and model first."
+  },
+  "AI_NO_FIELDS": {
+    "message": "No fields available to fill."
+  },
+  "AI_ALL_FIELDS_FILLED": {
+    "message": "All fields are already filled."
+  },
+  "AI_RATE_LIMIT": {
+    "message": "Daily AI limit reached (10 requests/day). Try again tomorrow."
+  },
+  "AI_ERROR": {
+    "message": "AI Error"
+  },
+  "AI_CONNECTION_ERROR": {
+    "message": "Failed to connect to AI service. Please try again later."
+  },
+  "ENABLE_AI_AUTOFILL": {
+    "message": "Enable AI Auto-fill"
+  },
+  "AI_AUTOFILL": {
+    "message": "AI Auto-fill:"
+  },
+  "AI_AUTOFILL_DESC": {
+    "message": "Automatically fill empty card fields using AI. Simply fill in one field and let AI generate content for the others. Limited to 10 uses per day."
+  },
+  "HIGHLIGHT_POPUP": {
+    "message": "Highlight Popup:"
+  },
+  "HIGHLIGHT_POPUP_DESC": {
+    "message": "Select any text on a webpage to see a floating popup with your card fields. Click a field to instantly send the selected text to it."
+  }
+}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="SETTINGS_TITLE">Anki Tool Settings</title>
+    <link rel="stylesheet" href="../assets/css/settings.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <img
+          src="../assets/images/icon.png"
+          alt="Anki Tool Logo"
+          class="logo"
+        />
+        <h1 data-i18n="SETTINGS_TITLE">Anki Tool Settings</h1>
+      </div>
+    </header>
+    <main>
+      <section class="feature-toggles">
+        <h2 data-i18n="FEATURE_TOGGLES">Feature Toggles</h2>
+        <div class="toggles-grid">
+          <div class="toggle-item">
+            <input type="checkbox" id="enableAIAutoFill" class="toggle-checkbox" />
+            <label for="enableAIAutoFill" class="toggle-label">
+              <span class="toggle-switch"></span>
+              <span data-i18n="ENABLE_AI_AUTOFILL">Enable AI Auto-fill</span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <input
+              type="checkbox"
+              id="enableHighlightPopup"
+              class="toggle-checkbox"
+            />
+            <label for="enableHighlightPopup" class="toggle-label">
+              <span class="toggle-switch"></span>
+              <span data-i18n="ENABLE_HIGHLIGHT_POPUP">Enable Highlight Popup</span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <input type="checkbox" id="enableCloze" class="toggle-checkbox" />
+            <label for="enableCloze" class="toggle-label">
+              <span class="toggle-switch"></span>
+              <span data-i18n="ENABLE_CLOZE">Enable Cloze Cards</span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <input
+              type="checkbox"
+              id="enableFormatting"
+              class="toggle-checkbox"
+            />
+            <label for="enableFormatting" class="toggle-label">
+              <span class="toggle-switch"></span>
+              <span data-i18n="ENABLE_FORMATTING"
+                >Enable Formatting Toolbar</span
+              >
+            </label>
+          </div>
+          <div class="toggle-item">
+            <input type="checkbox" id="enableTags" class="toggle-checkbox" />
+            <label for="enableTags" class="toggle-label">
+              <span class="toggle-switch"></span>
+              <span data-i18n="ENABLE_TAGS">Enable Tags</span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <input type="checkbox" id="enableAudio" class="toggle-checkbox" />
+            <label for="enableAudio" class="toggle-label">
+              <span class="toggle-switch"></span>
+              <span data-i18n="ENABLE_AUDIO">Enable Audio</span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <input type="checkbox" id="enablePreview" class="toggle-checkbox" />
+            <label for="enablePreview" class="toggle-label">
+              <span class="toggle-switch"></span>
+              <span data-i18n="ENABLE_PREVIEW">Enable Card Preview</span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <input
+              type="checkbox"
+              id="requireAllFields"
+              class="toggle-checkbox"
+            />
+            <label for="requireAllFields" class="toggle-label">
+              <span class="toggle-switch"></span>
+              <span data-i18n="REQUIRE_ALL_FIELDS">Require All Fields</span>
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <section class="description">
+        <h2 data-i18n="ABOUT_TITLE">About Anki Tool</h2>
+        <p data-i18n="ABOUT_DESCRIPTION">
+          Anki Tool helps you create flashcards for Anki quickly and
+          efficiently. Key features include:
+        </p>
+        <ul>
+          <li>
+            <b data-i18n="DECK_SELECTION">Deck Selection:</b>
+            <span data-i18n="DECK_SELECTION_DESC"
+              >Choose the Anki deck where the flashcard will be added.</span
+            >
+          </li>
+          <li>
+            <b data-i18n="CARD_TYPE">Card Type:</b>
+            <span data-i18n="CARD_TYPE_DESC"
+              >Select a model (Basic, Cloze, etc.) for the card format.</span
+            >
+          </li>
+          <li>
+            <b data-i18n="FRONT_BACK">Front & Back:</b>
+            <span data-i18n="FRONT_BACK_DESC"
+              >Enter or edit content for the front and back of the
+              flashcard.</span
+            >
+          </li>
+          <li>
+            <b data-i18n="AI_AUTOFILL">AI Auto-fill:</b>
+            <span data-i18n="AI_AUTOFILL_DESC"
+              >Automatically fill empty card fields using AI. Simply fill in one field and let AI generate content for the others. Limited to 10 uses per day.</span
+            >
+          </li>
+          <li>
+            <b data-i18n="HIGHLIGHT_POPUP">Highlight Popup:</b>
+            <span data-i18n="HIGHLIGHT_POPUP_DESC"
+              >Select any text on a webpage to see a floating popup with your card fields. Click a field to instantly send the selected text to it.</span
+            >
+          </li>
+          <li>
+            <b data-i18n="ADD_AUDIO">Add Audio:</b>
+            <span data-i18n="ADD_AUDIO_DESC"
+              >Upload and attach audio files to a card field for sound-enhanced
+              learning.</span
+            >
+          </li>
+          <li>
+            <b data-i18n="IMAGE_SUPPORT">Image Support:</b>
+            <span data-i18n="IMAGE_SUPPORT_DESC"
+              >Copy and paste images directly into the text fields to enrich
+              flashcards visually.</span
+            >
+          </li>
+          <li>
+            <b data-i18n="HIGHLIGHT_SEND">Highlight & Send:</b>
+            <span data-i18n="HIGHLIGHT_SEND_DESC">
+              Select any text on a webpage, right-click, and send it directly to
+              a field in the extension.
+            </span>
+          </li>
+          <li>
+            <b data-i18n="CLOZE_CARDS">Cloze Cards:</b>
+            <span data-i18n="CLOZE_CARDS_DESC">
+              Hide parts of your text to test your memory. Select any text in a
+              field, then click C1, C2, or C3 to create a deletion. Example:
+              Select "Paris" in "Paris is the capital of France" and click C1 to
+              create a card showing "[...] is the capital of France" on the
+              front. Use different numbers to create separate cards, or use C+
+              for auto-numbering.
+            </span>
+            <div class="cloze-animation-widget">
+              <div class="widget-toolbar">
+                <button class="widget-btn widget-btn-cloze" data-num="1">
+                  C1
+                </button>
+                <button class="widget-btn widget-btn-cloze" data-num="2">
+                  C2
+                </button>
+                <button class="widget-btn widget-btn-cloze" data-num="3">
+                  C3
+                </button>
+                <button class="widget-btn widget-btn-cloze widget-btn-auto">
+                  C+
+                </button>
+              </div>
+              <div class="widget-field-container">
+                <div class="widget-field" id="clozeAnimField">
+                  Paris is the capital of France
+                </div>
+                <div class="widget-cursor"></div>
+              </div>
+              <div
+                class="widget-preview"
+                id="clozeAnimPreview"
+                style="display: none"
+              >
+                <div class="widget-preview-side">
+                  <div class="widget-preview-label">Front:</div>
+                  <div class="widget-preview-content" id="clozeAnimFront"></div>
+                </div>
+                <div class="widget-preview-side">
+                  <div class="widget-preview-label">Back:</div>
+                  <div class="widget-preview-content" id="clozeAnimBack"></div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <b data-i18n="CARD_PREVIEW">Card Preview:</b>
+            <span data-i18n="CARD_PREVIEW_DESC">
+              Preview how your cards will look in Anki before creating them. The
+              preview shows both the front and back of your cards with the
+              actual styling from your note type, so you can verify everything
+              looks correct.
+            </span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="shortcuts">
+        <h2 data-i18n="SHORTCUTS_TITLE">Keyboard Shortcuts</h2>
+        <ul class="shortcut-list">
+          <li>
+            <span data-i18n="SHORTCUT_DESC"
+              ><code>Alt + G</code> — Open the Anki Tool popup</span
+            >
+          </li>
+          <li>
+            <span data-i18n="SHORTCUT_DESC_SIDE_PANEL"
+              ><code>Alt + B</code> — Open the Anki Tool sidepanel</span
+            >
+          </li>
+          <li>
+            <span data-i18n="SHORTCUT_DESC_CLOSE_SIDE_PANEL"
+              ><code>Alt + X</code> — Close the Anki Tool sidepanel</span
+            >
+          </li>
+        </ul>
+        <div class="shortcut-instructions">
+          <p data-i18n="SHORTCUT_INSTRUCTIONS">
+            To customize the keyboard shortcut for Anki Tool, please follow
+            these steps:
+          </p>
+          <ol>
+            <li data-i18n="SHORTCUT_STEP_1">
+              Open Chrome and navigate to
+              <strong>chrome://extensions/shortcuts</strong>.
+            </li>
+            <li data-i18n="SHORTCUT_STEP_2">
+              Locate <strong>Anki Tool</strong> in the list of extensions.
+            </li>
+            <li data-i18n="SHORTCUT_STEP_3">
+              Click on the current shortcut for "Open the Anki Tool popup" and
+              press your desired key combination.
+            </li>
+            <li data-i18n="SHORTCUT_STEP_4">
+              Ensure that the new shortcut does not conflict with existing
+              shortcuts.
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="support-connect">
+        <h2 data-i18n="SUPPORT_CONNECT_TITLE">Support & Connect</h2>
+        <p data-i18n="SUPPORT_CONNECT_DESC">
+          Leave feedback and explore more projects
+        </p>
+
+        <div class="support-grid">
+          <div class="support-card">
+            <i class="fas fa-star support-icon"></i>
+            <p data-i18n="RATE_DESC">
+              Enjoying Anki Tool? Leave a review on the Chrome Web Store
+            </p>
+            <button id="rateButton" class="button">
+              <span data-i18n="RATE_BUTTON_TEXT">Rate this Extension</span>
+            </button>
+          </div>
+
+          <div class="support-card">
+            <i class="fas fa-envelope support-icon"></i>
+            <p data-i18n="CONTACT_DESC">
+              Have questions or feedback? I'd love to hear from you
+            </p>
+            <a
+              href="https://www.bassellawand.com/contact"
+              target="_blank"
+              class="button button-secondary"
+            >
+              <span data-i18n="CONTACT_BUTTON">Contact Me</span>
+            </a>
+          </div>
+
+          <div class="support-card">
+            <i class="fas fa-rocket support-icon"></i>
+            <p data-i18n="PROJECTS_DESC">
+              Discover other tools and projects I've created
+            </p>
+            <a
+              href="https://www.bassellawand.com/projects"
+              target="_blank"
+              class="button button-secondary"
+            >
+              <span data-i18n="PROJECTS_BUTTON">View Projects</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© <span id="copyright-year">2025</span> Anki Tool</p>
+    </footer>
+    <script src="../assets/js/browser-polyfill.min.js"></script>
+    <script src="../assets/js/i18n.js"></script>
+    <script src="../assets/js/settings.js"></script>
+    <script src="../assets/js/cloze-animation.js"></script>
+  </body>
+</html>

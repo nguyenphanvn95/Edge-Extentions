@@ -1,0 +1,370 @@
+{
+  "EXT_NAME": {
+    "message": "Anki Tool"
+  },
+  "EXT_DESC": {
+    "message": "Effortlessly convert any web content into Anki flashcards for smarter, faster learning."
+  },
+  "SETTINGS_TITLE": {
+    "message": "Pengaturan Anki Tool"
+  },
+  "ABOUT_TITLE": {
+    "message": "Tentang Anki Tool"
+  },
+  "ABOUT_DESCRIPTION": {
+    "message": "Anki Tool membantu Anda membuat kartu flash untuk Anki dengan cepat dan efisien. Fitur utama meliputi:"
+  },
+  "DECK_SELECTION": {
+    "message": "Pemilihan Dek:"
+  },
+  "DECK_SELECTION_DESC": {
+    "message": "Pilih dek Anki tempat kartu flash akan ditambahkan."
+  },
+  "CARD_TYPE": {
+    "message": "Jenis Kartu:"
+  },
+  "CARD_TYPE_DESC": {
+    "message": "Pilih model (Dasar, Cloze, dll.) untuk format kartu."
+  },
+  "FRONT_BACK": {
+    "message": "Depan & Belakang:"
+  },
+  "FRONT_BACK_DESC": {
+    "message": "Masukkan atau edit konten untuk bagian depan dan belakang kartu flash."
+  },
+  "ADD_AUDIO": {
+    "message": "Tambah Audio:"
+  },
+  "ADD_AUDIO_DESC": {
+    "message": "Unggah dan lampirkan file audio ke bidang kartu untuk pembelajaran yang ditingkatkan dengan suara."
+  },
+  "IMAGE_SUPPORT": {
+    "message": "Dukungan Gambar:"
+  },
+  "IMAGE_SUPPORT_DESC": {
+    "message": "Salin dan tempel gambar langsung ke bidang teks untuk memperkaya kartu flash secara visual."
+  },
+  "SHORTCUTS_TITLE": {
+    "message": "Pintasan Keyboard"
+  },
+  "SHORTCUT_DESC": {
+    "message": "Alt + G — Buka popup Anki Tool"
+  },
+  "SHORTCUT_DESC_SIDE_PANEL": {
+    "message": "Alt + B — Buka panel samping Anki Tool"
+  },
+  "SHORTCUT_DESC_CLOSE_SIDE_PANEL": {
+    "message": "Alt + X — Tutup panel samping Anki Tool"
+  },
+  "SHORTCUT_INSTRUCTIONS": {
+    "message": "Untuk menyesuaikan pintasan keyboard untuk Anki Tool, silakan ikuti langkah-langkah berikut:"
+  },
+  "SHORTCUT_STEP_1": {
+    "message": "Buka Chrome dan navigasikan ke <strong>chrome://extensions/shortcuts</strong>."
+  },
+  "SHORTCUT_STEP_2": {
+    "message": "Temukan <strong>Anki Tool</strong> di daftar ekstensi."
+  },
+  "SHORTCUT_STEP_3": {
+    "message": "Klik pintasan saat ini untuk \"Buka popup Anki Tool\" dan tekan kombinasi tombol yang Anda inginkan."
+  },
+  "SHORTCUT_STEP_4": {
+    "message": "Pastikan pintasan baru tidak bertentangan dengan pintasan yang ada."
+  },
+  "RATE_BUTTON_TEXT": {
+    "message": "Beri Nilai Ekstensi Ini"
+  },
+  "LANGUAGE_SELECTION": {
+    "message": "Bahasa"
+  },
+  "LANGUAGE_EN": {
+    "message": "English"
+  },
+  "LANGUAGE_ES": {
+    "message": "Español"
+  },
+  "LANGUAGE_FR": {
+    "message": "Français"
+  },
+  "LANGUAGE_DE": {
+    "message": "Deutsch"
+  },
+  "LANGUAGE_ZH": {
+    "message": "中文"
+  },
+  "LANGUAGE_PT": {
+    "message": "Português"
+  },
+  "LANGUAGE_JA": {
+    "message": "日本語"
+  },
+  "LANGUAGE_RU": {
+    "message": "Русский"
+  },
+  "LANGUAGE_TR": {
+    "message": "Türkçe"
+  },
+  "LANGUAGE_KO": {
+    "message": "한국어"
+  },
+  "LANGUAGE_IT": {
+    "message": "Italiano"
+  },
+  "LANGUAGE_AR": {
+    "message": "العربية"
+  },
+  "LANGUAGE_HI": {
+    "message": "हिन्दी"
+  },
+  "LANGUAGE_VI": {
+    "message": "Tiếng Việt"
+  },
+  "LANGUAGE_ID": {
+    "message": "Bahasa Indonesia"
+  },
+  "LANGUAGE_FA": {
+    "message": "فارسی"
+  },
+  "TOGGLE_THEME": {
+    "message": "Ganti Mode Gelap/Terang"
+  },
+  "OPEN_SETTINGS": {
+    "message": "Buka Pengaturan"
+  },
+  "ANKI_MESSAGE_PARAGRAPH_1": {
+    "message": "Untuk menggunakan ekstensi ini, Anda perlu menginstal dan menjalankan Anki dan AnkiConnect. Ikuti langkah-langkah berikut:"
+  },
+  "ANKI_MESSAGE_STEP_1": {
+    "message": "Instal Anki dari"
+  },
+  "ANKI_MESSAGE_STEP_2": {
+    "message": "Buka Anki, lalu buka Tools > Add-ons > Get Add-ons..."
+  },
+  "ANKI_MESSAGE_STEP_3": {
+    "message": "Masukkan kode"
+  },
+  "ANKI_MESSAGE_STEP_3b": {
+    "message": "dan klik OK untuk menginstal AnkiConnect."
+  },
+  "ANKI_MESSAGE_STEP_4": {
+    "message": "Mulai ulang Anki untuk menyelesaikan instalasi."
+  },
+  "ANKI_MESSAGE_FINAL": {
+    "message": "Setelah Anda menyelesaikan langkah-langkah ini, muat ulang ekstensi ini."
+  },
+  "SELECT_PRESET": {
+    "message": "Pilih Preset:"
+  },
+  "SELECT_PRESET_DEFAULT": {
+    "message": "Pilih Preset"
+  },
+  "SELECT_DECK": {
+    "message": "Pilih Dek"
+  },
+  "SELECT_MODEL": {
+    "message": "Pilih Model"
+  },
+  "SELECT_AUDIO_FIELD": {
+    "message": "Pilih bidang untuk audio"
+  },
+  "REMOVE_AUDIO": {
+    "message": "Hapus rekaman audio"
+  },
+  "ADD_AUDIO_RECORDING": {
+    "message": "Tambah rekaman audio"
+  },
+  "ADD_CARD_BUTTON": {
+    "message": "Tambah Kartu"
+  },
+  "ADD_CARD_ERROR": {
+    "message": "Tidak dapat membuat catatan karena kosong"
+  },
+  "DUPLICATE_ERROR": {
+    "message": "Tidak dapat membuat catatan karena duplikat."
+  },
+  "ANKI_ERROR": {
+    "message": "Kesalahan Anki"
+  },
+  "SUCCESS": {
+    "message": "Berhasil"
+  },
+  "CARD_ADDED_SUCCESS": {
+    "message": "Kartu Berhasil Ditambahkan."
+  },
+  "INVALID_AUDIO": {
+    "message": "Data audio tidak valid disediakan untuk unggahan."
+  },
+  "AUDIO_UPLOAD_ERROR": {
+    "message": "Kesalahan Unggah Audio"
+  },
+  "RATE_PROMPT_TITLE": {
+    "message": "Menikmati Anki Tool?"
+  },
+  "RATE_PROMPT_MESSAGE": {
+    "message": "Jika Anda menikmati Anki Tool, luangkan waktu sejenak untuk menilainya!"
+  },
+  "RATE_NOW": {
+    "message": "Nilai Sekarang"
+  },
+  "MAYBE_LATER": {
+    "message": "Mungkin Nanti"
+  },
+  "FEATURE_TOGGLES": {
+    "message": "Pilihan Fitur"
+  },
+  "ENABLE_AUDIO": {
+    "message": "Aktifkan Audio"
+  },
+  "ENABLE_FORMATTING": {
+    "message": "Aktifkan Bilah Alat Pemformatan"
+  },
+  "ENABLE_TAGS": {
+    "message": "Aktifkan Tag"
+  },
+  "TAGS_LABEL": {
+    "message": "Tag:"
+  },
+  "TAGS_PLACEHOLDER": {
+    "message": "Tambah tag..."
+  },
+  "REQUIRE_ALL_FIELDS": {
+    "message": "Wajibkan Semua Bidang"
+  },
+  "HIGHLIGHT_SEND": {
+    "message": "Popup Sorotan:"
+  },
+  "HIGHLIGHT_SEND_DESC": {
+    "message": "Pilih teks apa pun di halaman web untuk segera menampilkan popup yang mengirimkannya langsung ke bidang dalam ekstensi."
+  },
+  "ENABLE_HIGHLIGHT_POPUP": {
+    "message": "Aktifkan Popup Sorotan"
+  },
+  "LANGUAGE_DESC": {
+    "message": "Pilih bahasa pilihan Anda untuk antarmuka"
+  },
+  "ENABLE_CLOZE": {
+    "message": "Aktifkan Kartu Cloze"
+  },
+  "ENABLE_PREVIEW": {
+    "message": "Aktifkan Pratinjau Kartu"
+  },
+  "CLOZE_CARDS": {
+    "message": "Kartu Cloze:"
+  },
+  "CLOZE_CARDS_DESC": {
+    "message": "Sembunyikan bagian dari teks Anda untuk menguji ingatan Anda. Pilih teks apa pun di sebuah bidang, lalu klik C1, C2, atau C3 untuk membuat penghapusan. Contoh: Pilih \"Paris\" di \"Paris adalah ibu kota Prancis\" dan klik C1 untuk membuat kartu yang menampilkan \"[...] adalah ibu kota Prancis\" di bagian depan. Gunakan nomor yang berbeda untuk membuat kartu terpisah, atau gunakan C+ untuk penomoran otomatis."
+  },
+  "CARD_PREVIEW": {
+    "message": "Pratinjau Kartu:"
+  },
+  "CARD_PREVIEW_DESC": {
+    "message": "Pratinjau bagaimana kartu Anda akan terlihat di Anki sebelum membuatnya. Pratinjau menunjukkan bagian depan dan belakang kartu Anda dengan gaya sebenarnya dari jenis catatan Anda, sehingga Anda dapat memverifikasi semuanya terlihat benar."
+  },
+  "PREVIEW_CARD_BUTTON_TITLE": {
+    "message": "Pratinjau Kartu"
+  },
+  "CREATE_CLOZE_MODEL_BUTTON_TITLE": {
+    "message": "Buat jenis kartu Cloze default"
+  },
+  "OPEN_SIDE_PANEL_BUTTON_TITLE": {
+    "message": "Buka di Panel Samping"
+  },
+  "CLOZE_TOOLTIP_TEXT": {
+    "message": "Pilih teks dan klik tombol C# untuk membuat penghapusan cloze. Gunakan nomor yang berbeda untuk kartu terpisah, atau C+ untuk penambahan otomatis."
+  },
+  "ERROR": {
+    "message": "Kesalahan"
+  },
+  "DUPLICATE_ERROR_TITLE": {
+    "message": "Kesalahan Duplikat"
+  },
+  "SIDE_PANEL_API_NOT_AVAILABLE": {
+    "message": "API Panel Samping tidak tersedia. Harap perbarui ke Chrome 116 atau lebih baru."
+  },
+  "SIDE_PANEL_ERROR": {
+    "message": "Terjadi kesalahan saat membuka panel samping (lihat konsol)."
+  },
+  "CREATE_CLOZE_MODEL_FAILED": {
+    "message": "Gagal membuat model cloze"
+  },
+  "SELECT_CARD_TYPE_FIRST": {
+    "message": "Silakan pilih jenis kartu terlebih dahulu."
+  },
+  "NO_CLOZE_DELETIONS_FOUND": {
+    "message": "Tidak ada penghapusan cloze yang ditemukan. Harap tambahkan beberapa penghapusan cloze terlebih dahulu (misalnya {{c1::teks}})."
+  },
+  "UPLOAD_AUDIO_FAILED": {
+    "message": "Gagal mengunggah audio"
+  },
+  "SELECT_VALID_AUDIO_FILE": {
+    "message": "Silakan pilih file audio yang valid."
+  },
+  "CLOZE_DELETION_TITLE": {
+    "message": "Penghapusan cloze $num$",
+    "placeholders": {
+      "num": {
+        "content": "$1"
+      }
+    }
+  },
+  "CLOZE_AUTO_INCREMENT_TITLE": {
+    "message": "Penambahan otomatis cloze"
+  },
+  "CLOZE_HELP_TITLE": {
+    "message": "Bantuan Cloze"
+  },
+  "SUPPORT_CONNECT_TITLE": {
+    "message": "Dukungan & Koneksi"
+  },
+  "SUPPORT_CONNECT_DESC": {
+    "message": "Tinggalkan umpan balik dan jelajahi lebih banyak proyek"
+  },
+  "RATE_DESC": {
+    "message": "Menikmati Anki Tool? Tinggalkan ulasan di Chrome Web Store"
+  },
+  "CONTACT_DESC": {
+    "message": "Punya pertanyaan atau umpan balik? Saya ingin mendengar dari Anda"
+  },
+  "CONTACT_BUTTON": {
+    "message": "Hubungi Saya"
+  },
+  "PROJECTS_DESC": {
+    "message": "Temukan alat dan proyek lain yang telah saya buat"
+  },
+  "PROJECTS_BUTTON": {
+    "message": "Lihat Proyek"
+  },
+  "CLOZE_TOOLTIP_INSTRUCTIONS": {
+    "message": "Pilih teks di suatu bidang dan klik C1, C2, atau C3 untuk membuat penghapusan cloze. Gunakan C+ untuk penambahan otomatis. Lihat Pengaturan untuk detail lebih lanjut."
+  },
+  "BACK_TO_FORM": {
+    "message": "Kembali ke Formulir"
+  },
+  "CARD_PREVIEW_TITLE": {
+    "message": "Pratinjau Kartu"
+  },
+  "PREVIEW_FRONT": {
+    "message": "Depan"
+  },
+  "PREVIEW_BACK": {
+    "message": "Belakang"
+  },
+  "CLOZE_REQUIRED_ERROR": {
+    "message": "Ini adalah jenis catatan Cloze, tetapi tidak ditemukan penghapusan cloze. Harap buat penghapusan cloze (misalnya {{c1::teks}}) di salah satu bidang."
+  },
+  "ENABLE_AI_AUTOFILL": {
+    "message": "Aktifkan Pengisian Otomatis AI"
+  },
+  "AI_AUTOFILL": {
+    "message": "Pengisian Otomatis AI:"
+  },
+  "AI_AUTOFILL_DESC": {
+    "message": "Isi bidang kartu kosong secara otomatis menggunakan AI. Cukup isi satu bidang dan biarkan AI membuat konten untuk yang lain. Terbatas hingga 10 penggunaan per hari."
+  },
+  "HIGHLIGHT_POPUP": {
+    "message": "Popup Sorotan:"
+  },
+  "HIGHLIGHT_POPUP_DESC": {
+    "message": "Pilih teks apa pun di halaman web untuk melihat popup mengambang dengan bidang kartu Anda. Klik bidang untuk mengirim teks yang dipilih secara instan."
+  }
+}
