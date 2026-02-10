@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Ang Print Notion ay tool na nagbibigay-daan sa pag-print ng mga pahina sa Notion bilang magandang-format na dokumento."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 User manual"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Bumili ng Pro version"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Mag-ulat ng bug"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Feedback"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 I-download ngayon!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Kung nagustuhan mo ang extension na ito, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">pindutin dito para mag-rate ng 5 star⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Ang Print Notion ay isang extension na disenyo para sa mga gumagamit ng Notion na nagbibigay-daan sa iyo upang mag-print ng iyong mga pahina sa Notion sa magandang format, na ginagawa ang iyong mga pahina sa Notion na mas praktikal at madaling i-share."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Ang bagong bersyon ng Print Notion ay inilabas na, subukan ngayon, kung may makita kang bugs, mangyaring mag-click sa button na \"Mag-ulat ng bug\". 💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Kung nagustuhan mo ang plugin, pindutin dito para mag-rate ng 5 star⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Ang kasalukuyang bersyon na iyong ginagamit ay isang historical version na hindi na suportado, mangyaring pumunta sa Chrome web store upang i-install ang pinakabagong bersyon."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Salamat sa iyong suporta. Sa ngayon ay gumagamit ka ng Print Notion Pro version."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Alisin ang Logo mula sa printed page... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Pag-print na may table data... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 I-upgrade ang Pro version "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 User manual "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Ang side peek printing feature ay magagamit lamang sa Pro version, kailangan mo bang bumili ng Pro version ngayon?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Ikaw ay kasalukuyang gumagamit ng dark mode sa Notion. Ang pag-print sa dark mode ay maaaring magresulta sa ilang mga elementong hindi tama ang pag-print. Inirerekomenda na lumipat sa light mode bago mag-print. Gusto mo bang magpatuloy?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Natuklasan ang Dark Mode"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Kasalukuyang ginagamit mo ang dark mode ng Notion. Pansamantalang lilipat kami sa light mode para sa pag-print upang matiyak ang pinakamahusay na mga resulta. Maaaring maiklit na kumurap ang screen sa prosesong ito, na maaaring magdulot ng hindi pagkakatulog sa ilang mga user."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Babala sa screen flickering: Ang prosesong ito ay maaaring magdulot ng maiklit na screen flickering na maaaring hindi komportable para sa mga photosensitive na indibidwal."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Huwag ipakita muli ang babalang ito"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Kanselahin"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Magpatuloy sa Light Mode"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Pino-process... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Pino-process... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Pino-process... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Pino-process... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "I-export ni Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Tagumpay na na-activate ang Print Notion Pro version. "
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Tagumpay na na-activate ang Print Notion Pro version, mangyaring makipag-ugnayan sa Support."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Print"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Pino-process..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Pagsusuri ng parameter"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Walang mga wastong parameter na natuklasan sa kasalukuyang pahina. Mangyaring tiyakin kung tama ang format ng mga itinakda na parameter."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Ang kabuuang bilang ng mga row sa table ay mas mababa sa itinakdang simula ng row ng range. Mangyaring baguhin ang simula ng row at magpatuloy."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Ang kabuuang bilang ng mga row sa table ay mas mababa sa itinakdang ending row ng range. Ang ending row ay na-update sa huling row ng table data."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Walang mga print parameter na natuklasan sa kasalukuyang pahina. Mangyaring tiyakin kung tama ang mga setting ng pahina. Gusto mo bang magpatuloy sa pag-print?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Walang side peek na natuklasan sa kasalukuyang pahina. Mangyaring i-on ang side peek at subukang muli."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Mayroon nang \"Pag-print na may table data (Main page)\" window, gusto mo bang isara ito at buksan ang \"Pag-print na may table data (Side peek)\" window?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Mayroon nang \"Pag-print na may table data (Side peek)\" window, gusto mo bang isara ito at buksan ang \"Pag-print na may table data (Main page)\" window?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Pag-print na may table data (Side peek)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Pag-print na may table data (Main page)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Salamat sa iyong suporta. Sa ngayon ay gumagamit ka ng Print Notion Pro version."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Isara"
+    },
+    "js_index_SelectSpace": {
+        "message": "Espasyo:"
+    },
+    "js_index_Refresh": {
+        "message": "I-refresh"
+    },
+    "js_index_SelectCollection": {
+        "message": "Koleksyon:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Tanawin:"
+    },
+    "js_index_DataFilter": {
+        "message": "Filter ng data:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Unang tatlong rows"
+    },
+    "js_index_AllRows": {
+        "message": "Lahat ng rows"
+    },
+    "js_index_RowsRange": {
+        "message": "Rows range"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Format ng Print Output:"
+    },
+    "js_index_SingleFile": {
+        "message": "Isang File para sa Lahat ng Data"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Hiwalay na Mga File para sa Bawat Row"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Pagsusuri ng parameter"
+    },
+    "js_index_Print": {
+        "message": "Print"
+    },
+    "js_index_CheckMatches": {
+        "message": "Pagsusuri ng Match"
+    },
+    "js_index_DataPreview": {
+        "message": "Data Preview"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Ibalik ang aking pagbili"
+    },
+    "js_index_Close": {
+        "message": "Isara"
+    },
+    "js_index_Cancel": {
+        "message": "Kanselahin"
+    },
+    "js_index_Confirm": {
+        "message": "Kumpirmahin"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Kunin ang buong data (kasama ang mga field ng formula) mula sa Notion Connection"
+    },
+    "js_index_Authorize": {
+        "message": "Pahintulutan"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Paalala sa pagpapahintulot"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Ang Notion Connection ay nangangailangan ng pahintulot para magamit, mangyaring i-click ang button na 'Pahintulutan' para magbigay ng pahintulot"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Kumpirmahin"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Kapag gumagamit ng mode na \"Hiwalay na Mga File para sa Bawat Row\" para sa pag-print, isang hiwalay na dialog ng pag-print ang lalabas para sa bawat indibidwal na row ng data. Hindi maaaring kanselahin ang pag-print sa gitna, at sa kasalukuyan, ang bilang ng mga row ay lumampas sa 100. Gusto mo bang magpatuloy?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Ang bilang ng mga row sa range ay lumampas sa 1000. Sigurado ka bang gusto mong magpatuloy?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Error"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Ang unang row ng range ay hindi maaaring mas malaki kaysa sa huling row."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Ang huling row ng range ay hindi maaaring lumampas sa 100,000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Ang huling row ng range ay dapat na isang positibong integer."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Ang unang row ng range ay dapat na isang positibong integer."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Ang unang row ng range ay dapat na mas malaki sa 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Ang feature ng page setting ay available lamang sa Pro version, kailangan mo bang bumili ng Pro version ngayon?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Mangyaring kumpirmahin na binigyan mo ng pahintulot ang Notion Connection, kung ang Database na iyong ikinonekta ay ginawa pagkatapos ng pagbibigay ng pahintulot, kailangan mong muling bigyan ito ng pahintulot."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Hindi awtorisado"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Page Break Marker na-copy na"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Ang page break marker ay na-copy na sa inyong clipboard. I-paste ito sa lugar na gusto ninyong magkaroon ng pilit na page breaks habang nagpi-print."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Mga tagubilin: I-paste ang '====Print Notion Page Break====' sa inyong Notion content kung saan gusto ninyo ng page breaks. Ang marker ay papalitan ng totoong page breaks kapag nagpi-print."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Mangyaring kopyahin ang tekstong ito nang mano-mano:"
+    }
+}

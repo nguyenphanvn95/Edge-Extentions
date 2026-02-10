@@ -1,0 +1,32 @@
+{
+  "name": "highlighter-pro",
+  "version": "2.1.0",
+  "description": "Advanced web highlighter extension with tags, notes, export, and GitHub sync",
+  "keywords": [
+    "chrome-extension",
+    "highlighter",
+    "web-highlighter",
+    "notes",
+    "tags",
+    "export",
+    "sync",
+    "github",
+    "productivity"
+  ],
+  "author": "Highlighter Pro Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/highlighter-pro"
+  },
+  "scripts": {
+    "dev": "echo 'Load extension in Chrome: chrome://extensions'",
+    "build": "echo 'Extension is ready to load'",
+    "pack": "zip -r highlighter-pro.zip . -x '*.git*' -x 'node_modules/*' -x '*.zip'"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "chrome": ">=88"
+  }
+}

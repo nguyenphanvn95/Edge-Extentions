@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background: #EFF6F8;
+}
+
+.container {
+    display: flex;
+    margin: 186px 348px 186px 348px;
+    gap: 24px;
+}
+
+.title {
+    position: absolute;
+    width: 744px;
+    left: 348px;
+    right: 348px;
+    top: 138px;
+    color: #232329;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.wrapper {
+    width: 360px;
+    height: 328px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+}
+
+.wrapper h1 {
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 0 10px 20px;
+}
+
+.wrapper table {
+    padding: 24px;
+}
+
+.wrapper table tr {
+
+    display: flex;
+    width: 312px;
+    height: 40px;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    background: #EFF6F8;
+}
+
+.wrapper table img {
+    margin-left: 55px;
+    height: 24px;
+    width: 24px;
+}
+
+td {
+    padding: 4px 4px 4px 16px;
+    color:  #43434E;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.wrapper table input {
+    width: 20px;
+}
+
+.wrapper hr {
+    width: 95%;
+    border: none;
+    border-top: 2px solid #ffffff;
+}
+
+#save {
+    position: relative;
+    left: 658px;
+    bottom: 161px;
+    display: table;
+    cursor: pointer;
+    background-color: #1a7afe;
+    border-radius: 8px;
+    /*margin: 0 auto;*/
+    padding: 10px 20px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+
+#save.hide {
+    display: none;
+}
+
+#save:hover {
+    background-color: #014db4;
+}
+
+.hide {
+    display: none;
+}
+@media screen and (min-width: 1445px) {
+    .container  {
+        display: flex;
+        margin: 15% 30.5% 186px 30.5%;
+        gap: 24px;
+    }
+
+    .title {
+        position: absolute;
+        left: 30.5%;
+        right: 30.5%;
+        top: 244px;
+    }
+
+    #save {
+        left: 46.4%;
+    }
+
+}

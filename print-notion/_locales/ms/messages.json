@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion adalah alat yang kuat yang membolehkan anda mencetak halaman Notion anda sebagai dokumen yang diformat dengan indah."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Manual Pengguna"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Beli versi Pro"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Laporkan bug"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Maklum balas"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Muat turun sekarang!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Jika anda suka sambungan ini, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">klik di sini untuk memberikan rating 5 bintang⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion adalah sambungan yang direka khas untuk pengguna Notion yang membolehkan anda mencetak halaman Notion anda dalam format yang cantik, menjadikan halaman Notion anda lebih praktikal dan boleh dikongsi."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Versi baru Print Notion telah dikeluarkan, selamat mencuba. Jika anda menjumpai sebarang masalah, sila klik butang \"Laporkan bug\" untuk memberikan maklum balas. 💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Jika anda suka sambungan ini, klik di sini untuk memberikan rating 5 bintang⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Versi semasa yang anda gunakan adalah versi bersejarah yang telah tidak lagi digunakan, sila pergi ke Chrome web store untuk memasang versi terkini."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Terima kasih atas sokongan anda. Anda kini menggunakan versi Pro Print Notion."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Buang Logo dari halaman yang dicetak... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Mencetak dengan data jadual... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Naik taraf ke versi Pro "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Manual Pengguna "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Ciri side peek hanya tersedia dalam versi Pro, adakah anda perlu membeli versi Pro sekarang?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Anda sedang menggunakan mod gelap Notion. Mencetak dalam mod gelap mungkin menyebabkan beberapa elemen tidak dicetak dengan betul. Disyorkan untuk beralih ke mod cahaya sebelum mencetak. Adakah anda ingin meneruskan?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Mod Gelap Dikesan"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Anda sedang menggunakan mod gelap Notion. Kami akan beralih sementara ke mod cahaya untuk pencetakan bagi memastikan hasil yang optimum. Skrin mungkin berkelip sebentar semasa proses ini, yang boleh menyebabkan ketidakselesaan kepada sesetengah pengguna."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Amaran berkelip skrin: Proses ini mungkin menyebabkan berkelip skrin yang singkat yang boleh menjadi tidak selesa untuk individu yang sensitif cahaya."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Jangan tunjukkan amaran ini lagi"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Batal"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Teruskan dengan Mod Cahaya"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Sedang diproses... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Sedang diproses... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Sedang diproses... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Sedang diproses... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Dieksport oleh Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Pengaktifan versi Pro Print Notion berjaya. "
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Pengaktifan versi Pro Print Notion gagal, sila hubungi Sokongan."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Cetak"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Sedang diproses..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Pemeriksaan parameter"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Tiada parameter yang sah dikesan pada halaman semasa. Sila sahkan format parameter yang ditetapkan adalah betul."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Jumlah baris dalam jadual adalah kurang daripada baris permulaan julat yang ditetapkan. Sila sesuaikan baris permulaan dan teruskan."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Jumlah baris dalam jadual adalah kurang daripada baris akhir julat yang ditetapkan. Baris akhir telah dikemaskini kepada baris terakhir data jadual."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Tiada parameter cetakan dikesan pada halaman semasa. Sila sahkan tetapan halaman adalah betul. Adakah anda ingin meneruskan dengan mencetak?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Tiada side peek dikesan pada halaman semasa. Sila hidupkan side peek dan cuba semula."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Terdapat sudah tetingkap \"Mencetak dengan data jadual (Halaman Utama)\", adakah anda mahu menutupnya dan membuka tetingkap \"Mencetak dengan data jadual (Side peek)\"?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Terdapat sudah tetingkap \"Mencetak dengan data jadual (Side peek)\", adakah anda mahu menutupnya dan membuka tetingkap \"Mencetak dengan data jadual (Halaman Utama)\"?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Mencetak dengan data jadual (Side peek)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Mencetak dengan data jadual (Halaman Utama)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Terima kasih atas sokongan anda. Anda kini menggunakan versi Pro Print Notion."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Tutup"
+    },
+    "js_index_SelectSpace": {
+        "message": "Ruangan:"
+    },
+    "js_index_Refresh": {
+        "message": "Muat semula"
+    },
+    "js_index_SelectCollection": {
+        "message": "Kumpulan:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Paparan:"
+    },
+    "js_index_DataFilter": {
+        "message": "Penapisan data:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Tiga baris pertama"
+    },
+    "js_index_AllRows": {
+        "message": "Semua baris"
+    },
+    "js_index_RowsRange": {
+        "message": "Julat baris"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Format Output Cetakan:"
+    },
+    "js_index_SingleFile": {
+        "message": "Fail tunggal untuk Semua Data"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Fail Berasingan untuk Setiap Baris"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Pemeriksaan parameter"
+    },
+    "js_index_Print": {
+        "message": "Cetak"
+    },
+    "js_index_CheckMatches": {
+        "message": "Pemeriksaan padanan"
+    },
+    "js_index_DataPreview": {
+        "message": "Pratonton Data"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Pulihkan pembelian saya"
+    },
+    "js_index_Close": {
+        "message": "Tutup"
+    },
+    "js_index_Cancel": {
+        "message": "Batal"
+    },
+    "js_index_Confirm": {
+        "message": "Sahkan"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Dapatkan data penuh (termasuk medan formula) dari Sambungan Notion"
+    },
+    "js_index_Authorize": {
+        "message": "Benarkan"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Peringatan kebenaran"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Sambungan Notion memerlukan kebenaran untuk digunakan, sila klik butang 'Benarkan' untuk memberi kebenaran"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Sahkan"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Apabila menggunakan mod \"Fail Berasingan untuk Setiap Baris\" untuk mencetak, dialog cetak berasingan akan muncul untuk setiap baris data individu. Pencetakan tidak boleh dibatalkan di pertengahan jalan, dan pada masa ini, bilangan baris melebihi 100. Adakah anda ingin meneruskan?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Bilangan baris dalam julat melebihi 1000. Adakah anda pasti ingin meneruskan?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Ralat"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Baris permulaan julat tidak boleh lebih besar daripada baris akhir."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Baris akhir julat tidak boleh melebihi 100,000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Baris akhir julat mestilah integer positif."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Baris permulaan julat mestilah integer positif."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Baris permulaan julat mestilah lebih besar daripada 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Ciri tetapan halaman hanya tersedia dalam versi Pro, adakah anda perlu membeli versi Pro sekarang?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Sila sahkan bahawa anda telah memberi kebenaran kepada Sambungan Notion, jika Pangkalan Data yang anda sambungkan dicipta selepas kebenaran, anda perlu memberi kebenaran semula."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Tidak dibenarkan"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Penanda Pemisah Halaman Disalin"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Penanda pemisah halaman telah disalin ke papan klip anda. Tampal di tempat anda mahukan pemisah halaman paksa berlaku semasa mencetak."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Arahan: Tampal '====Print Notion Page Break====' dalam kandungan Notion anda di tempat anda mahukan pemisah halaman. Penanda akan digantikan dengan pemisah halaman sebenar semasa mencetak."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Sila salin teks ini secara manual:"
+    }
+}

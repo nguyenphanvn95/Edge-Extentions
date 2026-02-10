@@ -1,0 +1,11 @@
+{
+    "name": {
+        "message": "Notion Exporter"
+    },
+    "ext_name": {
+        "message": "Notion Exporter - Image | Cards | PDF | Slide"
+    },
+    "description": {
+        "message": "Export Notion page into various formats such as image, cards, PDF, Slide and so on, while preserving Notion's layout and style."
+    }
+}

@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion er et kraftig verktøy som lar deg skrive ut Notion-sider som vakre formaterte dokumenter."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Brukermanual"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Kjøp Pro-versjonen"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Rapporter feil"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Tilbakemelding"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Last ned nå!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Hvis du liker denne utvidelsen, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">klikk her for å gi 5 stjerner⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion er en utvidelse designet spesielt for Notion-brukere som lar deg skrive ut Notion-sider i vakre formater, noe som gjør Notion-sidene dine mer praktiske og delbare."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Ny versjon av Print Notion er utgitt, velkommen til å prøve. Hvis du finner feil, vennligst klikk på \"Rapporter feil\"-knappen for tilbakemelding. 💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Hvis du liker tillegget, klikk her for å gi 5 stjerner⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Den nåværende versjonen du bruker er en historisk versjon som er utdatert. Vennligst gå til Chrome Web Store for å installere den nyeste versjonen."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "betaling/produkter.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Takk for støtten. Du bruker for øyeblikket Print Notion Pro-versjonen."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Fjern logoen fra den utskrevne siden... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Utskrift med tabelldata... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Oppgrader til Pro-versjonen "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Brukermanual "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Sidepeek-utskriftsfunksjonen er bare tilgjengelig i Pro-versjonen. Ønsker du å kjøpe Pro-versjonen nå?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Du bruker for øyeblikket Notions mørke modus. Utskrift i mørk modus kan føre til at noen elementer ikke blir riktig skrevet ut. Det anbefales å bytte til lys modus før utskrift. Ønsker du å fortsette?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Mørk modus oppdaget"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Du bruker for øyeblikket Notions mørke modus. Vi vil midlertidig bytte til lys modus for utskrift for å sikre optimale resultater. Skjermen kan blinke kort under denne prosessen, noe som kan forårsake ubehag for noen brukere."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Skjermblinking advarsel: Denne prosessen kan forårsake kort skjermblinking som kan være ubehagelig for lysfølsomme personer."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Ikke vis denne advarselen igjen"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Avbryt"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Fortsett med lys modus"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Behandler... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Behandler... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Behandler... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Behandler... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Eksportert av Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Aktivering av Print Notion Pro-versjonen vellykket."
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Aktivering av Print Notion Pro-versjonen mislyktes. Vennligst kontakt support."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Print"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Behandler..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Parameterkontroll"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Ingen gyldige parametere ble oppdaget på gjeldende side. Vennligst bekreft om formatet for de angitte parameterne er korrekt."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Totalt antall rader i tabellen er mindre enn den angitte startraden for området. Vennligst juster startraden og fortsett."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Totalt antall rader i tabellen er mindre enn den angitte sluttraden for området. Sluttraden er oppdatert til den siste raden med tabelldata."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Ingen utskriftsparametere ble oppdaget på gjeldende side. Vennligst verifiser om sideinnstillingene er korrekte. Ønsker du å fortsette med utskrift?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Ingen sidepek ble oppdaget på gjeldende side. Vennligst slå på sidepek og prøv igjen."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Det er allerede et \"Utskrift med tabelldata (Hovedside)\"-vindu. Ønsker du å lukke det og åpne et \"Utskrift med tabelldata (Sidepek)\"-vindu?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Det er allerede et \"Utskrift med tabelldata (Sidepek)\"-vindu. Ønsker du å lukke det og åpne et \"Utskrift med tabelldata (Hovedside)\"-vindu?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Utskrift med tabelldata (Sidepek)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Utskrift med tabelldata (Hovedside)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Takk for støtten. Du bruker for øyeblikket Print Notion Pro-versjonen."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Lukk"
+    },
+    "js_index_SelectSpace": {
+        "message": "Plass:"
+    },
+    "js_index_Refresh": {
+        "message": "Oppdater"
+    },
+    "js_index_SelectCollection": {
+        "message": "Samling:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Visning:"
+    },
+    "js_index_DataFilter": {
+        "message": "Datafilter:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Første tre rader"
+    },
+    "js_index_AllRows": {
+        "message": "Alle rader"
+    },
+    "js_index_RowsRange": {
+        "message": "Raderområde"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Utskriftsformat:"
+    },
+    "js_index_SingleFile": {
+        "message": "Én fil for all data"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Separate filer for hver rad"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Parameterkontroll"
+    },
+    "js_index_Print": {
+        "message": "Utskrift"
+    },
+    "js_index_CheckMatches": {
+        "message": "Samsvarskontroll"
+    },
+    "js_index_DataPreview": {
+        "message": "Data forhåndsvisning"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Gjenopprett mitt kjøp"
+    },
+    "js_index_Close": {
+        "message": "Lukk"
+    },
+    "js_index_Cancel": {
+        "message": "Avbryt"
+    },
+    "js_index_Confirm": {
+        "message": "Bekreft"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Hent fullstendige data (inkludert formelfelter) fra Notion-tilkoblingen"
+    },
+    "js_index_Authorize": {
+        "message": "Autoriser"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Autorisasjonspåminnelse"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Notion-tilkoblingen trenger autorisasjon for å brukes, vennligst klikk på 'Autoriser'-knappen for å autorisere"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Bekreft"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Når du bruker modusen \"Separate filer for hver rad\" for utskrift, vil det vises en separat utskriftsdialog for hver enkelt datarad. Utskriften kan ikke avbrytes underveis, og for øyeblikket overstiger antall rader 100. Ønsker du å fortsette?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Antall rader i området overstiger 1000. Er du sikker på at du vil fortsette?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Feil"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Startraden i området kan ikke være større enn sluttraden."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Sluttraden i området kan ikke overstige 100 000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Sluttraden i området må være et positivt heltall."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Startraden i området må være et positivt heltall."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Startraden i området må være større enn 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Sideinnstillingsfunksjonen er bare tilgjengelig i Pro-versjonen. Ønsker du å kjøpe Pro-versjonen nå?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Vennligst bekreft at du har autorisert Notion-tilkoblingen. Hvis databasen du koblet til ble opprettet etter autorisasjon, må du autorisere på nytt."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Ikke autorisert"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Sideskift-markør kopiert"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Sideskift-markøren er kopiert til utklippstavlen din. Lim den inn der du vil at tvungne sideskift skal skje under utskrift."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Instruksjoner: Lim inn '====Print Notion Page Break====' i ditt Notion-innhold der du vil ha sideskift. Markøren vil bli erstattet med faktiske sideskift ved utskrift."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Vennligst kopier denne teksten manuelt:"
+    }
+}

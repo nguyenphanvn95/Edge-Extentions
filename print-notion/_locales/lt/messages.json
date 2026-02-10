@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion yra galingas įrankis, leidžiantis spausdinti savo Notion puslapius kaip gražiai suformatuotus dokumentus."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Vartotojo vadovas"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Įsigykite Pro versiją"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Praneškite apie klaidą"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Atsiliepimai"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Atsisiųskite dabar!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Jei jums patinka šis plėtinys, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">spauskite čia, kad įvertintumėte 5 žvaigždutėmis⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion yra plėtinys, specialiai sukurtas „Notion“ naudotojams, leidžiantis spausdinti „Notion“ puslapius gražiais formatais, dėl ko jie tampa praktiškesni ir dalinamasi."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Išleista nauja „Print Notion“ versija, kviečiame išbandyti. Jei rastumėte klaidų, prašome spustelėti „Praneškite apie klaidą“ mygtuką.💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Jei patinka įskiepis, spustelėkite čia, kad įvertintumėte 5 žvaigždutėmis⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Dabartinė versija, kurią naudojate, yra istorinė versija, kuri buvo pasenusi. Prašome eiti į „Chrome“ parduotuvę ir įdiegti naujausią versiją."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Dėkojame už jūsų paramą. Šiuo metu naudojate „Print Notion“ Pro versiją."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Pašalinkite logotipą iš spausdinamo puslapio... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Spausdinimas su lentelės duomenimis... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Atnaujinti Pro versiją "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Vartotojo vadovas "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Šoninės žvilgsnio spausdinimo funkcijos galima tik Pro versijoje, ar norite dabar įsigyti Pro versiją?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Šiuo metu naudojate „Notion“ tamsiąją režimą. Tamsiuoju režimu spausdinimas gali sukelti tam tikrų elementų neteisingą spausdinimą. Rekomenduojama prieš spausdinimą pereiti prie šviesiosios režimo. Ar norite tęsti?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Aptiktas tamsus režimas"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Šiuo metu naudojate Notion tamsų režimą. Mes laikinai persijungsime į šviesų režimą spausdinimui, kad užtikrintume optimalius rezultatus. Ekranas šio proceso metu gali trumpai mirgėti, kas gali sukelti diskomfortą kai kuriems vartotojams."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Ekrano mirgėjimo įspėjimas: Šis procesas gali sukelti trumpą ekrano mirgėjimą, kuris gali būti nemalonus šviesos jautriems asmenims."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Daugiau nerodyti šio įspėjimo"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Atšaukti"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Tęsti šviesiu režimu"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Apdorojama... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Apdorojama... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Apdorojama... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Apdorojama... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Eksportuota naudojant Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Print Notion Pro versijos aktyvavimas sėkmingas. "
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Print Notion Pro versijos aktyvavimas nepavyko, prašome susisiekti su klientų aptarnavimu."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Spausdinti"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Apdorojama..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Parametrų tikrinimas"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Dabartiniame puslapyje nebuvo aptikta jokių galiojančių parametrų. Patvirtinkite, ar parametrų nustatymo formatas teisingas."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Bendras eilučių skaičius lentelėje yra mažesnis nei nurodyta pradžios eilutės intervalo pradžia. Pasirinkite pradžios eilutę ir tęskite."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Bendras eilučių skaičius lentelėje yra mažesnis nei nurodyta intervalo pabaigos eilutė. Intervalo pabaigos eilutė buvo atnaujinta iki lentelės duomenų paskutinės eilutės."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Dabartiniame puslapyje nebuvo aptikta jokių spausdinimo parametrų. Patikrinkite puslapio nustatymus. Ar norite tęsti spausdinimą?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Šiuo metu puslapyje nėra šoninio žvilgsnio. Įjunkite šoninį žvilgsnį ir bandykite dar kartą."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "„Spausdinimas su lentelės duomenimis (Pagrindinis puslapis)“ langas jau yra, ar norite jį uždaryti ir atidaryti „Spausdinimas su lentelės duomenimis (Šoninis žvilgsnis)“ langą?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "„Spausdinimas su lentelės duomenimis (Šoninis žvilgsnis)“ langas jau yra, ar norite jį uždaryti ir atidaryti „Spausdinimas su lentelės duomenimis (Pagrindinis puslapis)“ langą?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Spausdinimas su lentelės duomenimis (Šoninis žvilgsnis)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Spausdinimas su lentelės duomenimis (Pagrindinis puslapis)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Dėkojame už jūsų paramą. Šiuo metu naudojate „Print Notion“ Pro versiją."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Uždaryti"
+    },
+    "js_index_SelectSpace": {
+        "message": "Erdis:"
+    },
+    "js_index_Refresh": {
+        "message": "Atnaujinti"
+    },
+    "js_index_SelectCollection": {
+        "message": "Rinkinys:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Peržiūra:"
+    },
+    "js_index_DataFilter": {
+        "message": "Duomenų filtravimas:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Pirmosios trys eilutės"
+    },
+    "js_index_AllRows": {
+        "message": "Visos eilutės"
+    },
+    "js_index_RowsRange": {
+        "message": "Eilučių intervalas"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Spausdinimo išvesties formatas:"
+    },
+    "js_index_SingleFile": {
+        "message": "Vienas failas visiems duomenims"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Atskiros bylos kiekvienai eilutei"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Parametrų tikrinimas"
+    },
+    "js_index_Print": {
+        "message": "Spausdinti"
+    },
+    "js_index_CheckMatches": {
+        "message": "Atitikties tikrinimas"
+    },
+    "js_index_DataPreview": {
+        "message": "Duomenų peržiūra"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Atkurti mano pirkinį"
+    },
+    "js_index_Close": {
+        "message": "Uždaryti"
+    },
+    "js_index_Cancel": {
+        "message": "Atšaukti"
+    },
+    "js_index_Confirm": {
+        "message": "Patvirtinti"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Gauti visus duomenis (įskaitant formulių laukus) iš Notion ryšio"
+    },
+    "js_index_Authorize": {
+        "message": "Autorizuoti"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Autorizacijos priminimas"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Notion ryšiui naudoti reikia autorizacijos, prašome spustelėti mygtuką 'Autorizuoti', kad autorizuotumėte"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Patvirtinti"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Naudojant spausdinimo režimą \"Atskiros bylos kiekvienai eilutei\", kiekvienai atskirai duomenų eilutei pasirodys atskiras spausdinimo dialogo langas. Spausdinimo negalima atšaukti viduryje proceso, ir šiuo metu eilučių skaičius viršija 100. Ar norite tęsti?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Eilučių skaičius intervale viršija 1000. Ar tikrai norite tęsti?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Klaida"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Intervalo pradžios eilutė negali būti didesnė už pabaigos eilutę."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Intervalo pabaigos eilutė negali viršyti 100 000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Intervalo pabaigos eilutė turi būti teigiamas sveikasis skaičius."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Intervalo pradžios eilutė turi būti teigiamas sveikasis skaičius."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Intervalo pradžios eilutė turi būti didesnė už 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Puslapio nustatymo funkcija prieinama tik Pro versijoje, ar norite dabar įsigyti Pro versiją?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Prašome patvirtinti, kad autorizavote Notion ryšį. Jei duomenų bazė, kurią prijungėte, buvo sukurta po autorizacijos, jums reikia ją iš naujo autorizuoti."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Neautorizuotas"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Puslapio pertraukos žymeklis nukopijuotas"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Puslapio pertraukos žymeklis buvo nukopijuotas į jūsų iškarpinę. Įklijuokite jį ten, kur norite, kad spausdinimo metu įvyktų priverstinės puslapio pertraukos."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Instrukcijos: Įklijuokite '====Print Notion Page Break====' į jūsų Notion turinį ten, kur norite puslapio pertraukų. Žymeklis bus pakeistas tikromis puslapio pertraukomis spausdinant."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Prašome rankiniu būdu nukopijuoti šį tekstą:"
+    }
+}

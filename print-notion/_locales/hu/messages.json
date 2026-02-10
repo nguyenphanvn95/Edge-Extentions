@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "A Print Notion egy erőteljes eszköz, amely lehetővé teszi, hogy gyönyörű formázott dokumentumokká nyomtathasd Notion oldalaidat."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Felhasználói kézikönyv"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Vásárolja meg a Pro verziót"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Hibabejelentés"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Visszajelzés"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Letöltés most!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Ha tetszik ez a bővítmény, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">kattints ide az 5 csillagos értékeléshez⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "A Print Notion egy kifejezetten Notion felhasználók számára tervezett bővítmény, amely lehetővé teszi Notion oldalaid gyönyörű formátumokban történő nyomtatását, így Notion oldalaid praktikusabbá és könnyebben megoszthatóvá válnak."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Megjelent a Print Notion új verziója, próbáld ki, ha hibát találsz, kérlek, használd a „Hibabejelentés” gombot a visszajelzéshez. 💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Ha tetszik a bővítmény, kattints ide az 5 csillagos értékeléshez⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "A jelenleg használt verzió egy történelmi verzió, kérlek, telepítsd a legújabb verziót a Chrome webáruházból."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Köszönjük támogatásodat. Jelenleg a Print Notion Pro verzióját használod."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Logó eltávolítása a nyomtatott oldalról..."
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Tábla adatokkal való nyomtatás..."
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Frissítés Pro verzióra"
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Felhasználói kézikönyv"
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Az oldaloldali nyomtatás funkció csak a Pro verzióban érhető el. Szeretnél most vásárolni a Pro verziót?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Jelenleg a Notion sötét módban van. A sötét módban történő nyomtatás esetén előfordulhat, hogy néhány elem nem kerül megfelelően kinyomtatásra. Ajánlott a nyomtatás előtt átváltani a világos módba. Szeretnéd folytatni?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Sötét mód észlelve"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Jelenleg a Notion sötét módját használod. Ideiglenesen átváltunk világos módba a nyomtatáshoz, hogy optimális eredményeket biztosítsunk. A képernyő röviden villoghat a folyamat során, ami kényelmetlenséget okozhat egyes felhasználóknak."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Képernyővillogás figyelmeztetés: Ez a folyamat rövid képernyővillogást okozhat, ami kényelmetlen lehet fényérzékeny személyek számára."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Ne jelenítse meg újra ezt a figyelmeztetést"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Mégse"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Folytatás világos móddal"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Feldolgozás... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Feldolgozás... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Feldolgozás... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Feldolgozás... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Exportálva a Print Notion által"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "A Print Notion Pro verziójának aktiválása sikeres."
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "A Print Notion Pro verziójának aktiválása sikertelen, kérlek, lépj kapcsolatba a támogatással."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Nyomtatás"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Feldolgozás..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Paraméter ellenőrzés"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Nincs érvényes paraméter érzékelhető az aktuális oldalon. Kérlek, ellenőrizd, hogy a beállított paraméterek formátuma helyes-e."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "A táblázatban lévő sorok teljes száma kevesebb, mint a megadott kezdő sor tartomány. Kérlek, módosítsd a kezdő sort, és folytasd."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "A táblázatban lévő sorok teljes száma kevesebb, mint a megadott befejező sor tartomány. A befejező sort az utolsó táblaadat sorára frissítettük."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Nincs nyomtatási paraméter érzékelhető az aktuális oldalon. Kérlek, ellenőrizd az oldal beállításait. Szeretnéd folytatni a nyomtatást?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Nem érzékelhető oldalsó pillantás az aktuális oldalon. Kérlek, kapcsold be az oldalsó pillantást, és próbáld újra."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Már létezik egy „Tábla adatokkal való nyomtatás (Fő oldal)” ablak, szeretnéd bezárni, és megnyitni egy „Tábla adatokkal való nyomtatás (Oldalsó pillantás)” ablakot?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Már létezik egy „Tábla adatokkal való nyomtatás (Oldalsó pillantás)” ablak, szeretnéd bezárni, és megnyitni egy „Tábla adatokkal való nyomtatás (Fő oldal)” ablakot?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Tábla adatokkal való nyomtatás (Oldalsó pillantás)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Tábla adatokkal való nyomtatás (Fő oldal)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Köszönjük támogatásodat. Jelenleg a Print Notion Pro verzióját használod."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Bezárás"
+    },
+    "js_index_SelectSpace": {
+        "message": "Tér:"
+    },
+    "js_index_Refresh": {
+        "message": "Frissítés"
+    },
+    "js_index_SelectCollection": {
+        "message": "Gyűjtemény:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Nézet:"
+    },
+    "js_index_DataFilter": {
+        "message": "Adat szűrés:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Első három sor"
+    },
+    "js_index_AllRows": {
+        "message": "Minden sor"
+    },
+    "js_index_RowsRange": {
+        "message": "Sorok tartománya"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Nyomtatási kimenet formátuma:"
+    },
+    "js_index_SingleFile": {
+        "message": "Egyetlen fájl az összes adat számára"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Külön fájlok minden sor számára"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Paraméter ellenőrzés"
+    },
+    "js_index_Print": {
+        "message": "Nyomtatás"
+    },
+    "js_index_CheckMatches": {
+        "message": "Megfelelések ellenőrzése"
+    },
+    "js_index_DataPreview": {
+        "message": "Adat előnézet"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Vásárlás visszaállítása"
+    },
+    "js_index_Close": {
+        "message": "Bezárás"
+    },
+    "js_index_Cancel": {
+        "message": "Mégse"
+    },
+    "js_index_Confirm": {
+        "message": "Megerősítés"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Teljes adatok lekérése (beleértve a képlet mezőket) a Notion kapcsolatból"
+    },
+    "js_index_Authorize": {
+        "message": "Engedélyezés"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Engedélyezési emlékeztető"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "A Notion kapcsolat használatához engedélyezés szükséges, kérjük, kattintson az 'Engedélyezés' gombra az engedélyezéshez"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Megerősítés"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "A \"Külön fájlok minden sor számára\" mód használatakor a nyomtatáshoz minden egyes adatsorhoz külön nyomtatási párbeszédablak jelenik meg. A nyomtatást nem lehet félbeszakítani, és jelenleg a sorok száma meghaladja a 100-at. Szeretné folytatni?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "A tartományban lévő sorok száma meghaladja az 1000-et. Biztosan folytatni szeretné?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Hiba"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "A tartomány kezdő sora nem lehet nagyobb, mint a záró sor."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "A tartomány záró sora nem haladhatja meg a 100 000-et."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "A tartomány záró sorának pozitív egész számnak kell lennie."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "A tartomány kezdő sorának pozitív egész számnak kell lennie."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "A tartomány kezdő sorának nagyobbnak kell lennie, mint 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Az oldalbeállítási funkció csak a Pro verzióban érhető el. Szeretné most megvásárolni a Pro verziót?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Kérjük, erősítse meg, hogy engedélyezte a Notion kapcsolatot. Ha az Ön által csatlakoztatott adatbázis az engedélyezés után jött létre, újra kell engedélyeznie."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Nincs engedélyezve"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Oldaltörés jelölő másolva"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Az oldaltörés jelölő a vágólapra lett másolva. Illessze be oda, ahol kényszerített oldaltöréseket szeretne nyomtatás közben."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Utasítások: Illessze be a '====Print Notion Page Break====' szöveget a Notion tartalmába ott, ahol oldaltöréseket szeretne. A jelölő valódi oldaltörésekre lesz cserélve nyomtatáskor."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Kérjük, másolja ki ezt a szöveget kézzel:"
+    }
+}

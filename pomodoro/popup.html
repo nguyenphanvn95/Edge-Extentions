@@ -1,0 +1,525 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Grande Pro</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <span class="tomato">🍅</span>
+        <span class="title">Pomodoro Grande Pro</span>
+      </div>
+      <div class="header-actions">
+        <button class="icon-btn" id="theme-btn" title="Đổi theme">🎨</button>
+        <button class="icon-btn" id="notifications-btn" title="Thông báo">🔔</button>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab-btn active" data-tab="timer">Bộ Đếm</button>
+      <button class="tab-btn" data-tab="todos">Việc Cần Làm</button>
+      <button class="tab-btn" data-tab="journal">Nhật Ký</button>
+      <button class="tab-btn" data-tab="music">Nhạc Nền</button>
+      <button class="tab-btn" data-tab="settings">Cài Đặt</button>
+      <button class="tab-btn" data-tab="sites">Chặn Web</button>
+    </nav>
+
+    <div class="tab-content active" id="timer-tab">
+      <div class="presets-section">
+        <div class="presets-title">⚡ Chế độ nhanh:</div>
+        <div class="presets-grid">
+          <button class="preset-card" data-preset="classic">
+            <div class="preset-icon">📚</div>
+            <div class="preset-name">Classic</div>
+            <div class="preset-time">25/5/15</div>
+          </button>
+          <button class="preset-card" data-preset="study">
+            <div class="preset-icon">🎓</div>
+            <div class="preset-name">Study</div>
+            <div class="preset-time">50/10/30</div>
+          </button>
+          <button class="preset-card" data-preset="quick">
+            <div class="preset-icon">⚡</div>
+            <div class="preset-name">Quick</div>
+            <div class="preset-time">15/3/10</div>
+          </button>
+          <button class="preset-card" data-preset="sprint">
+            <div class="preset-icon">🏃</div>
+            <div class="preset-name">Sprint</div>
+            <div class="preset-time">90/20/45</div>
+          </button>
+          <button class="preset-card preset-custom" data-preset="custom">
+            <div class="preset-icon">⚙️</div>
+            <div class="preset-name">Custom</div>
+            <div class="preset-time" id="custom-preset-time">?/?/?</div>
+          </button>
+        </div>
+      </div>
+
+      <div class="timer-display">
+        <div class="time" id="timer">25:00</div>
+        <div class="timer-label" id="timer-label">Thời gian tập trung! ⚡</div>
+
+        <div class="mode-badge" id="mode-badge">
+          <span class="mode-icon">🔥</span>
+          <span id="mode-text">Chế độ Classic</span>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button class="btn btn-primary" id="start-btn">
+          <span>▶</span> Bắt đầu
+        </button>
+        <button class="btn btn-secondary" id="pause-btn" style="display: none;">
+          <span>⏸</span> Tạm dừng
+        </button>
+        <button class="btn btn-danger" id="stop-btn">
+          <span>⏹</span> Dừng
+        </button>
+        <button class="btn btn-success" id="skip-btn" style="display: none;">
+          <span>⏭</span> Bỏ qua
+        </button>
+      </div>
+
+      <div class="stats">
+        <div class="stat-item">
+          <div class="stat-value" id="pomodoro-count">0</div>
+          <div class="stat-label">Pomodoro</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-value" id="focus-time">0h 0m</div>
+          <div class="stat-label">Thời gian tập trung</div>
+        </div>
+      </div>
+
+      <div class="progress-info">
+        <span id="session-info">Bắt đầu phiên làm việc mới!</span>
+      </div>
+
+      <div class="daily-quote" id="daily-quote">
+        <div class="quote-icon">💡</div>
+        <div class="quote-text" id="quote-text">Loading...</div>
+        <div class="quote-author" id="quote-author"></div>
+      </div>
+    </div>
+
+    <div class="modal" id="custom-preset-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>⚙️ Tùy chỉnh thời gian</h3>
+          <button class="modal-close" id="close-custom-modal">×</button>
+        </div>
+        <div class="modal-body">
+          <div class="custom-input-group">
+            <label>⏰ Thời gian làm việc (phút)</label>
+            <input type="number" id="custom-work-input" min="1" max="180" value="25" class="custom-input">
+          </div>
+          <div class="custom-input-group">
+            <label>☕ Nghỉ ngắn (phút)</label>
+            <input type="number" id="custom-short-input" min="1" max="60" value="5" class="custom-input">
+          </div>
+          <div class="custom-input-group">
+            <label>🌙 Nghỉ dài (phút)</label>
+            <input type="number" id="custom-long-input" min="1" max="120" value="15" class="custom-input">
+          </div>
+          <div class="custom-preview">
+            <strong>Preview:</strong>
+            <span id="custom-preview-text">25/5/15</span>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" id="cancel-custom-btn">Hủy</button>
+          <button class="btn btn-primary" id="save-custom-btn">💾 Lưu & Áp dụng</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="journal-tab">
+      <div class="journal-header">
+        <h2 class="section-title">
+          <span class="section-icon">📔</span>
+          Nhật Ký Pomodoro
+        </h2>
+        <p class="section-subtitle">Ghi lại những gì bạn đã làm sau mỗi phiên</p>
+      </div>
+
+      <div class="quick-note-section">
+        <div class="quick-note-label">✍️ Ghi chú nhanh:</div>
+        <textarea
+          id="quick-note-input"
+          class="quick-note-input"
+          placeholder="Vừa hoàn thành gì trong phiên vừa rồi?"
+          maxlength="500"
+        ></textarea>
+        <div class="quick-note-actions">
+          <button class="btn btn-primary btn-sm" id="save-note-btn">
+            💾 Lưu ghi chú
+          </button>
+          <span class="char-count" id="note-char-count">0/500</span>
+        </div>
+      </div>
+
+      <div class="journal-filters">
+        <button class="filter-btn active" data-filter="all">Tất cả</button>
+        <button class="filter-btn" data-filter="today">Hôm nay</button>
+        <button class="filter-btn" data-filter="week">Tuần này</button>
+        <button class="filter-btn" data-filter="month">Tháng này</button>
+      </div>
+
+      <div class="journal-entries" id="journal-entries"></div>
+
+      <div class="journal-empty" id="journal-empty" style="display: none;">
+        <div class="empty-icon">📝</div>
+        <div class="empty-text">Chưa có ghi chú nào</div>
+        <div class="empty-subtitle">Bắt đầu viết nhật ký Pomodoro của bạn!</div>
+      </div>
+
+      <div class="journal-actions">
+        <button class="btn btn-secondary btn-sm" id="export-journal-btn">
+          📤 Xuất nhật ký
+        </button>
+      </div>
+    </div>
+
+    <div class="tab-content" id="todos-tab">
+      <div class="kanban-header">
+        <h2 class="kanban-title">
+          <span class="kanban-icon">📋</span>
+          Bảng Kanban
+        </h2>
+        <p class="kanban-subtitle">Kéo thả công việc để quản lý tiến độ</p>
+      </div>
+
+      <div class="todo-input-section">
+        <input
+          type="text"
+          id="todo-input"
+          class="todo-input"
+          placeholder="Thêm công việc mới..."
+          maxlength="100"
+        >
+        <button class="btn btn-primary" id="add-todo-btn">
+          <span>➕</span> Thêm
+        </button>
+      </div>
+
+      <div class="kanban-board">
+        <div class="kanban-column" data-status="todo">
+          <div class="kanban-column-header">
+            <h3>Cần Làm</h3>
+            <span class="task-count" id="todo-count">0</span>
+          </div>
+          <div class="kanban-tasks" id="todo-tasks" data-status="todo"></div>
+        </div>
+
+        <div class="kanban-column" data-status="inprogress">
+          <div class="kanban-column-header">
+            <h3>Đang Làm</h3>
+            <span class="task-count" id="inprogress-count">0</span>
+          </div>
+          <div class="kanban-tasks" id="inprogress-tasks" data-status="inprogress"></div>
+        </div>
+
+        <div class="kanban-column" data-status="done">
+          <div class="kanban-column-header">
+            <h3>Hoàn Thành</h3>
+            <span class="task-count" id="done-count">0</span>
+          </div>
+          <div class="kanban-tasks" id="done-tasks" data-status="done"></div>
+        </div>
+      </div>
+
+      <div class="task-stats">
+        <div class="stat-badge">📊 Tổng: <strong id="total-tasks">0</strong></div>
+        <div class="stat-badge">✅ Hoàn thành: <strong id="completed-tasks">0</strong></div>
+        <div class="stat-badge">📈 Tiến độ: <strong id="progress-percentage">0%</strong></div>
+      </div>
+
+      <div class="task-actions">
+        <button class="btn btn-secondary btn-sm" id="clear-completed-btn">🗑️ Xóa đã hoàn thành</button>
+        <button class="btn btn-danger btn-sm" id="clear-all-btn">⚠️ Xóa tất cả</button>
+      </div>
+    </div>
+
+    <div class="tab-content" id="music-tab">
+      <div class="settings-section">
+        <div class="setting-row">
+          <label>Bật nhạc nền</label>
+          <label class="switch">
+            <input type="checkbox" id="music-enabled">
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="setting-row">
+          <label>Chọn nhạc</label>
+          <select id="music-select" class="select-input">
+            <option value="lofi">Lofi Chill</option>
+            <option value="piano">Piano Nhẹ Nhàng</option>
+            <option value="nature">Âm Thanh Thiên Nhiên</option>
+            <option value="rain">Tiếng Mưa</option>
+            <option value="cafe">Quán Cà Phê</option>
+            <option value="ocean">Sóng Biển</option>
+          </select>
+        </div>
+
+        <div class="setting-row">
+          <label>Âm lượng nhạc</label>
+          <div class="volume-control">
+            <input type="range" id="music-volume" min="0" max="100" value="50">
+            <span id="volume-display">50</span>
+          </div>
+        </div>
+
+        <button class="btn btn-secondary" id="preview-music">🎵 Nghe thử</button>
+      </div>
+    </div>
+
+    <div class="tab-content" id="settings-tab">
+      <div class="settings-section">
+        <h3 class="section-title">⏱️ Thời gian</h3>
+
+        <div class="setting-row">
+          <label>Thời gian làm việc (phút)</label>
+          <input type="number" id="work-duration" class="number-input" min="1" max="120" value="25">
+        </div>
+
+        <div class="setting-row">
+          <label>Nghỉ ngắn (phút)</label>
+          <input type="number" id="short-break" class="number-input" min="1" max="30" value="5">
+        </div>
+
+        <div class="setting-row">
+          <label>Nghỉ dài (phút)</label>
+          <input type="number" id="long-break" class="number-input" min="5" max="60" value="15">
+        </div>
+      </div>
+
+      <div class="settings-section">
+        <h3 class="section-title">🔔 Thông báo</h3>
+
+        <div class="setting-row">
+          <label>Bật thông báo</label>
+          <label class="switch">
+            <input type="checkbox" id="notification-enabled" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="setting-row">
+          <label>Âm thanh thông báo</label>
+          <select id="notification-sound" class="select-input">
+            <option value="bell">Chuông</option>
+            <option value="chime">Chime</option>
+            <option value="ding" selected>Ding</option>
+            <option value="soft">Nhẹ nhàng</option>
+          </select>
+        </div>
+
+        <div class="setting-row">
+          <label>Âm lượng thông báo</label>
+          <div class="volume-control">
+            <input type="range" id="notification-volume" min="0" max="100" value="70">
+            <span id="notification-volume-display">70</span>
+          </div>
+        </div>
+
+        <div class="setting-row">
+          <label>Thông báo động viên</label>
+          <label class="switch">
+            <input type="checkbox" id="motivational-quotes" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="settings-section">
+        <h3 class="section-title">🎨 Giao diện</h3>
+
+        <div class="setting-row">
+          <label>Theme</label>
+          <select id="theme-select" class="select-input">
+            <option value="default">Mặc định</option>
+            <option value="dark">Tối (Dark)</option>
+            <option value="ocean">Đại dương</option>
+            <option value="forest">Rừng xanh</option>
+            <option value="sunset">Hoàng hôn</option>
+            <option value="purple">Tím mộng mơ</option>
+            <option value="monochrome">Đen trắng</option>
+          </select>
+        </div>
+
+        <div class="theme-preview" id="theme-preview">
+          <div class="preview-box" id="preview-primary"></div>
+          <div class="preview-box" id="preview-secondary"></div>
+          <div class="preview-box" id="preview-accent"></div>
+        </div>
+      </div>
+
+      <div class="settings-section">
+        <h3 class="section-title">🔥 Nâng cao</h3>
+
+        <div class="setting-row">
+          <label>Siêu tập trung</label>
+          <label class="switch">
+            <input type="checkbox" id="ultra-focus">
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="setting-row">
+          <label>Tự động bắt đầu</label>
+          <label class="switch">
+            <input type="checkbox" id="auto-start">
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="setting-row">
+          <label>Tự động lưu ghi chú</label>
+          <label class="switch">
+            <input type="checkbox" id="auto-journal" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="sites-tab">
+      <div class="sites-header">
+        <h2 class="section-title">
+          <span class="section-icon">🚫</span>
+          Chặn Website Gây Mất Tập Trung
+        </h2>
+        <p class="section-subtitle">Chỉ chặn khi timer đang chạy</p>
+      </div>
+
+      <div class="site-tabs">
+        <button class="site-tab-btn active" data-mode="blacklist">Danh sách chặn</button>
+        <button class="site-tab-btn" data-mode="whitelist">Danh sách cho phép</button>
+      </div>
+
+      <div class="site-mode active" id="blacklist-mode">
+        <div class="site-input-section">
+          <input
+            type="text"
+            id="blacklist-input"
+            class="site-input"
+            placeholder="Nhập domain (vd: facebook.com)"
+          >
+          <button class="btn btn-primary" id="add-blacklist">
+            <span>➕</span> Thêm
+          </button>
+        </div>
+
+        <div class="preset-sites">
+          <div class="preset-label">Gợi ý nhanh:</div>
+          <div class="preset-buttons">
+            <button class="preset-btn" data-site="facebook.com">Facebook</button>
+            <button class="preset-btn" data-site="youtube.com">YouTube</button>
+            <button class="preset-btn" data-site="twitter.com">Twitter</button>
+            <button class="preset-btn" data-site="instagram.com">Instagram</button>
+            <button class="preset-btn" data-site="reddit.com">Reddit</button>
+            <button class="preset-btn" data-site="tiktok.com">TikTok</button>
+          </div>
+        </div>
+
+        <div class="site-list" id="blacklist"></div>
+      </div>
+
+      <div class="site-mode" id="whitelist-mode">
+        <div class="site-input-section">
+          <input
+            type="text"
+            id="whitelist-input"
+            class="site-input"
+            placeholder="Nhập domain cho phép"
+          >
+          <button class="btn btn-primary" id="add-whitelist">
+            <span>➕</span> Thêm
+          </button>
+        </div>
+        <div class="site-list" id="whitelist"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="theme-modal" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>🎨 Chọn Theme</h3>
+        <button class="modal-close" id="close-theme-modal">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="themes-grid">
+          <div class="theme-option" data-theme="default">
+            <div class="theme-colors">
+              <span style="background: #48bb78"></span>
+              <span style="background: #667eea"></span>
+              <span style="background: #ed8936"></span>
+            </div>
+            <div class="theme-name">Mặc định</div>
+          </div>
+          <div class="theme-option" data-theme="dark">
+            <div class="theme-colors">
+              <span style="background: #2d3748"></span>
+              <span style="background: #4a5568"></span>
+              <span style="background: #718096"></span>
+            </div>
+            <div class="theme-name">Tối</div>
+          </div>
+          <div class="theme-option" data-theme="ocean">
+            <div class="theme-colors">
+              <span style="background: #0ea5e9"></span>
+              <span style="background: #06b6d4"></span>
+              <span style="background: #0891b2"></span>
+            </div>
+            <div class="theme-name">Đại dương</div>
+          </div>
+          <div class="theme-option" data-theme="forest">
+            <div class="theme-colors">
+              <span style="background: #10b981"></span>
+              <span style="background: #059669"></span>
+              <span style="background: #047857"></span>
+            </div>
+            <div class="theme-name">Rừng xanh</div>
+          </div>
+          <div class="theme-option" data-theme="sunset">
+            <div class="theme-colors">
+              <span style="background: #f97316"></span>
+              <span style="background: #ef4444"></span>
+              <span style="background: #dc2626"></span>
+            </div>
+            <div class="theme-name">Hoàng hôn</div>
+          </div>
+          <div class="theme-option" data-theme="purple">
+            <div class="theme-colors">
+              <span style="background: #a855f7"></span>
+              <span style="background: #9333ea"></span>
+              <span style="background: #7e22ce"></span>
+            </div>
+            <div class="theme-name">Tím mộng mơ</div>
+          </div>
+          <div class="theme-option" data-theme="monochrome">
+            <div class="theme-colors">
+              <span style="background: #1f2937"></span>
+              <span style="background: #6b7280"></span>
+              <span style="background: #9ca3af"></span>
+            </div>
+            <div class="theme-name">Đen trắng</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <canvas id="confetti-canvas" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 9999; display: none;"></canvas>
+
+  <script src="popup.js"></script>
+</body>
+</html>

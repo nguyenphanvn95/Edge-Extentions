@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Print Notion</title>
+  <link rel="stylesheet" href="libs/bulma.min.css">
+  <link rel="stylesheet" href="libs/jquery-ui.css">
+  <link rel="stylesheet" href="popup.css">
+  <script src="libs/jquery-3.7.1.min.js"></script>
+  <script src="libs/jquery-ui.js"></script>
+  <script src="popup.js"></script>
+</head>
+
+<body class="popup-box">
+  <div class="content">
+    <h5>__MSG_page_popup_title__</h5>
+    <P>
+    <div id="msg-result" class="">
+      <p>
+        __MSG_page_popup_notify_introduce__
+      </p>
+    </div>
+    </P>
+    <p>
+      <hr />
+    </p>
+    <p>
+      <button id="buttonUserManual" style="display:none;"
+        class="button is-info is-fullwidth">__MSG_page_popup_button_UserManual__</button>
+    </p>
+    <p>
+      <button id="buttonReportDefect" style="display:none;"
+        class="button is-info is-fullwidth">__MSG_page_popup_button_ReportBug__</button>
+    </p>
+    <P>
+    <div id="notifications"></div>
+    <br />
+    </P>
+  </div>
+</body>
+
+</html>

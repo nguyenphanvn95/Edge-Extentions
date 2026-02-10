@@ -1,0 +1,11 @@
+{
+    "name": {
+        "message": "Notion Exporter"
+    },
+    "ext_name": {
+        "message": "Notion Exporter - 圖片｜卡片｜PDF｜簡報"
+    },
+    "description": {
+        "message": "將 Notion 頁面匯出為各種格式，如圖片、卡片、PDF、簡報等，同時保留 Notion 的版面配置和樣式。"
+    }
+}

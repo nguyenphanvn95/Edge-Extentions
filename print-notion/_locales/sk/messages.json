@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion je výkonný nástroj, ktorý vám umožňuje tlačiť vaše stránky Notion ako krásne formátované dokumenty."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Užívateľská príručka"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Kúpiť Pro verziu"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Nahlásiť chybu"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Spätná väzba"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Stiahnuť teraz!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Ak sa vám táto rozšírenie páči, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">kliknite sem pre ohodnotenie 5 hviezdičiek⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion je rozšírenie navrhnuté špeciálne pre používateľov Notion, ktoré vám umožňuje tlačiť vaše stránky Notion vo formátoch, ktoré sú praktické a ľahko zdieľateľné."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Bola vydaná nová verzia Print Notion, vyskúšajte ju, ak nájdete chyby, prosím kliknite na tlačidlo \"Nahlásiť chybu\".💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Ak sa vám plugin páči, kliknite sem pre ohodnotenie 5 hviezdičiek⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Aktuálna verzia, ktorú používate, je historická verzia, ktorá bola zastaraná, prosím, choďte do obchodu Chrome pre inštaláciu najnovšej verzie."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "platba/produkty.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUzivatelskaPrirucka.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Ďakujeme vám za podporu. Momentálne používate verziu Print Notion Pro."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Odstrániť logo zo stránky... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Tlač s tabuľkovými údajmi... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Vylepšiť na Pro verziu "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Užívateľská príručka "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Funkcia pozerania z boku je k dispozícii iba v Pro verzii, chcete teraz kúpiť Pro verziu?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Momentálne používate tmavý režim Notion. Tlač v tmavom režime môže spôsobiť, že niektoré prvky sa nevytlačia správne. Odporúča sa prepnúť na svetlý režim pred tlačou. Chcete pokračovať?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Zistený tmavý režim"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Momentálne používate tmavý režim Notion. Dočasne prepneme na svetlý režim pre tlač, aby sme zabezpečili optimálne výsledky. Obrazovka môže počas tohto procesu krátko blikať, čo môže spôsobiť nepohodlie niektorým používateľom."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Upozornenie na blikanie obrazovky: Tento proces môže spôsobiť krátke blikanie obrazovky, ktoré môže byť nepríjemné pre svetlocitlivé osoby."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Nezobrazovať toto upozornenie znovu"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Zrušiť"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Pokračovať so svetlým režimom"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Spracovanie... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Spracovanie... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Spracovanie... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Spracovanie... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Exportované pomocou Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Aktivácia verzie Print Notion Pro bola úspešná. "
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Aktivácia verzie Print Notion Pro zlyhala, prosím, kontaktujte podporu."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Tlač"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Spracovanie..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Kontrola parametrov"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Na aktuálnej stránke neboli zistené žiadne platné parametre. Prosím, overte, či je formát nastavených parametrov správny."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Celkový počet riadkov v tabuľke je menší ako zadaný začiatočný riadok rozsahu. Prosím, upravte začiatočný riadok a pokračujte."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Celkový počet riadkov v tabuľke je menší ako zadaný koncový riadok rozsahu. Koncový riadok bol aktualizovaný na posledný riadok dát tabuľky."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Na aktuálnej stránke neboli zistené žiadne tlačové parametre. Prosím, overte, či sú nastavenia stránky správne. Chcete pokračovať v tlači?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Na aktuálnej stránke nebolo zistené žiadne pozeranie z boku. Prosím, zapnite pozeranie z boku a skúste znovu."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Už existuje okno \"Tlač s tabuľkovými údajmi (Hlavná stránka)\", chcete ho zatvoriť a otvoriť okno \"Tlač s tabuľkovými údajmi (Pozeranie z boku)?\""
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Už existuje okno \"Tlač s tabuľkovými údajmi (Pozeranie z boku)\", chcete ho zatvoriť a otvoriť okno \"Tlač s tabuľkovými údajmi (Hlavná stránka)?\""
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Tlač s tabuľkovými údajmi (Pozeranie z boku)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Tlač s tabuľkovými údajmi (Hlavná stránka)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Ďakujeme vám za podporu. Momentálne používate verziu Print Notion Pro."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Zavrieť"
+    },
+    "js_index_SelectSpace": {
+        "message": "Prostredie:"
+    },
+    "js_index_Refresh": {
+        "message": "Obnoviť"
+    },
+    "js_index_SelectCollection": {
+        "message": "Kolekcia:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Zobrazenie:"
+    },
+    "js_index_DataFilter": {
+        "message": "Filtrovanie dát:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Prvé tri riadky"
+    },
+    "js_index_AllRows": {
+        "message": "Všetky riadky"
+    },
+    "js_index_RowsRange": {
+        "message": "Rozsah riadkov"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Formát tlače:"
+    },
+    "js_index_SingleFile": {
+        "message": "Jedným súborom pre všetky údaje"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Samostatné súbory pre každý riadok"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Kontrola parametrov"
+    },
+    "js_index_Print": {
+        "message": "Tlač"
+    },
+    "js_index_CheckMatches": {
+        "message": "Kontrola zhôd"
+    },
+    "js_index_DataPreview": {
+        "message": "Náhľad dát"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Obnoviť môj nákup"
+    },
+    "js_index_Close": {
+        "message": "Zavrieť"
+    },
+    "js_index_Cancel": {
+        "message": "Zrušiť"
+    },
+    "js_index_Confirm": {
+        "message": "Potvrdiť"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Získať úplné údaje (vrátane polí vzorcov) z Notion Connection"
+    },
+    "js_index_Authorize": {
+        "message": "Autorizovať"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Pripomienka autorizácie"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Notion Connection vyžaduje autorizáciu na použitie, kliknite na tlačidlo 'Autorizovať' pre autorizáciu"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Potvrdiť"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Pri použití režimu \"Samostatné súbory pre každý riadok\" pre tlač sa zobrazí samostatné dialógové okno tlače pre každý jednotlivý riadok údajov. Tlač nemožno zrušiť v polovici a momentálne počet riadkov presahuje 100. Chcete pokračovať?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Počet riadkov v rozsahu presahuje 1000. Ste si istí, že chcete pokračovať?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Chyba"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Začiatočný riadok rozsahu nemôže byť väčší ako koncový riadok."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Koncový riadok rozsahu nemôže presiahnuť 100 000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Koncový riadok rozsahu musí byť kladné celé číslo."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Začiatočný riadok rozsahu musí byť kladné celé číslo."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Začiatočný riadok rozsahu musí byť väčší ako 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Funkcia nastavenia stránky je dostupná iba vo verzii Pro, chcete si teraz zakúpiť verziu Pro?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Prosím, potvrďte, že ste autorizovali Notion Connection. Ak bola databáza, ktorú ste pripojili, vytvorená po autorizácii, musíte ju znovu autorizovať."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Neautorizovaný"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Značka prerušenia stránky skopírovaná"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Značka prerušenia stránky bola skopírovaná do schránky. Vložte ju tam, kde chcete, aby sa pri tlači vyskytli vynútené prerušenia stránok."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Pokyny: Vložte '====Print Notion Page Break====' do vášho Notion obsahu tam, kde chcete prerušenia stránok. Značka bude pri tlači nahradená skutočnými prerušeniami stránok."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Prosím skopírujte tento text ručne:"
+    }
+}

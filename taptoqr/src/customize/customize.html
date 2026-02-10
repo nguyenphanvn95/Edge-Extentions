@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom QR Code Generator</title>
+  <link rel="stylesheet" href="../styles/common.css">
+  <link rel="stylesheet" href="customize.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Custom QR Code Generator</h1>
+      <p class="subtitle">Create beautiful, customized QR codes</p>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="card">
+          <h2 class="card-title">Content</h2>
+          
+          <div class="form-group">
+            <label class="form-label" for="qrText">Text or URL</label>
+            <textarea
+              id="qrText"
+              class="form-textarea"
+              placeholder="Enter text or URL..."
+              rows="5"
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="qrSize">Size (px)</label>
+            <div class="slider-with-input">
+              <input
+                type="range"
+                id="qrSize"
+                class="range-slider"
+                min="200"
+                max="1000"
+                step="50"
+                value="400"
+              >
+              <input
+                type="number"
+                id="qrSizeInput"
+                class="size-input"
+                min="200"
+                max="1000"
+                value="400"
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">Colors</h2>
+          
+          <div class="form-group">
+            <label class="form-label">Foreground</label>
+            <div class="color-preset-group">
+              <div class="color-input-wrapper">
+                <input type="color" id="fgColor" class="color-picker" value="#000000">
+                <input type="text" id="fgColorText" class="form-input" value="#000000">
+              </div>
+              <div class="color-presets">
+                <button class="color-preset" style="background: #000000" data-color="#000000"></button>
+                <button class="color-preset" style="background: #1e3a8a" data-color="#1e3a8a"></button>
+                <button class="color-preset" style="background: #be123c" data-color="#be123c"></button>
+                <button class="color-preset" style="background: #15803d" data-color="#15803d"></button>
+                <button class="color-preset" style="background: #7c2d12" data-color="#7c2d12"></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Background</label>
+            <div class="color-preset-group">
+              <div class="color-input-wrapper">
+                <input type="color" id="bgColor" class="color-picker" value="#ffffff">
+                <input type="text" id="bgColorText" class="form-input" value="#ffffff">
+              </div>
+              <div class="color-presets">
+                <button class="color-preset" style="background: #ffffff" data-color="#ffffff"></button>
+                <button class="color-preset" style="background: #fef3c7" data-color="#fef3c7"></button>
+                <button class="color-preset" style="background: #dbeafe" data-color="#dbeafe"></button>
+                <button class="color-preset" style="background: #dcfce7" data-color="#dcfce7"></button>
+                <button class="color-preset" style="background: #fce7f3" data-color="#fce7f3"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">Advanced</h2>
+          
+          <div class="form-group">
+            <label class="form-label" for="errorLevel">Error Correction</label>
+            <select id="errorLevel" class="form-select">
+              <option value="L">Low (7%)</option>
+              <option value="M" selected>Medium (15%)</option>
+              <option value="Q">Quartile (25%)</option>
+              <option value="H">High (30%)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="margin">Margin</label>
+            <input
+              type="range"
+              id="margin"
+              class="range-slider"
+              min="0"
+              max="10"
+              step="1"
+              value="4"
+            >
+            <span class="value-display" id="marginValue">4</span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label checkbox-wrapper">
+              <input type="checkbox" id="includeLogo" class="checkbox">
+              <span>Include logo in center</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="actions-sidebar">
+          <button id="generateBtn" class="btn btn-primary" style="width: 100%">
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm15 0h-2v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/>
+            </svg>
+            Generate QR Code
+          </button>
+        </div>
+      </aside>
+
+      <main class="main-preview">
+        <div class="preview-card">
+          <div class="preview-header">
+            <h2>Preview</h2>
+            <div class="preview-actions">
+              <button id="copyBtn" class="btn btn-secondary" disabled>
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                </svg>
+                Copy
+              </button>
+              <button id="downloadBtn" class="btn btn-primary" disabled>
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 12v7H5v-7H3v7c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zm-6 .67l2.59-2.58L17 11.5l-5 5-5-5 1.41-1.41L11 12.67V3h2v9.67z"/>
+                </svg>
+                Download PNG
+              </button>
+            </div>
+          </div>
+
+          <div id="qrPreview" class="qr-preview">
+            <div class="empty-preview">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm15 0h-2v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/>
+              </svg>
+              <p>Enter text and click Generate to create QR code</p>
+            </div>
+          </div>
+
+          <div class="qr-info" id="qrInfo" style="display: none;">
+            <div class="info-row">
+              <span class="info-label">Size:</span>
+              <span class="info-value" id="infoSize">-</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Content length:</span>
+              <span class="info-value" id="infoLength">-</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Error correction:</span>
+              <span class="info-value" id="infoError">-</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tips-card">
+          <h3>💡 Tips for Better QR Codes</h3>
+          <ul>
+            <li><strong>Contrast is key:</strong> Use dark colors on light backgrounds</li>
+            <li><strong>Size matters:</strong> Larger codes scan better at a distance</li>
+            <li><strong>Error correction:</strong> Higher levels allow damaged codes to still work</li>
+            <li><strong>Test it:</strong> Always test your QR code before sharing</li>
+            <li><strong>Keep it simple:</strong> Shorter URLs encode better than long ones</li>
+          </ul>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script type="module" src="customize.js"></script>
+</body>
+</html>

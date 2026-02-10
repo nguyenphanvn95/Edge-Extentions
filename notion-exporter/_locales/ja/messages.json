@@ -1,0 +1,11 @@
+{
+    "name": {
+        "message": "Notion Exporter"
+    },
+    "ext_name": {
+        "message": "Notion Exporter - 画像｜カード｜PDF｜スライド"
+    },
+    "description": {
+        "message": "Notionページを長い画像、カード、PDF、スライドなど様々な形式でエクスポートし、Notionのレイアウトとスタイルを保持します"
+    }
+}

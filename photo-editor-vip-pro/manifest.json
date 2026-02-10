@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Photo Editor VIP Pro - Professional Image Editor",
+  "version": "3.0.0",
+  "description": "Professional offline photo editor with advanced filters, brushes, layer effects, color grading, AI tools. Full Photoshop-like features.",
+  "action": {
+    "default_title": "Photo Editor VIP Pro",
+    "default_popup": "editor/editor.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "downloads",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

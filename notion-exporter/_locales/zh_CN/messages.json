@@ -1,0 +1,11 @@
+{
+    "name": {
+        "message": "Notion Exporter"
+    },
+    "ext_name": {
+        "message": "Notion Exporter - 长图｜卡片｜PDF｜PPT｜公众号"
+    },
+    "description": {
+        "message": "将 Notion 页面导出为多种格式，如长图、卡片、PDF、PPT、公众号等，保留 Notion 的布局和样式"
+    }
+}

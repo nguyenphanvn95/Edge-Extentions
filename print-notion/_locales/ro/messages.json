@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion este o unealtă puternică care vă permite să tipăriți paginile dvs. Notion sub formă de documente frumos formatate."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Manualul utilizatorului"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Cumpărați versiunea Pro"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Raportați o defecțiune"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Feedback"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Descărcați acum!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Dacă vă place această extensie, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">apăsați aici pentru a acorda 5 stele⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion este o extensie creată special pentru utilizatorii Notion, care vă permite să tipăriți paginile dvs. Notion în formate frumoase, făcându-le mai practice și mai ușor de partajat."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "A fost lansată o nouă versiune a Print Notion, vă invităm să o încercați; dacă găsiți probleme, vă rugăm să ne comunicați apăsând butonul „Raportați o defecțiune”.💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Dacă vă place pluginul, apăsați aici pentru a acorda 5 stele⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Versiunea curentă pe care o utilizați este o versiune istorică care a fost retrasă din uz; vă rugăm să accesați Chrome Web Store pentru a instala cea mai recentă versiune."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Vă mulțumim pentru suport. Utilizați în prezent versiunea Pro a Print Notion."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Eliminați logo-ul din pagina tipărită... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Tipărirea cu datele tabelului... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Upgrade la versiunea Pro "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Manualul utilizatorului "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Funcția de previzualizare laterală este disponibilă doar în versiunea Pro. Doriți să achiziționați acum versiunea Pro?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "În prezent utilizați modul întunecat al Notion. Imprimarea în modul întunecat poate duce la imprimarea incorectă a unor elemente. Se recomandă să comutați la modul luminos înainte de imprimare. Doriți să continuați?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Modul întunecat detectat"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "În prezent utilizați modul întunecat al Notion. Vom comuta temporar la modul luminos pentru imprimare pentru a asigura rezultate optime. Ecranul poate pâlpâi scurt în timpul acestui proces, ceea ce ar putea cauza disconfort unor utilizatori."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Avertisment pâlpâire ecran: Acest proces poate cauza o pâlpâire scurtă a ecranului care ar putea fi incomodă pentru persoanele fotosensibile."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Nu mai afișa această avertizare"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Anulează"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Continuă cu modul luminos"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Se procesează... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Se procesează... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Se procesează... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Se procesează... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Exportat de Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Activarea versiunii Pro a Print Notion a fost realizată cu succes."
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Activarea versiunii Pro a Print Notion a eșuat, vă rugăm să contactați suportul."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Print"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Se procesează..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Verificarea parametrilor"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Nu au fost detectați parametri valizi pe pagina curentă. Vă rugăm să confirmați corectitudinea setărilor parametrilor."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Numărul total de rânduri din tabel este mai mic decât rândul de început specificat în interval. Vă rugăm să ajustați rândul de început și să continuați."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Numărul total de rânduri din tabel este mai mic decât rândul de sfârșit specificat în interval. Rândul de sfârșit a fost actualizat la ultimul rând al datelor tabelului."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Nu au fost detectați parametri de tipărire pe pagina curentă. Vă rugăm să verificați setările paginii. Doriți să continuați cu tipărirea?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Nu a fost detectată previzualizarea laterală pe pagina curentă. Vă rugăm să activați previzualizarea laterală și să încercați din nou."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Există deja o fereastră „Tipărire cu datele tabelului (Pagina principală)”; doriți să o închideți și să deschideți o fereastră „Tipărire cu datele tabelului (Previzualizare laterală)”?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Există deja o fereastră „Tipărire cu datele tabelului (Previzualizare laterală)”; doriți să o închideți și să deschideți o fereastră „Tipărire cu datele tabelului (Pagina principală)”?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Tipărire cu datele tabelului (Previzualizare laterală)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Tipărire cu datele tabelului (Pagina principală)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Vă mulțumim pentru suport. Utilizați în prezent versiunea Pro a Print Notion."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Închideți"
+    },
+    "js_index_SelectSpace": {
+        "message": "Spațiu:"
+    },
+    "js_index_Refresh": {
+        "message": "Reîmprospătați"
+    },
+    "js_index_SelectCollection": {
+        "message": "Colectare:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Vizualizare:"
+    },
+    "js_index_DataFilter": {
+        "message": "Filtru de date:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Primele trei rânduri"
+    },
+    "js_index_AllRows": {
+        "message": "Toate rândurile"
+    },
+    "js_index_RowsRange": {
+        "message": "Interval de rânduri"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Format de ieșire tipărire:"
+    },
+    "js_index_SingleFile": {
+        "message": "Fișier unic pentru toate datele"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Fișiere separate pentru fiecare rând"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Verificare parametri"
+    },
+    "js_index_Print": {
+        "message": "Tipărire"
+    },
+    "js_index_CheckMatches": {
+        "message": "Verificare potrivire"
+    },
+    "js_index_DataPreview": {
+        "message": "Previzualizare date"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Restaurează achiziția mea"
+    },
+    "js_index_Close": {
+        "message": "Închide"
+    },
+    "js_index_Cancel": {
+        "message": "Anulează"
+    },
+    "js_index_Confirm": {
+        "message": "Confirmă"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Obține date complete (inclusiv câmpuri de formulă) din Conexiunea Notion"
+    },
+    "js_index_Authorize": {
+        "message": "Autorizează"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Memento de autorizare"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Conexiunea Notion necesită autorizare pentru a fi utilizată, vă rugăm să faceți clic pe butonul 'Autorizează' pentru a autoriza"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Confirmă"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Când utilizați modul \"Fișiere separate pentru fiecare rând\" pentru imprimare, va apărea o casetă de dialog de imprimare separată pentru fiecare rând individual de date. Imprimarea nu poate fi anulată la jumătatea procesului și, în prezent, numărul de rânduri depășește 100. Doriți să continuați?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Numărul de rânduri din interval depășește 1000. Sunteți sigur că doriți să continuați?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Eroare"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Rândul de început al intervalului nu poate fi mai mare decât rândul de sfârșit."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Rândul de sfârșit al intervalului nu poate depăși 100.000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Rândul de sfârșit al intervalului trebuie să fie un număr întreg pozitiv."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Rândul de început al intervalului trebuie să fie un număr întreg pozitiv."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Rândul de început al intervalului trebuie să fie mai mare decât 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Funcția de setare a paginii este disponibilă doar în versiunea Pro, doriți să achiziționați versiunea Pro acum?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Vă rugăm să confirmați că ați autorizat Conexiunea Notion, dacă Baza de date pe care ați conectat-o a fost creată după autorizare, trebuie să o reautorizați."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Neautorizat"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Marcatorul de întrerupere de pagină a fost copiat"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Marcatorul de întrerupere de pagină a fost copiat în clipboard. Lipiți-l unde doriți să apară întreruperi de pagină forțate în timpul imprimării."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Instrucțiuni: Lipiți '====Print Notion Page Break====' în conținutul Notion unde doriți întreruperi de pagină. Marcatorul va fi înlocuit cu întreruperi de pagină reale la imprimare."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Vă rugăm să copiați acest text manual:"
+    }
+}

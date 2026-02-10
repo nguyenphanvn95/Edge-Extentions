@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion은 Notion 페이지를 아름답게 포맷된 문서로 인쇄할 수 있는 강력한 도구입니다."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 사용 설명서"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Pro 버전 구매"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 버그 신고"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 피드백"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 지금 다운로드!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "만약 이 확장 프로그램을 좋아하신다면, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">여기를 클릭하여 별 5개를 평가해주세요⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion은 Notion 사용자를 위해 특별히 설계된 확장 프로그램으로, Notion 페이지를 아름답게 포맷하여 보다 실용적이고 공유 가능하게 만듭니다."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Print Notion의 새 버전이 출시되었습니다. 시도해 보세요. 만약 문제가 발생하면 \"버그 신고\" 버튼을 클릭하여 피드백 주세요.💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">플러그인을 좋아하신다면 별 5개를 평가해 주세요⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "현재 사용 중인 버전은 폐기된 역사적인 버전입니다. 최신 버전을 설치하려면 Chrome 웹 스토어로 이동하세요."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "지원해 주셔서 감사합니다. 현재 Print Notion Pro 버전을 사용 중입니다."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 인쇄된 페이지에서 로고 제거... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ 테이블 데이터와 함께 인쇄... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Pro 버전 업그레이드 "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 사용 설명서 "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "사이드 픽 인쇄 기능은 Pro 버전에서만 제공됩니다. 지금 Pro 버전을 구매하시겠습니까?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "현재 다크 모드를 사용 중입니다. 다크 모드에서 인쇄하면 일부 요소가 정확하게 출력되지 않을 수 있습니다. 인쇄 전에 라이트 모드로 전환하는 것이 좋습니다. 계속 진행하시겠습니까?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "다크 모드 감지됨"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "현재 Notion의 다크 모드를 사용하고 있습니다. 최적의 결과를 보장하기 위해 인쇄 시 일시적으로 라이트 모드로 전환합니다. 이 과정에서 화면이 잠깐 깜빡일 수 있으며, 일부 사용자에게 불편함을 줄 수 있습니다."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ 화면 깜빡임 경고: 이 과정에서 짧은 화면 깜빡임이 발생할 수 있으며, 광과민성이 있는 분들에게는 불편할 수 있습니다."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "이 경고를 다시 표시하지 않음"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "취소"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "라이트 모드로 계속"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "처리 중... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "처리 중... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "처리 중... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "처리 중... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Print Notion에서 내보냄"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Print Notion Pro 버전 활성화 성공. "
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Print Notion Pro 버전 활성화 실패, 지원팀에 문의하세요."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ 인쇄"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "처리 중..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "매개변수 확인"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "현재 페이지에서 유효한 매개변수를 감지하지 못했습니다. 설정된 매개변수 형식이 올바른지 확인해 주세요."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "테이블의 총 행 수가 지정된 범위의 시작 행보다 적습니다. 시작 행을 조정하고 계속 진행하세요."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "테이블의 총 행 수가 지정된 범위의 종료 행보다 적습니다. 종료 행이 테이블 데이터의 마지막 행으로 업데이트되었습니다."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "현재 페이지에서 인쇄 매개변수를 감지하지 못했습니다. 페이지 설정이 올바른지 확인해 주세요. 인쇄를 계속 진행하시겠습니까?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "현재 페이지에서 사이드 픽을 감지하지 못했습니다. 사이드 픽을 켜고 다시 시도해 주세요."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "\"테이블 데이터와 함께 인쇄 (메인 페이지)\" 창이 이미 있습니다. 이 창을 닫고 \"테이블 데이터와 함께 인쇄 (사이드 픽)\" 창을 열까요?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "\"테이블 데이터와 함께 인쇄 (사이드 픽)\" 창이 이미 있습니다. 이 창을 닫고 \"테이블 데이터와 함께 인쇄 (메인 페이지)\" 창을 열까요?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ 테이블 데이터와 함께 인쇄 (사이드 픽)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ 테이블 데이터와 함께 인쇄 (메인 페이지)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "지원해 주셔서 감사합니다. 현재 Print Notion Pro 버전을 사용 중입니다."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "닫기"
+    },
+    "js_index_SelectSpace": {
+        "message": "Space:"
+    },
+    "js_index_Refresh": {
+        "message": "새로고침"
+    },
+    "js_index_SelectCollection": {
+        "message": "Collection:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "View:"
+    },
+    "js_index_DataFilter": {
+        "message": "데이터 필터:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "첫 세 개의 행"
+    },
+    "js_index_AllRows": {
+        "message": "모든 행"
+    },
+    "js_index_RowsRange": {
+        "message": "행 범위"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "인쇄 출력 형식:"
+    },
+    "js_index_SingleFile": {
+        "message": "모든 데이터에 대한 단일 파일"
+    },
+    "js_index_SeparateFiles": {
+        "message": "각 행에 대한 별도 파일"
+    },
+    "js_index_ParameterChecking": {
+        "message": "매개변수 확인"
+    },
+    "js_index_Print": {
+        "message": "인쇄"
+    },
+    "js_index_CheckMatches": {
+        "message": "일치 확인"
+    },
+    "js_index_DataPreview": {
+        "message": "데이터 미리보기"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 구매 복원"
+    },
+    "js_index_Close": {
+        "message": "닫기"
+    },
+    "js_index_Cancel": {
+        "message": "취소"
+    },
+    "js_index_Confirm": {
+        "message": "확인"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Notion 연결에서 전체 데이터(공식 필드 포함) 가져오기"
+    },
+    "js_index_Authorize": {
+        "message": "인증"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "인증 알림"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Notion 연결을 사용하려면 인증이 필요합니다. '인증' 버튼을 클릭하여 인증해 주세요"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "확인"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "\"각 행에 대한 별도 파일\" 모드로 인쇄할 때, 각 개별 데이터 행에 대해 별도의 인쇄 대화 상자가 나타납니다. 인쇄를 중간에 취소할 수 없으며, 현재 행 수가 100개를 초과합니다. 계속 진행하시겠습니까?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "범위 내 행 수가 1000개를 초과합니다. 계속 진행하시겠습니까?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "오류"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "범위의 시작 행이 끝 행보다 클 수 없습니다."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "범위의 끝 행이 100,000을 초과할 수 없습니다."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "범위의 끝 행은 양의 정수여야 합니다."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "범위의 시작 행은 양의 정수여야 합니다."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "범위의 시작 행은 0보다 커야 합니다."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "페이지 설정 기능은 Pro 버전에서만 사용 가능합니다. 지금 Pro 버전을 구매하시겠습니까?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Notion 연결을 인증했는지 확인해 주세요. 연결한 데이터베이스가 인증 후에 생성된 경우 재인증이 필요합니다."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "인증되지 않음"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "페이지 구분 마커가 복사됨"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "페이지 구분 마커가 클립보드에 복사되었습니다. 인쇄 시 강제 페이지 구분이 발생하길 원하는 곳에 붙여넣으세요."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "지침: 페이지 구분을 원하는 Notion 콘텐츠에 '====Print Notion Page Break====='를 붙여넣으세요. 인쇄 시 마커가 실제 페이지 구분으로 대체됩니다."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "이 텍스트를 수동으로 복사해 주세요:"
+    }
+}

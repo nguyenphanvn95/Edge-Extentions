@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion to potężne narzędzie, które umożliwia drukowanie stron Notion jako pięknie sformatowane dokumenty."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Podręcznik użytkownika"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Kup wersję Pro"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Zgłoś błąd"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Opinia"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Pobierz teraz!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Jeśli podoba Ci się ta wtyczka, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">kliknij tutaj, aby ocenić na 5 gwiazdek⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion to rozszerzenie zaprojektowane specjalnie dla użytkowników Notion, pozwalające na drukowanie stron Notion w pięknych formatach, co czyni Twoje strony Notion bardziej praktycznymi i łatwiejszymi do udostępniania."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Wydano nową wersję Print Notion. Zapraszamy do wypróbowania. Jeśli znajdziesz błędy, proszę kliknąć przycisk „Zgłoś błąd”. 💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Jeśli podoba Ci się wtyczka, kliknij tutaj, aby ocenić na 5 gwiazdek⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Aktualnie używasz historycznej wersji, która została wycofana. Przejdź do Chrome Web Store, aby zainstalować najnowszą wersję."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Dziękujemy za wsparcie. Obecnie używasz wersji Pro Print Notion."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Usuń logo z wydruku..."
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Drukowanie z danymi tabelarycznymi..."
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Zaktualizuj wersję Pro"
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Podręcznik użytkownika"
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Funkcja podglądu bocznego jest dostępna tylko w wersji Pro. Czy chcesz teraz zakupić wersję Pro?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Obecnie używasz trybu ciemnego Notion. Drukowanie w trybie ciemnym może skutkować nieprawidłowym wydrukiem niektórych elementów. Zaleca się przełączenie na tryb jasny przed drukowaniem. Czy chcesz kontynuować?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Wykryto tryb ciemny"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Obecnie używasz trybu ciemnego Notion. Tymczasowo przełączymy się na tryb jasny do drukowania, aby zapewnić optymalne rezultaty. Ekran może krótko migać podczas tego procesu, co może powodować dyskomfort u niektórych użytkowników."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Ostrzeżenie o miganiu ekranu: Ten proces może powodować krótkie miganie ekranu, które może być nieprzyjemne dla osób światłoczułych."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Nie pokazuj więcej tego ostrzeżenia"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Anuluj"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Kontynuuj z trybem jasnym"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Przetwarzanie... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Przetwarzanie... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Przetwarzanie... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Przetwarzanie... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Wyeksportowane przez Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Aktywacja wersji Pro Print Notion zakończona sukcesem."
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Aktywacja wersji Pro Print Notion nie powiodła się. Proszę skontaktować się z pomocą techniczną."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Drukuj"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Przetwarzanie..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Sprawdzanie parametrów"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Nie wykryto prawidłowych parametrów na bieżącej stronie. Proszę potwierdź, czy format ustawionych parametrów jest poprawny."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Całkowita liczba wierszy w tabeli jest mniejsza niż określony początkowy wiersz zakresu. Proszę dostosować początkowy wiersz i kontynuować."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Całkowita liczba wierszy w tabeli jest mniejsza niż określony końcowy wiersz zakresu. Końcowy wiersz został zaktualizowany do ostatniego wiersza danych tabelarycznych."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Nie wykryto parametrów drukowania na bieżącej stronie. Proszę sprawdzić ustawienia strony. Czy chcesz kontynuować drukowanie?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Nie wykryto podglądu bocznego na bieżącej stronie. Proszę włącz podgląd boczny i spróbuj ponownie."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Istnieje już okno „Drukowanie z danymi tabelarycznymi (Strona główna)”. Czy chcesz je zamknąć i otworzyć okno „Drukowanie z danymi tabelarycznymi (Podgląd boczny)”?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Istnieje już okno „Drukowanie z danymi tabelarycznymi (Podgląd boczny)”. Czy chcesz je zamknąć i otworzyć okno „Drukowanie z danymi tabelarycznymi (Strona główna)”?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Drukowanie z danymi tabelarycznymi (Podgląd boczny)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Drukowanie z danymi tabelarycznymi (Strona główna)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Dziękujemy za wsparcie. Obecnie używasz wersji Pro Print Notion."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Zamknij"
+    },
+    "js_index_SelectSpace": {
+        "message": "Przestrzeń:"
+    },
+    "js_index_Refresh": {
+        "message": "Odśwież"
+    },
+    "js_index_SelectCollection": {
+        "message": "Kolekcja:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Widok:"
+    },
+    "js_index_DataFilter": {
+        "message": "Filtr danych:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Pierwsze trzy wiersze"
+    },
+    "js_index_AllRows": {
+        "message": "Wszystkie wiersze"
+    },
+    "js_index_RowsRange": {
+        "message": "Zakres wierszy"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Format wydruku:"
+    },
+    "js_index_SingleFile": {
+        "message": "Jeden plik dla wszystkich danych"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Oddzielne pliki dla każdego wiersza"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Sprawdzanie parametrów"
+    },
+    "js_index_Print": {
+        "message": "Drukuj"
+    },
+    "js_index_CheckMatches": {
+        "message": "Sprawdzanie dopasowań"
+    },
+    "js_index_DataPreview": {
+        "message": "Podgląd danych"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Przywróć mój zakup"
+    },
+    "js_index_Close": {
+        "message": "Zamknij"
+    },
+    "js_index_Cancel": {
+        "message": "Anuluj"
+    },
+    "js_index_Confirm": {
+        "message": "Potwierdź"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Pobierz pełne dane (w tym pola formuł) z połączenia Notion"
+    },
+    "js_index_Authorize": {
+        "message": "Autoryzuj"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Przypomnienie o autoryzacji"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Połączenie Notion wymaga autoryzacji do użycia, kliknij przycisk 'Autoryzuj', aby autoryzować"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Potwierdź"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Podczas korzystania z trybu \"Oddzielne pliki dla każdego wiersza\" do drukowania, dla każdego pojedynczego wiersza danych pojawi się osobne okno dialogowe drukowania. Drukowania nie można przerwać w trakcie, a obecnie liczba wierszy przekracza 100. Czy chcesz kontynuować?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Liczba wierszy w zakresie przekracza 1000. Czy na pewno chcesz kontynuować?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Błąd"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Wiersz początkowy zakresu nie może być większy niż wiersz końcowy."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Wiersz końcowy zakresu nie może przekraczać 100 000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Wiersz końcowy zakresu musi być dodatnią liczbą całkowitą."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Wiersz początkowy zakresu musi być dodatnią liczbą całkowitą."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Wiersz początkowy zakresu musi być większy niż 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Funkcja ustawień strony jest dostępna tylko w wersji Pro. Czy chcesz teraz kupić wersję Pro?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Proszę potwierdzić, że autoryzowałeś połączenie Notion. Jeśli baza danych, którą połączyłeś, została utworzona po autoryzacji, musisz ponownie ją autoryzować."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Nieautoryzowany"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Znacznik podziału strony skopiowany"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Znacznik podziału strony został skopiowany do schowka. Wklej go tam, gdzie chcesz wymuszone podziały stron podczas drukowania."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Instrukcje: Wklej '====Print Notion Page Break====' w swojej zawartości Notion tam, gdzie chcesz podziały stron. Znacznik zostanie zastąpiony rzeczywistymi podziałami stron podczas drukowania."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Proszę skopiować ten tekst ręcznie:"
+    }
+}

@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion ir spēcīgs rīks, kas ļauj jums izdrukāt savus Notion lapas kā skaisti formatētus dokumentus."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Lietotāja rokasgrāmata"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Iegādāties Pro versiju"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Paziņot par defektu"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Atsauksmes"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Lejupielādēt tagad!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Ja jums patīk šis paplašinājums, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">spiediet šeit, lai novērtētu ar 5 zvaigznēm⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion ir paplašinājums, kas izstrādāts īpaši Notion lietotājiem, lai ļautu jums izdrukāt Notion lapas skaistos formātos, padarot tās praktiskākas un vieglāk koplietojamas."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Izlaists jaunais Print Notion versijas izdevums, laipni lūgti izmēģināt. Ja atradīsit kļūdas, lūdzu, spiediet pogu \"Paziņot par defektu\".💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Ja jums patīk spraudnis, spiediet šeit, lai novērtētu ar 5 zvaigznēm⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Pašlaik lietojat vēsturisku Print Notion versiju, kas ir novecojusi. Lūdzu, dodieties uz Chrome web veikalu, lai instalētu jaunāko versiju."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Paldies par jūsu atbalstu. Pašlaik izmantojat Print Notion Pro versiju."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Noņemt logotipu no izdrukātās lapas... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Drukāšana ar tabulas datiem... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Jaunināt Pro versiju "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Lietotāja rokasgrāmata "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Sānu izskata drukāšanas funkcija ir pieejama tikai Pro versijā. Vai jums jāiegādājas Pro versija tagad?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Pašlaik izmantojat Notion tumšo režīmu. Tumšajā režīmā drukāšana var izraisīt to, ka daži elementi netiks pareizi izdrukāti. Pirms drukāšanas ieteicams pārslēgties uz gaišo režīmu. Vai vēlaties turpināt?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Konstatēts tumšais režīms"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Pašlaik izmantojat Notion tumšo režīmu. Mēs īslaicīgi pārslēgsimies uz gaišo režīmu drukai, lai nodrošinātu optimālus rezultātus. Šī procesa laikā ekrāns var īslaicīgi mirgot, kas dažiem lietotājiem var radīt neērtības."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Ekrāna mirgošanas brīdinājums: Šis process var izraisīt īslaicīgu ekrāna mirgošanu, kas var būt neērti gaismas jutīgām personām."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Vairs nerādīt šo brīdinājumu"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Atcelt"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Turpināt ar gaišo režīmu"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Apstrāde... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Apstrāde... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Apstrāde... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Apstrāde... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Eksportēts ar Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Print Notion Pro versijas aktivizācija veiksmīga. "
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Print Notion Pro versijas aktivizācija neizdevās. Lūdzu, sazinieties ar atbalstu."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Drukāt"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Apstrāde..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Parametru pārbaude"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Pašreizējā lapā nav atrasti derīgi parametri. Lūdzu, pārbaudiet, vai iestatītie parametri ir pareizi formatēti."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Tabulā esošo rindu skaits ir mazāks par norādīto sākuma rindu. Lūdzu, pielāgojiet sākuma rindu un turpiniet."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Tabulā esošo rindu skaits ir mazāks par norādīto beigu rindu. Beigu rinda ir atjaunināta līdz tabulas datu pēdējai rindai."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Pašreizējā lapā nav atrasti drukāšanas parametri. Lūdzu, pārbaudiet lapas iestatījumus. Vai vēlaties turpināt drukāt?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Pašreizējā lapā nav atrasts sānu ieskatīšana. Lūdzu, ieslēdziet sānu ieskatu un mēģiniet vēlreiz."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Jau ir \"Drukāšana ar tabulas datiem (Galvenā lapa)\" logs. Vai vēlaties to aizvērt un atvērt \"Drukāšana ar tabulas datiem (Sānu ieskats)\" logu?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Jau ir \"Drukāšana ar tabulas datiem (Sānu ieskats)\" logs. Vai vēlaties to aizvērt un atvērt \"Drukāšana ar tabulas datiem (Galvenā lapa)\" logu?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Drukāšana ar tabulas datiem (Sānu ieskats)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Drukāšana ar tabulas datiem (Galvenā lapa)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Paldies par jūsu atbalstu. Pašlaik izmantojat Print Notion Pro versiju."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Aizvērt"
+    },
+    "js_index_SelectSpace": {
+        "message": "Vietne:"
+    },
+    "js_index_Refresh": {
+        "message": "Atsvaidzināt"
+    },
+    "js_index_SelectCollection": {
+        "message": "Kolekcija:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Skats:"
+    },
+    "js_index_DataFilter": {
+        "message": "Datu filtrs:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Pirmās trīs rindas"
+    },
+    "js_index_AllRows": {
+        "message": "Visas rindas"
+    },
+    "js_index_RowsRange": {
+        "message": "Rindu diapazons"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Drukāšanas izvades formāts:"
+    },
+    "js_index_SingleFile": {
+        "message": "Viena datne visiem datiem"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Atsevišķas datnes katram rindai"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Parametru pārbaude"
+    },
+    "js_index_Print": {
+        "message": "Drukāt"
+    },
+    "js_index_CheckMatches": {
+        "message": "Atbilstības pārbaude"
+    },
+    "js_index_DataPreview": {
+        "message": "Datu priekšskatījums"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Atjaunot manu pirkumu"
+    },
+    "js_index_Close": {
+        "message": "Aizvērt"
+    },
+    "js_index_Cancel": {
+        "message": "Atcelt"
+    },
+    "js_index_Confirm": {
+        "message": "Apstiprināt"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Iegūt pilnus datus (ieskaitot formulu laukus) no Notion savienojuma"
+    },
+    "js_index_Authorize": {
+        "message": "Autorizēt"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Autorizācijas atgādinājums"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Notion savienojumam nepieciešama autorizācija, lai to izmantotu. Lūdzu, noklikšķiniet uz pogas 'Autorizēt', lai autorizētu"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Apstiprināt"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Izmantojot drukāšanas režīmu \"Atsevišķas datnes katrai rindai\", katrai atsevišķai datu rindai parādīsies atsevišķs drukas dialogs. Drukāšanu nevar atcelt procesa vidū, un pašlaik rindu skaits pārsniedz 100. Vai vēlaties turpināt?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Rindu skaits diapazonā pārsniedz 1000. Vai tiešām vēlaties turpināt?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Kļūda"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Diapazona sākuma rinda nevar būt lielāka par beigu rindu."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Diapazona beigu rinda nevar pārsniegt 100 000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Diapazona beigu rindai jābūt pozitīvam veselam skaitlim."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Diapazona sākuma rindai jābūt pozitīvam veselam skaitlim."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Diapazona sākuma rindai jābūt lielākai par 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Lapas iestatīšanas funkcija ir pieejama tikai Pro versijā. Vai vēlaties iegādāties Pro versiju tagad?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Lūdzu, apstipriniet, ka esat autorizējis Notion savienojumu. Ja datubāze, ko pievienojāt, tika izveidota pēc autorizācijas, jums tā jāautorizē atkārtoti."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Nav autorizēts"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Lappuses pārtraukuma marķieris nokopēts"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Lappuses pārtraukuma marķieris ir nokopēts starpliktuvē. Ielīmējiet to tur, kur vēlaties, lai drukāšanas laikā notiktu piespiedu lappuses pārtraukumi."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Norādījumi: Ielīmējiet '====Print Notion Page Break====' savā Notion saturā tur, kur vēlaties lappuses pārtraukumus. Marķieris tiks aizstāts ar īstiem lappuses pārtraukumiem drukāšanas laikā."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Lūdzu, manuāli nokopējiet šo tekstu:"
+    }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TapToQR - Side Panel</title>
+  <link rel="stylesheet" href="../styles/common.css">
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <div class="sidepanel-container">
+    <header class="sidepanel-header">
+      <h1 class="sidepanel-title">TapToQR</h1>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab-btn active" data-tab="generate">
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm15 0h-2v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/>
+        </svg>
+        Generate
+      </button>
+      <button class="tab-btn" data-tab="history">
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"/>
+        </svg>
+        History
+      </button>
+      <button class="tab-btn" data-tab="favorites">
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+        </svg>
+        Favorites
+      </button>
+    </nav>
+
+    <main class="sidepanel-content">
+      <!-- Generate Tab -->
+      <div id="generateTab" class="tab-content active">
+        <div class="card">
+          <div class="form-group">
+            <label class="form-label" for="customText">Enter text or URL:</label>
+            <textarea id="customText" class="form-textarea" placeholder="Enter text or paste URL here..."></textarea>
+          </div>
+
+          <button id="generateBtn" class="btn btn-primary" style="width: 100%;">
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm15 0h-2v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/>
+            </svg>
+            Generate QR Code
+          </button>
+        </div>
+
+        <div id="qrPreview" class="qr-preview" style="display: none;">
+          <div class="qr-display">
+            <img id="qrImage" src="" alt="QR Code">
+          </div>
+          
+          <div class="action-buttons">
+            <button id="copyQRBtn" class="btn btn-primary">
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+              </svg>
+              Copy
+            </button>
+            <button id="downloadQRBtn" class="btn btn-primary">
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 12v7H5v-7H3v7c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zm-6 .67l2.59-2.58L17 11.5l-5 5-5-5 1.41-1.41L11 12.67V3h2v9.67z"/>
+              </svg>
+              Download
+            </button>
+            <button id="favoriteQRBtn" class="btn btn-secondary">
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+              </svg>
+              Favorite
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- History Tab -->
+      <div id="historyTab" class="tab-content">
+        <div class="history-header flex-between mb-2">
+          <h2 class="section-title">QR History</h2>
+          <button id="clearHistoryBtn" class="btn btn-danger btn-sm">
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/>
+            </svg>
+            Clear All
+          </button>
+        </div>
+        
+        <div id="historyList" class="history-list">
+          <!-- History items will be inserted here -->
+        </div>
+      </div>
+
+      <!-- Favorites Tab -->
+      <div id="favoritesTab" class="tab-content">
+        <h2 class="section-title mb-2">Favorites</h2>
+        <div id="favoritesList" class="favorites-list">
+          <!-- Favorite items will be inserted here -->
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="sidepanel.js"></script>
+</body>
+</html>

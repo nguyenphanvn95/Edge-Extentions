@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion er et kraftig verktøy som lar deg skrive ut dine Notion-sider som vakre formaterte dokumenter."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Brukerveiledning"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Kjøp Pro-versjonen"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Rapporter en feil"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Tilbakemelding"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Last ned nå!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Hvis du liker denne utvidelsen, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">klikk her for å gi 5 stjerner⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion er en utvidelse designet spesielt for Notion-brukere som lar deg skrive ut Notion-sidene dine i vakre formater, noe som gjør Notion-sidene dine mer praktiske og delbare."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Ny versjon av Print Notion er utgitt, velkommen til å prøve. Hvis du finner feil, klikk på \"Rapporter en feil\"-knappen for tilbakemelding. 💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Hvis du liker tillegget, klikk her for å gi 5 stjerner⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Den nåværende versjonen du bruker er en historisk versjon som er utgått. Vennligst gå til Chrome Web Store for å installere den nyeste versjonen."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "betaling/produkter.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionBrukerveiledning.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Takk for støtten din. Du bruker for øyeblikket Print Notion Pro-versjonen."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Fjern logoen fra den utskrevne siden... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Utskrift med tabelldata... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Oppgrader til Pro-versjonen "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Brukerveiledning "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Side titt på utskriftsfunksjonen er bare tilgjengelig i Pro-versjonen, trenger du å kjøpe Pro-versjonen nå?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Praegu kasutate Notion'i tumedat režiimi. Tumeda režiimi printimine võib põhjustada mõnede elementide valesti printimist. Soovitame enne printimist lülituda heleda režiimi. Kas soovite jätkata?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Tuvastatud tume režiim"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Praegu kasutate Notion'i tumedat režiimi. Lülitume printimiseks ajutiselt heleda režiimi, et tagada optimaalsed tulemused. Ekraan võib selle protsessi käigus lühidalt vilkuda, mis võib mõnedele kasutajatele ebamugavust põhjustada."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Ekraani vilkumise hoiatus: See protsess võib põhjustada lühikest ekraani vilkumist, mis võib valgustundlikele isikutele ebamugav olla."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Ära näita seda hoiatust uuesti"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Tühista"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Jätka heleda režiimiga"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Behandler... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Behandler... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Behandler... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Behandler... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Eksportert av Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Aktivering av Print Notion Pro-versjonen vellykket. "
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Aktivering av Print Notion Pro-versjonen mislyktes, vennligst kontakt support."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Skriv ut"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Behandler..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Parameterkontroll"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Ingen gyldige parametere ble oppdaget på den gjeldende siden. Vennligst bekreft om formatet på de innstilte parametrene er riktig."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Totalt antall rader i tabellen er mindre enn den angitte startraden i området. Vennligst juster startraden og fortsett."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Totalt antall rader i tabellen er mindre enn den angitte sluttraden i området. Sluttraden er oppdatert til den siste raden med tabelldata."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Ingen utskriftsparametere ble oppdaget på den gjeldende siden. Vennligst verifiser om sideinnstillingene er korrekte. Ønsker du å fortsette med utskrift?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Ingen side-titt ble oppdaget på den gjeldende siden. Vennligst slå på side-titt og prøv på nytt."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Det er allerede et \"Utskrift med tabelldata (Hovedside)\"-vindu, vil du lukke det og åpne et \"Utskrift med tabelldata (Side-titt)\"-vindu?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Det er allerede et \"Utskrift med tabelldata (Side-titt)\"-vindu, vil du lukke det og åpne et \"Utskrift med tabelldata (Hovedside)\"-vindu?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Utskrift med tabelldata (Side-titt)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Utskrift med tabelldata (Hovedside)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Takk for støtten din. Du bruker for øyeblikket Print Notion Pro-versjonen."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Lukk"
+    },
+    "js_index_SelectSpace": {
+        "message": "Rom:"
+    },
+    "js_index_Refresh": {
+        "message": "Oppdater"
+    },
+    "js_index_SelectCollection": {
+        "message": "Samling:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Visning:"
+    },
+    "js_index_DataFilter": {
+        "message": "Datafiltrering:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Første tre rader"
+    },
+    "js_index_AllRows": {
+        "message": "Alle rader"
+    },
+    "js_index_RowsRange": {
+        "message": "Radområde"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Utskriftsformat:"
+    },
+    "js_index_SingleFile": {
+        "message": "Én fil for all data"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Separate filer for hver rad"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Parameterkontroll"
+    },
+    "js_index_Print": {
+        "message": "Skriv ut"
+    },
+    "js_index_CheckMatches": {
+        "message": "Sjekk samsvar"
+    },
+    "js_index_DataPreview": {
+        "message": "Data forhåndsvisning"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Taasta minu ost"
+    },
+    "js_index_Close": {
+        "message": "Sulge"
+    },
+    "js_index_Cancel": {
+        "message": "Tühista"
+    },
+    "js_index_Confirm": {
+        "message": "Kinnita"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Hangi täielikud andmed (sh valemite väljad) Notion Connectionist"
+    },
+    "js_index_Authorize": {
+        "message": "Autoriseeri"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Autoriseerimise meeldetuletus"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Notion Connection vajab kasutamiseks autoriseerimist, palun klõpsake autoriseerimiseks nuppu 'Autoriseeri'"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Kinnita"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Kui kasutate printimiseks režiimi \"Eraldi failid iga rea jaoks\", ilmub iga andmerea jaoks eraldi printimisdialoog. Printimist ei saa poole pealt katkestada ja praegu ületab ridade arv 100. Kas soovite jätkata?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Ridade arv vahemikus ületab 1000. Kas olete kindel, et soovite jätkata?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Viga"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Vahemiku algusrida ei saa olla suurem kui lõpurida."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Vahemiku lõpurida ei saa ületada 100 000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Vahemiku lõpurida peab olema positiivne täisarv."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Vahemiku algusrida peab olema positiivne täisarv."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Vahemiku algusrida peab olema suurem kui 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Lehe seadistamise funktsioon on saadaval ainult Pro versioonis, kas soovite nüüd osta Pro versiooni?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Palun kinnitage, et olete autoriseerinud Notion Connectioni. Kui ühendasite andmebaasi pärast autoriseerimist, peate selle uuesti autoriseerima."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Pole autoriseeritud"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Lehevahetuse märgistus kopeeritud"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Lehevahetuse märgistus on kopeeritud teie lõikelauale. Kleepige see sinna, kus soovite printimise ajal sunduslikke lehevahetusi."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Juhised: Kleepige '====Print Notion Page Break====' oma Notion sisu sisse sinna, kus soovite lehevahetusi. Märgistus asendatakse printimise ajal tegelike lehevahetustega."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Palun kopeerige see tekst käsitsi:"
+    }
+}

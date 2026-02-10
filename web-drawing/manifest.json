@@ -1,0 +1,54 @@
+{
+  "name": "__MSG_name__",
+  "description": "__MSG_description__",
+  "version": "2.0.0",
+  "manifest_version": 3,
+  "default_locale": "en",
+  "action": {
+    "default_title": "__MSG_name__",
+    "default_icon": "default-icon/icon-128.png"
+  },
+  "icons": {
+    "128": "default-icon/icon-128.png"
+  },
+  "background": {
+    "service_worker": "scripts/sw.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "scripts/libs/jquery-3.2.1.min.js",
+        "scripts/contentScript.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true,
+      "css": [
+        "assets/css/modalRateUs.css"
+      ]
+    }
+  ],
+  "options_page": "settings.html",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "img/*",
+        "scripts/storageHelper.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}

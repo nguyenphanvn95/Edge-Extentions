@@ -1,0 +1,234 @@
+.table-container {
+    max-height: 200px; /* 设置表格容器的最大高度，根据需要进行调整 */
+    overflow-y: auto; /* 启用纵向滚动 */
+}
+
+
+
+
+
+/* Notion button styles */
+.drop-down-button-group {
+    position: relative; display: inline-flex; flex-shrink: 0; border-radius: 4px; overflow: hidden; height: 28px; margin-left: 8px; font-size: 14px;
+}
+
+/* 测试鼠标悬停变色*/
+/* 默认按钮样式 */
+/* <body class="notion-body"> */
+.drop-down-button-group-button {
+    user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; display: flex; align-items: center; justify-content: center; white-space: nowrap; border-top-left-radius: 4px; border-bottom-left-radius: 4px; padding-left: 8px; padding-right: 8px; font-weight: 500; background: #ececec; color: #3f3f3e;
+}
+
+/* 鼠标悬停时的按钮样式 */
+.drop-down-button-group-button:hover {
+    user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; display: flex; align-items: center; justify-content: center; white-space: nowrap; border-top-left-radius: 4px; border-bottom-left-radius: 4px; padding-left: 8px; padding-right: 8px; font-weight: 500; background: #e4e4e4; color: #3f3f3e;
+}
+
+/* 鼠标悬停时的下拉按钮样式 */
+.drop-down-button-group-menu {
+    user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 24px; align-self: stretch; border-top-right-radius: 4px; border-bottom-right-radius: 4px; background: #ececec; color: #3f3f3e; box-shadow: rgba(55, 53, 47, 0.16) 1px 0px 0px inset;
+}
+
+.drop-down-button-group-menu:hover {
+    user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 24px; align-self: stretch; border-top-right-radius: 4px; border-bottom-right-radius: 4px; background: #e4e4e4; color: #3f3f3e; box-shadow: rgba(55, 53, 47, 0.16) 1px 0px 0px inset;
+}
+
+.drop-down-button-group-menu-icon {
+    width: 10px; height: 100%; display: block; fill: #3f3f3e; flex-shrink: 0; margin-top: 2px;
+}
+
+.drop-down-button-group-thirddiv {
+    position: absolute; pointer-events: none; border-radius: 4px; inset: 0px; box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px inset, rgba(15, 15, 15, 0.1) 0px 1px 2px;
+}
+
+.drop-down-menu-group {
+    position: relative; top: 100%; pointer-events: auto; display: none;
+}
+
+.drop-down-menu-group-layer1{
+    display: flex; align-items: center; position: relative; flex-direction: column-reverse; transform-origin: 50% top; left: 0px; top: 0px; opacity: 1; transition-property: opacity, transform; transition-duration: 270ms; transition-timing-function: ease;
+}
+
+.drop-down-menu-group-layer2 {
+    border-radius: 6px; background: white; backdrop-filter: none; position: relative; max-width: calc(100vw - 24px); box-shadow: rgba(15, 15, 15, 0.05) 0px 0px 0px 1px, rgba(15, 15, 15, 0.1) 0px 3px 6px, rgba(15, 15, 15, 0.2) 0px 9px 24px; overflow: hidden;
+}
+
+.drop-down-menu-group-layer3 {
+    display: flex; flex-direction: column; min-width: 180px; max-width: calc(100vw - 24px); height: 100%; max-height: 70vh;
+}
+
+.drop-down-menu-group-layer4 {
+    z-index: 1; flex-grow: 1; min-height: 0px; transform: translateZ(0px); overflow: hidden auto; margin-right: 0px; margin-bottom: 0px;
+}
+
+.drop-down-menu-group-layer6 {
+    padding-top: 6px; padding-bottom: 6px;
+}
+
+/* 鼠标悬停时的菜单样式 */
+.drop-down-menu-group-menu {
+    user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; width: calc(100% - 8px); margin-left: 4px; margin-right: 4px; border-radius: 4px;
+}
+
+.drop-down-menu-group-menu:hover {
+    user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; width: calc(100% - 8px); margin-left: 4px; margin-right: 4px; border-radius: 4px; background: rgba(55, 53, 47, 0.08);
+}
+
+.drop-down-menu-group-menu-layer1 {
+    display: flex; align-items: center; line-height: 120%; width: 100%; user-select: none; min-height: 28px; font-size: 14px;
+}
+
+.drop-down-menu-group-menu-layer2 {
+    display: flex; align-items: center; justify-content: center; margin-left: 10px; margin-right: 4px;
+}
+
+.drop-down-menu-group-menu-layer3 {
+    display: flex; align-items: center; justify-content: center;
+}
+
+.drop-down-menu-group-menu-icon {
+    width: 16px; height: 16px; display: block; fill: rgba(55, 53, 47, 0.85); flex-shrink: 0;
+}
+
+.drop-down-menu-group-menu-title {
+    margin-left: 6px; margin-right: 12px; min-width: 0px; flex: 1 1 auto;
+}
+
+.drop-down-menu-group-menu-title-layer1 {
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+.drop-down-menu-group-footer {
+    flex-shrink: 0;
+}
+
+.drop-down-menu-group-menu-splitter {
+    /*padding-top: 6px; padding-bottom: 6px; box-shadow: rgba(55, 53, 47, 0.09) 0px -1px 0px; margin-top: 1px;*/
+    padding-top: 1px; padding-bottom: 1px; box-shadow: rgba(55, 53, 47, 0.09) 0px -1px 0px; margin-top: 3px;
+}
+
+.drop-down-menu-group-menu-submenu {
+    width: 12px; transform: rotate(90deg); fill: rgba(55, 53, 47, 0.35); margin-right: 10px; flex-shrink: 0;
+}
+
+.drop-down-menu-group-menu-submenu-icon {
+    width: 100%; height: 100%; display: block; fill: rgba(55, 53, 47, 0.45); flex-shrink: 0; transform: rotate(-90deg);
+}
+
+/**********************************************************************************************************************************************************************************************/
+/**** Notion Dark mode 配色方案 ******/
+/**********/
+/* Notion button styles */
+body.dark .drop-down-button-group {
+    position: relative; display: inline-flex; flex-shrink: 0; border-radius: 4px; overflow: hidden; height: 28px; margin-left: 8px; font-size: 14px;
+}
+
+/* 测试鼠标悬停变色*/
+/* 默认按钮样式 */
+/* <body class="notion-body"> */
+body.dark .drop-down-button-group-button {
+    user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; display: flex; align-items: center; justify-content: center; white-space: nowrap; border-top-left-radius: 4px; border-bottom-left-radius: 4px; padding-left: 8px; padding-right: 8px; font-weight: 500; background: #343434; color: #d1d1d1;
+}
+
+/* 鼠标悬停时的按钮样式 */
+body.dark .drop-down-button-group-button:hover {
+    user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; display: flex; align-items: center; justify-content: center; white-space: nowrap; border-top-left-radius: 4px; border-bottom-left-radius: 4px; padding-left: 8px; padding-right: 8px; font-weight: 500; background: #242424; color: #d1d1d1;
+}
+
+/* 鼠标悬停时的下拉按钮样式 */
+body.dark .drop-down-button-group-menu {
+    user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 24px; align-self: stretch; border-top-right-radius: 4px; border-bottom-right-radius: 4px; background: #343434; color: #d1d1d1; box-shadow: rgba(55, 53, 47, 0.16) 1px 0px 0px inset;
+}
+
+body.dark .drop-down-button-group-menu:hover {
+    user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 24px; align-self: stretch; border-top-right-radius: 4px; border-bottom-right-radius: 4px; background: #242424; color: #d1d1d1; box-shadow: rgba(55, 53, 47, 0.16) 1px 0px 0px inset;
+}
+
+body.dark .drop-down-button-group-menu-icon {
+    width: 10px; height: 100%; display: block; fill: #d1d1d1; flex-shrink: 0; margin-top: 2px;
+}
+
+body.dark .drop-down-button-group-thirddiv {
+    position: absolute; pointer-events: none; border-radius: 4px; inset: 0px; box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px inset, rgba(15, 15, 15, 0.1) 0px 1px 2px;
+}
+
+body.dark .drop-down-menu-group {
+    position: relative; top: 100%; pointer-events: auto; display: none;
+}
+
+body.dark .drop-down-menu-group-layer1{
+    display: flex; align-items: center; position: relative; flex-direction: column-reverse; transform-origin: 50% top; left: 0px; top: 0px; opacity: 1; transition-property: opacity, transform; transition-duration: 270ms; transition-timing-function: ease;
+}
+
+body.dark .drop-down-menu-group-layer2 {
+    border-radius: 6px; background: #242424; backdrop-filter: none; position: relative; max-width: calc(100vw - 24px); box-shadow: rgba(15, 15, 15, 0.05) 0px 0px 0px 1px, rgba(15, 15, 15, 0.1) 0px 3px 6px, rgba(15, 15, 15, 0.2) 0px 9px 24px; overflow: hidden;
+}
+
+body.dark .drop-down-menu-group-layer3 {
+    display: flex; flex-direction: column; min-width: 180px; max-width: calc(100vw - 24px); height: 100%; max-height: 70vh;
+}
+
+body.dark .drop-down-menu-group-layer4 {
+    z-index: 1; flex-grow: 1; min-height: 0px; transform: translateZ(0px); overflow: hidden auto; margin-right: 0px; margin-bottom: 0px;
+}
+
+body.dark .drop-down-menu-group-layer6 {
+    padding-top: 6px; padding-bottom: 6px;
+}
+
+/* 鼠标悬停时的菜单样式 */
+body.dark .drop-down-menu-group-menu {
+    user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; width: calc(100% - 8px); margin-left: 4px; margin-right: 4px; border-radius: 4px;
+}
+
+body.dark .drop-down-menu-group-menu:hover {
+    user-select: none; transition: background 20ms ease-in 0s; cursor: pointer; width: calc(100% - 8px); margin-left: 4px; margin-right: 4px; border-radius: 4px; background: #343434;
+}
+
+body.dark .drop-down-menu-group-menu-layer1 {
+    display: flex; align-items: center; line-height: 120%; width: 100%; user-select: none; min-height: 28px; font-size: 14px;
+}
+
+body.dark .drop-down-menu-group-menu-layer2 {
+    display: flex; align-items: center; justify-content: center; margin-left: 10px; margin-right: 4px;
+}
+
+body.dark .drop-down-menu-group-menu-layer3 {
+    display: flex; align-items: center; justify-content: center;
+}
+
+body.dark .drop-down-menu-group-menu-icon {
+    width: 16px; height: 16px; display: block; fill: rgba(55, 53, 47, 0.85); flex-shrink: 0;
+}
+
+body.dark .drop-down-menu-group-menu-title {
+    margin-left: 6px; margin-right: 12px; min-width: 0px; flex: 1 1 auto;
+}
+
+body.dark .drop-down-menu-group-menu-title-layer1 {
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+body.dark .drop-down-menu-group-footer {
+    flex-shrink: 0;
+}
+
+body.dark .drop-down-menu-group-menu-splitter {
+    /*padding-top: 6px; padding-bottom: 6px; box-shadow: rgba(55, 53, 47, 0.09) 0px -1px 0px; margin-top: 1px;*/
+    padding-top: 1px; padding-bottom: 1px; box-shadow: rgba(55, 53, 47, 0.09) 0px -1px 0px; margin-top: 3px;
+}
+
+body.dark .drop-down-menu-group-menu-submenu {
+    width: 12px; transform: rotate(90deg); fill: rgba(55, 53, 47, 0.35); margin-right: 10px; flex-shrink: 0;
+}
+
+body.dark .drop-down-menu-group-menu-submenu-icon {
+    width: 100%; height: 100%; display: block; fill: rgba(55, 53, 47, 0.45); flex-shrink: 0; transform: rotate(-90deg);
+}
+
+/* 菜单按钮禁用 */
+.disabledButton {
+    pointer-events: none;
+    /*opacity: 0.6;*/
+  }
+  

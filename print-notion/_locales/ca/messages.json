@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion és una eina poderosa que et permet imprimir les teves pàgines de Notion com a documents bellament formatats."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Manual d'usuari"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Compra la versió Pro"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Reportar un defecte"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Retroalimentació"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Descarrega-ho ara!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Si t'agrada aquesta extensió, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">fes clic aquí per valorar amb 5 estrelles⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion és una extensió dissenyada específicament per a usuaris de Notion que et permet imprimir les teves pàgines de Notion en formats bells, fent les teves pàgines de Notion més pràctiques i compartibles."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "S'ha llançat una nova versió de Print Notion, benvingut a provar-la, si trobes defectes, fes clic al botó \"Reportar un defecte\" per donar retroalimentació.💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Si t'agrada el complement, fes clic aquí per valorar amb 5 estrelles⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "La versió que estàs utilitzant actualment és una versió històrica que ha estat desaprovada, si us plau, ves a la botiga web de Chrome per instal·lar la versió més recent."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Gràcies pel teu suport. Actualment estàs utilitzant la versió Pro de Print Notion."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Elimina el logotip de la pàgina impresa... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Imprimint amb dades de la taula... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Actualitza a la versió Pro "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Manual d'usuari "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "La funció d'impressió de visualització lateral només està disponible en la versió Pro, necessites comprar la versió Pro ara?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Actualment estàs utilitzant el mode fosc de Notion. Imprimir en mode fosc pot resultar en que alguns elements no es vegin correctament. Es recomana canviar al mode clar abans d'imprimir. Vols continuar?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Mode fosc detectat"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Actualment estàs utilitzant el mode fosc de Notion. Canviarem temporalment al mode clar per a la impressió per assegurar resultats òptims. La pantalla pot parpellejar breument durant aquest procés, el que podria causar molèsties a alguns usuaris."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Advertència de parpelleig de pantalla: Aquest procés pot causar un parpelleig breu de la pantalla que podria ser incòmode per a persones fotosensibles."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "No mostris aquesta advertència de nou"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Cancel·lar"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Continuar amb mode clar"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Processant... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Processant... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Processant... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Processant... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Exportat per Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "L'activació de la versió Pro de Print Notion ha estat un èxit. "
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "L'activació de la versió Pro de Print Notion ha fallat, si us plau, contacta amb el suport."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Imprimir"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Processant..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Verificació de paràmetres"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "No s'han detectat paràmetres vàlids a la pàgina actual. Si us plau, confirma si el format dels paràmetres establerts és correcte."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "El nombre total de files a la taula és inferior a la fila inicial especificada del rang. Si us plau, ajusta la fila inicial i continua."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "El nombre total de files a la taula és inferior a la fila final especificada del rang. La fila final s'ha actualitzat a l'última fila de les dades de la taula."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "No s'han detectat paràmetres d'impressió a la pàgina actual. Si us plau, verifica si la configuració de la pàgina és correcta. Vols continuar amb la impressió?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "No s'ha detectat cap visualització lateral a la pàgina actual. Si us plau, activa la visualització lateral i torna-ho a provar."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Ja hi ha una finestra de \"Imprimint amb dades de la taula (Pàgina principal)\", vols tancar-la i obrir una finestra de \"Imprimint amb dades de la taula (Visualització lateral)\"?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Ja hi ha una finestra de \"Imprimint amb dades de la taula (Visualització lateral)\", vols tancar-la i obrir una finestra de \"Imprimint amb dades de la taula (Pàgina principal)\"?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Imprimint amb dades de la taula (Visualització lateral)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Imprimint amb dades de la taula (Pàgina principal)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Gràcies pel teu suport. Actualment estàs utilitzant la versió Pro de Print Notion."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Tancar"
+    },
+    "js_index_SelectSpace": {
+        "message": "Espai:"
+    },
+    "js_index_Refresh": {
+        "message": "Actualitzar"
+    },
+    "js_index_SelectCollection": {
+        "message": "Col·lecció:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Vista:"
+    },
+    "js_index_DataFilter": {
+        "message": "Filtre de dades:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Primeres tres files"
+    },
+    "js_index_AllRows": {
+        "message": "Totes les files"
+    },
+    "js_index_RowsRange": {
+        "message": "Rang de files"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Format de sortida d'impressió:"
+    },
+    "js_index_SingleFile": {
+        "message": "Un sol fitxer per a totes les dades"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Fitxers separats per a cada fila"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Verificació de paràmetres"
+    },
+    "js_index_Print": {
+        "message": "Imprimir"
+    },
+    "js_index_CheckMatches": {
+        "message": "Verificació de coincidències"
+    },
+    "js_index_DataPreview": {
+        "message": "Previsualització de dades"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Restaura la meva compra"
+    },
+    "js_index_Close": {
+        "message": "Tancar"
+    },
+    "js_index_Cancel": {
+        "message": "Cancel·lar"
+    },
+    "js_index_Confirm": {
+        "message": "Confirmar"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Obtenir dades completes (inclosos els camps de fórmula) de la connexió de Notion"
+    },
+    "js_index_Authorize": {
+        "message": "Autoritzar"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Recordatori d'autorització"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "La connexió de Notion necessita autorització per utilitzar-se, si us plau, feu clic al botó 'Autoritzar' per autoritzar"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Confirmar"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Quan s'utilitza el mode \"Fitxers separats per a cada fila\" per a la impressió, apareixerà un diàleg d'impressió separat per a cada fila individual de dades. La impressió no es pot cancel·lar a mig camí, i actualment, el nombre de files supera les 100. Voleu continuar?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "El nombre de files en el rang supera les 1000. Esteu segur que voleu continuar?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Error"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "La fila d'inici del rang no pot ser més gran que la fila final."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "La fila final del rang no pot superar les 100.000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "La fila final del rang ha de ser un nombre enter positiu."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "La fila d'inici del rang ha de ser un nombre enter positiu."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "La fila d'inici del rang ha de ser més gran que 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "La funció de configuració de pàgina només està disponible en la versió Pro, necessiteu comprar la versió Pro ara?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Si us plau, confirmeu que heu autoritzat la connexió de Notion, si la base de dades que heu connectat s'ha creat després de l'autorització, heu de tornar a autoritzar-la."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "No autoritzat"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Marcador de salt de pàgina copiat"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "El marcador de salt de pàgina s'ha copiat al portapapers. Enganxa'l on vulguis que es produeixin salts de pàgina forçats durant la impressió."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Instruccions: Enganxa '====Print Notion Page Break====' al teu contingut de Notion on vulguis salts de pàgina. El marcador serà substituït per salts de pàgina reals durant la impressió."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Si us plau, copieu aquest text manualment:"
+    }
+}

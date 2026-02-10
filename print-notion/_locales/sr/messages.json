@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion je moćan alat koji vam omogućava da štampate svoje Notion stranice kao lepo formatirane dokumente."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Korisnički priručnik"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Kupi Pro verziju"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Prijavi grešku"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Povratne informacije"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Preuzmi sada!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Ako vam se sviđa ovo proširenje, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">kliknite ovde da ocenite sa 5 zvezdica⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion je proširenje dizajnirano posebno za korisnike Notion-a koje vam omogućava da štampate svoje Notion stranice u lepim formatima, čineći vaše Notion stranice praktičnijim i lakše deljivim."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Nova verzija Print Notion-a je objavljena, dobrodošli da je isprobate. Ako pronađete greške, molimo vas da kliknete na dugme \"Prijavi grešku\" za povratne informacije. 💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Ako vam se dopada dodatak, kliknite ovde da ocenite sa 5 zvezdica⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Trenutnu verziju koju koristite je istorijska verzija koja je prestala da se podržava. Molimo vas da posetite Chrome Web prodavnicu i instalirate najnoviju verziju."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Hvala vam na podršci. Trenutno koristite Print Notion Pro verziju."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Ukloni logo sa štampane stranice..."
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Štampanje sa tabelarnim podacima..."
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Nadogradnja na Pro verziju"
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Korisnički priručnik"
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Funkcija bočnog pregleda štampanja dostupna je samo u Pro verziji. Da li želite da kupite Pro verziju sada?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Trenutno koristite tamni režim Notion-a. Štampanje u tamnom režimu može rezultovati da neki elementi neće biti ispravno odštampani. Preporučuje se prebacivanje na svetli režim pre štampanja. Da li želite da nastavite?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Otkrivен tamni režim"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Trenutno koristite tamni režim Notion-a. Privremeno ćemo se prebaciti na svetli režim za štampanje da bismo obezbedili optimalne rezultate. Ekran može kratko da treperi tokom ovog procesa, što može uzrokovati nelagodnost kod nekih korisnika."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Upozorenje o treperenju ekrana: Ovaj proces može uzrokovati kratko treperenje ekrana koje može biti neugodno za svetlo-osetljive osobe."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Ne prikazuj ovo upozorenje ponovo"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Otkaži"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Nastavi sa svetlim režimom"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Obrada... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Obrada... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Obrada... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Obrada... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Izvezeno pomoću Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Aktivacija Print Notion Pro verzije uspešna."
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Aktivacija Print Notion Pro verzije nije uspela, molimo kontaktirajte podršku."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Print"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Obrada..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Provera parametara"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Nisu pronađeni validni parametri na trenutnoj stranici. Molimo potvrdite da li je format postavljenih parametara ispravan."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Ukupan broj redova u tabeli je manji od navedenog početnog reda opsega. Molimo prilagodite početni red i nastavite."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Ukupan broj redova u tabeli je manji od navedenog završnog reda opsega. Završni red je ažuriran na poslednji red tabele."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Nisu pronađeni parametri za štampanje na trenutnoj stranici. Molimo proverite postavke stranice. Da li želite da nastavite sa štampanjem?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Nije detektovan bočni pregled na trenutnoj stranici. Molimo uključite bočni pregled i pokušajte ponovo."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Već postoji prozor \"Štampanje sa tabelarnim podacima (Glavna stranica)\", da li želite da ga zatvorite i otvorite prozor \"Štampanje sa tabelarnim podacima (Bočni pregled)\"?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Već postoji prozor \"Štampanje sa tabelarnim podacima (Bočni pregled)\", da li želite da ga zatvorite i otvorite prozor \"Štampanje sa tabelarnim podacima (Glavna stranica)\"?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Štampanje sa tabelarnim podacima (Bočni pregled)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Štampanje sa tabelarnim podacima (Glavna stranica)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Hvala vam na podršci. Trenutno koristite Print Notion Pro verziju."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Zatvori"
+    },
+    "js_index_SelectSpace": {
+        "message": "Prostor:"
+    },
+    "js_index_Refresh": {
+        "message": "Osveži"
+    },
+    "js_index_SelectCollection": {
+        "message": "Kolekcija:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Pogled:"
+    },
+    "js_index_DataFilter": {
+        "message": "Filter podataka:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Prva tri reda"
+    },
+    "js_index_AllRows": {
+        "message": "Svi redovi"
+    },
+    "js_index_RowsRange": {
+        "message": "Opseg redova"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Format štampanja:"
+    },
+    "js_index_SingleFile": {
+        "message": "Jedan fajl za sve podatke"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Zasebni fajlovi za svaki red"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Provera parametara"
+    },
+    "js_index_Print": {
+        "message": "Štampanje"
+    },
+    "js_index_CheckMatches": {
+        "message": "Provera podudarnosti"
+    },
+    "js_index_DataPreview": {
+        "message": "Pregled podataka"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Врати моју куповину"
+    },
+    "js_index_Close": {
+        "message": "Zatvori"
+    },
+    "js_index_Cancel": {
+        "message": "Otkaži"
+    },
+    "js_index_Confirm": {
+        "message": "Potvrdi"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Preuzmi sve podatke (uključujući polja formula) iz Notion Connection-a"
+    },
+    "js_index_Authorize": {
+        "message": "Autorizuj"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Podsetnik za autorizaciju"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Notion Connection zahteva autorizaciju za korišćenje, molimo kliknite na dugme 'Autorizuj' da biste autorizovali"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Potvrdi"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Kada koristite režim \"Zasebni fajlovi za svaki red\" za štampanje, pojaviće se poseban dijalog za štampanje za svaki pojedinačni red podataka. Štampanje se ne može otkazati na pola puta, a trenutno broj redova prelazi 100. Da li želite da nastavite?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Broj redova u opsegu prelazi 1000. Da li ste sigurni da želite da nastavite?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Greška"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Početni red opsega ne može biti veći od završnog reda."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Završni red opsega ne može preći 100.000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Završni red opsega mora biti pozitivan ceo broj."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Početni red opsega mora biti pozitivan ceo broj."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Početni red opsega mora biti veći od 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Funkcija podešavanja stranice je dostupna samo u Pro verziji, da li želite da kupite Pro verziju sada?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Molimo potvrdite da ste autorizovali Notion Connection, ako je baza podataka koju ste povezali kreirana nakon autorizacije, potrebno je da je ponovo autorizujete."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Nije ovlašćen"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Označivač prekida stranice kopiran"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Označivač prekida stranice je kopiran u vaš klipbord. Zalepite ga tamo gde želite da se dogode prisilni prekidi stranica tokom štampanja."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Uputstva: Zalepite '====Print Notion Page Break====' u vaš Notion sadržaj tamo gde želite prekide stranica. Označivač će biti zamenjen stvarnim prekidima stranica pri štampanju."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Молимо вас да ручно копирате овај текст:"
+    }
+}

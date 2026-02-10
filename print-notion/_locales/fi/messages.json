@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion on tehokas työkalu, jonka avulla voit tulostaa Notion-sivusi kauniisti muotoiltuina asiakirjoina."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Käyttöohje"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Osta Pro-versio"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Ilmoita virheestä"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Palaute"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Lataa nyt!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Jos pidät tästä laajennuksesta, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">klikkaa tästä antaaksesi 5 tähteä⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion on laajennus, joka on suunniteltu erityisesti Notion-käyttäjille, ja se mahdollistaa Notion-sivujen tulostamisen kauniissa muodoissa, tehden sivuistasi käytännöllisempiä ja jaettavampia."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Uusi versio Print Notionista on julkaistu, tervetuloa kokeilemaan. Jos löydät virheitä, klikkaa \"Ilmoita virheestä\"-painiketta antaaksesi palautetta.💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Jos pidät laajennuksesta, klikkaa tästä antaaksesi 5 tähteä⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Käyttämäsi versio on historiallinen versio, joka on poistunut käytöstä. Ole hyvä ja asenna uusin versio Chrome Web Storesta."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Kiitos tuestasi. Käytät tällä hetkellä Print Notion Pro-versiota."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Poista logo tulostetusta sivusta... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Tulostus taulukkotietojen kanssa... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Päivitä Pro-versioon "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Käyttöohje "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Sivun sivunäkymäominaisuus on saatavilla vain Pro-versiossa. Haluatko ostaa Pro-version nyt?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Käytät tällä hetkellä Notionin tummaa tilaa. Tumman tilan tulostaminen saattaa johtaa siihen, että joitain elementtejä ei tulosteta oikein. On suositeltavaa vaihtaa vaaleaan tilaan ennen tulostamista. Haluatko jatkaa?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Tumma tila havaittu"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Käytät tällä hetkellä Notionin tummaa tilaa. Vaihdamme tilapäisesti vaaleaan tilaan tulostusta varten optimaalisten tulosten varmistamiseksi. Näyttö saattaa välkkyä lyhyesti tämän prosessin aikana, mikä voi aiheuttaa epämukavuutta joillekin käyttäjille."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Näytön välkkymisvaroitus: Tämä prosessi voi aiheuttaa lyhyttä näytön välkkymistä, joka voi olla epämiellyttävää valoherkkille henkilöille."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Älä näytä tätä varoitusta uudelleen"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Peruuta"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Jatka vaalealla tilalla"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Käsitellään... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Käsitellään... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Käsitellään... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Käsitellään... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Tulostettu käyttäen Print Notionia"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Print Notion Pro-versio aktivoitu onnistuneesti."
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Print Notion Pro-versio aktivoitui epäonnistuneesti. Ole hyvä ja ota yhteys tukeen."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Tulosta"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Käsitellään..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Parametrien tarkistus"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Nykyiseltä sivulta ei löydetty kelvollisia parametreja. Varmista, että parametrien asetukset ovat oikein."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Taulukon kokonaisrivien määrä on pienempi kuin määritetty aloitusrivin alue. Säädä aloitusriviä ja jatka."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Taulukon kokonaisrivien määrä on pienempi kuin määritetty lopetusrivin alue. Lopetusrivi on päivitetty taulukon viimeiseen riviin."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Nykyiseltä sivulta ei löydetty tulostusparametreja. Vahvista, että sivun asetukset ovat oikein. Haluatko jatkaa tulostamista?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Nykyiseltä sivulta ei löydetty sivunäkymää. Käynnistä sivunäkymä ja yritä uudelleen."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "\"Tulostus taulukkotietojen kanssa (Pääsivu)\"-ikkuna on jo auki. Haluatko sulkea sen ja avata \"Tulostus taulukkotietojen kanssa (Sivunäkymä)\"-ikkunan?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "\"Tulostus taulukkotietojen kanssa (Sivunäkymä)\"-ikkuna on jo auki. Haluatko sulkea sen ja avata \"Tulostus taulukkotietojen kanssa (Pääsivu)\"-ikkunan?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Tulostus taulukkotietojen kanssa (Sivunäkymä)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Tulostus taulukkotietojen kanssa (Pääsivu)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Kiitos tuestasi. Käytät tällä hetkellä Print Notion Pro-versiota."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Sulje"
+    },
+    "js_index_SelectSpace": {
+        "message": "Tila:"
+    },
+    "js_index_Refresh": {
+        "message": "Päivitä"
+    },
+    "js_index_SelectCollection": {
+        "message": "Kokoelma:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Näkymä:"
+    },
+    "js_index_DataFilter": {
+        "message": "Tietojen suodatus:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Ensimmäiset kolme riviä"
+    },
+    "js_index_AllRows": {
+        "message": "Kaikki rivit"
+    },
+    "js_index_RowsRange": {
+        "message": "Rivien väli"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Tulostusmuoto:"
+    },
+    "js_index_SingleFile": {
+        "message": "Yksi tiedosto kaikille tiedoille"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Eri tiedostot kullekin riville"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Parametrien tarkistus"
+    },
+    "js_index_Print": {
+        "message": "Tulosta"
+    },
+    "js_index_CheckMatches": {
+        "message": "Vastaavuuksien tarkistus"
+    },
+    "js_index_DataPreview": {
+        "message": "Tietojen esikatselu"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Palauta ostokseni"
+    },
+    "js_index_Close": {
+        "message": "Sulje"
+    },
+    "js_index_Cancel": {
+        "message": "Peruuta"
+    },
+    "js_index_Confirm": {
+        "message": "Vahvista"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Hae täydelliset tiedot (mukaan lukien kaavakenttät) Notion-yhteydestä"
+    },
+    "js_index_Authorize": {
+        "message": "Valtuuta"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Valtuutusmuistutus"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Notion-yhteys tarvitsee valtuutuksen käyttöä varten, ole hyvä ja klikkaa 'Valtuuta'-painiketta valtuuttaaksesi"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Vahvista"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Kun käytät \"Erilliset tiedostot jokaiselle riville\" -tilaa tulostukseen, erillinen tulostusikkuna ilmestyy jokaiselle yksittäiselle tietoriville. Tulostusta ei voi peruuttaa kesken, ja tällä hetkellä rivien määrä ylittää 100. Haluatko jatkaa?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Rivien määrä alueella ylittää 1000. Oletko varma, että haluat jatkaa?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Virhe"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Alueen aloitusrivi ei voi olla suurempi kuin lopetusrivi."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Alueen lopetusrivi ei voi ylittää 100 000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Alueen lopetusrivin on oltava positiivinen kokonaisluku."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Alueen aloitusrivin on oltava positiivinen kokonaisluku."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Alueen aloitusrivin on oltava suurempi kuin 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Sivun asetusominaisuus on saatavilla vain Pro-versiossa, haluatko ostaa Pro-version nyt?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Varmista, että olet valtuuttanut Notion-yhteyden. Jos yhdistämäsi tietokanta on luotu valtuutuksen jälkeen, sinun on valtuutettava se uudelleen."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Ei valtuutettu"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Sivunvaihdon merkki kopioitu"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Sivunvaihdon merkki on kopioitu leikepöydällesi. Liitä se sinne, missä haluat pakotettuja sivunvaihtoja tulostettaessa."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Ohjeet: Liitä '====Print Notion Page Break====' Notion-sisältöösi sinne, missä haluat sivunvaihtoja. Merkki korvataan todellisilla sivunvaihdoilla tulostettaessa."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Kopioi tämä teksti manuaalisesti:"
+    }
+}

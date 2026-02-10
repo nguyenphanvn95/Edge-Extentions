@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Photo Editor Pro - Professional Image Editor</title>
+  <link rel="stylesheet" href="editor.css" />
+</head>
+<body>
+  <!-- Menu Bar giống Photoshop -->
+  <header class="menubar">
+    <div class="menu-items">
+      <div class="menu-item">
+        <span>File</span>
+        <div class="dropdown">
+          <div class="menu-option" data-action="new">New... <span class="shortcut">Ctrl+N</span></div>
+          <div class="menu-option" data-action="open">Open... <span class="shortcut">Ctrl+O</span></div>
+          <div class="menu-divider"></div>
+          <div class="menu-option" data-action="save">Save <span class="shortcut">Ctrl+S</span></div>
+          <div class="menu-option" data-action="save-as">Save As... <span class="shortcut">Ctrl+Shift+S</span></div>
+          <div class="menu-divider"></div>
+          <div class="menu-option" data-action="export">Export As...</div>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <span>Edit</span>
+        <div class="dropdown">
+          <div class="menu-option" data-action="undo">Undo <span class="shortcut">Ctrl+Z</span></div>
+          <div class="menu-option" data-action="redo">Redo <span class="shortcut">Ctrl+Shift+Z</span></div>
+          <div class="menu-divider"></div>
+          <div class="menu-option" data-action="cut">Cut <span class="shortcut">Ctrl+X</span></div>
+          <div class="menu-option" data-action="copy">Copy <span class="shortcut">Ctrl+C</span></div>
+          <div class="menu-option" data-action="paste">Paste <span class="shortcut">Ctrl+V</span></div>
+          <div class="menu-divider"></div>
+          <div class="menu-option" data-action="transform-free">Free Transform <span class="shortcut">Ctrl+T</span></div>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <span>Image</span>
+        <div class="dropdown">
+          <div class="menu-option" data-action="auto-tone">Auto Tone</div>
+          <div class="menu-option" data-action="auto-contrast">Auto Contrast</div>
+          <div class="menu-option" data-action="auto-color">Auto Color</div>
+          <div class="menu-divider"></div>
+          <div class="menu-option" data-action="image-size">Image Size...</div>
+          <div class="menu-option" data-action="canvas-size">Canvas Size...</div>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <span>Layer</span>
+        <div class="dropdown">
+          <div class="menu-option" data-action="new-layer">New Layer... <span class="shortcut">Ctrl+Shift+N</span></div>
+          <div class="menu-option" data-action="duplicate-layer">Duplicate Layer <span class="shortcut">Ctrl+J</span></div>
+          <div class="menu-option" data-action="delete-layer">Delete Layer</div>
+          <div class="menu-divider"></div>
+          <div class="menu-option" data-action="layer-style">Layer Style</div>
+          <div class="menu-option" data-action="merge-down">Merge Down <span class="shortcut">Ctrl+E</span></div>
+          <div class="menu-option" data-action="flatten">Flatten Image</div>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <span>Select</span>
+        <div class="dropdown">
+          <div class="menu-option" data-action="select-all">All <span class="shortcut">Ctrl+A</span></div>
+          <div class="menu-option" data-action="deselect">Deselect <span class="shortcut">Ctrl+D</span></div>
+          <div class="menu-option" data-action="inverse">Inverse <span class="shortcut">Ctrl+Shift+I</span></div>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <span>Filter</span>
+        <div class="dropdown">
+          <div class="menu-option" data-action="filter-gallery">Filter Gallery...</div>
+          <div class="menu-divider"></div>
+          <div class="menu-option" data-action="blur-menu">Blur</div>
+          <div class="menu-option" data-action="sharpen-menu">Sharpen</div>
+          <div class="menu-option" data-action="stylize-menu">Stylize</div>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <span>View</span>
+        <div class="dropdown">
+          <div class="menu-option" data-action="zoom-in">Zoom In <span class="shortcut">Ctrl++</span></div>
+          <div class="menu-option" data-action="zoom-out">Zoom Out <span class="shortcut">Ctrl+-</span></div>
+          <div class="menu-option" data-action="fit-screen">Fit on Screen <span class="shortcut">Ctrl+0</span></div>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <span>Window</span>
+        <div class="dropdown">
+          <div class="menu-option checkbox"><input type="checkbox" checked /> Layers</div>
+          <div class="menu-option checkbox"><input type="checkbox" checked /> Properties</div>
+          <div class="menu-option checkbox"><input type="checkbox" checked /> History</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="workspace-tabs">
+      <div class="tab active">Essentials</div>
+      <div class="tab">Photography</div>
+      <div class="tab">Design</div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-layout">
+    <!-- Tool Panel bên trái -->
+    <aside class="tool-panel">
+      <div class="tool-section">
+        <button class="tool-btn active" data-tool="move" title="Move Tool (V)">
+          <svg width="20" height="20"><path d="M10 2L10 18M2 10L18 10" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <button class="tool-btn" data-tool="select" title="Rectangular Marquee (M)">
+          <svg width="20" height="20"><rect x="4" y="4" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2"/></svg>
+        </button>
+        <button class="tool-btn" data-tool="lasso" title="Lasso Tool (L)">
+          <svg width="20" height="20"><path d="M5 10C5 10 8 5 12 8C16 11 18 8 18 10C18 15 10 18 6 14" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <button class="tool-btn" data-tool="magic-wand" title="Magic Wand (W)">
+          <svg width="20" height="20"><path d="M10 2L11 9L18 10L11 11L10 18L9 11L2 10L9 9Z" fill="currentColor"/></svg>
+        </button>
+      </div>
+
+      <div class="tool-divider"></div>
+
+      <div class="tool-section">
+        <button class="tool-btn" data-tool="crop" title="Crop Tool (C)">
+          <svg width="20" height="20"><path d="M6 2V6H2M14 18V14H18M6 6H18V14M2 14H6V18" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+        </button>
+        <button class="tool-btn" data-tool="eyedropper" title="Eyedropper (I)">
+          <svg width="20" height="20"><path d="M13 3L17 7L9 15L5 18L2 15L5 11L13 3Z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <button class="tool-btn" data-tool="spot-heal" title="Spot Healing (J)">
+          <svg width="20" height="20"><circle cx="10" cy="10" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 7V13M7 10H13" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <button class="tool-btn" data-tool="brush" title="Brush Tool (B)">
+          <svg width="20" height="20"><circle cx="10" cy="10" r="5" fill="currentColor"/></svg>
+        </button>
+        <button class="tool-btn" data-tool="clone" title="Clone Stamp (S)">
+          <svg width="20" height="20"><circle cx="8" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <button class="tool-btn" data-tool="eraser" title="Eraser (E)">
+          <svg width="20" height="20"><rect x="5" y="10" width="10" height="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 10L12 6" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+      </div>
+
+      <div class="tool-divider"></div>
+
+      <div class="tool-section">
+        <button class="tool-btn" data-tool="gradient" title="Gradient (G)">
+          <svg width="20" height="20"><defs><linearGradient id="grad"><stop offset="0%" stop-color="white"/><stop offset="100%" stop-color="black"/></linearGradient></defs><rect x="4" y="4" width="12" height="12" fill="url(#grad)"/></svg>
+        </button>
+        <button class="tool-btn" data-tool="blur" title="Blur Tool">
+          <svg width="20" height="20"><circle cx="10" cy="10" r="6" fill="none" stroke="currentColor" stroke-width="2" opacity="0.3"/></svg>
+        </button>
+        <button class="tool-btn" data-tool="sharpen" title="Sharpen Tool">
+          <svg width="20" height="20"><path d="M10 3L13 7L10 11L7 7Z" fill="currentColor"/><path d="M10 9L13 13L10 17L7 13Z" fill="currentColor"/></svg>
+        </button>
+        <button class="tool-btn" data-tool="dodge" title="Dodge Tool (O)">
+          <svg width="20" height="20"><circle cx="10" cy="10" r="6" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="10" r="3" fill="currentColor"/></svg>
+        </button>
+      </div>
+
+      <div class="tool-divider"></div>
+
+      <div class="tool-section">
+        <button class="tool-btn" data-tool="pen" title="Pen Tool (P)">
+          <svg width="20" height="20"><path d="M4 16L8 12L12 16M12 16L16 12L12 8" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <button class="tool-btn" data-tool="text" title="Type Tool (T)">
+          <svg width="20" height="20"><text x="6" y="14" font-size="12" fill="currentColor" font-weight="bold">T</text></svg>
+        </button>
+        <button class="tool-btn" data-tool="rectangle" title="Rectangle (U)">
+          <svg width="20" height="20"><rect x="5" y="7" width="10" height="6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <button class="tool-btn" data-tool="ellipse" title="Ellipse (U)">
+          <svg width="20" height="20"><ellipse cx="10" cy="10" rx="6" ry="4" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+      </div>
+
+      <div class="tool-divider"></div>
+
+      <div class="tool-section">
+        <button class="tool-btn" data-tool="hand" title="Hand Tool (H)">
+          <svg width="20" height="20"><path d="M8 10V6M10 10V4M12 10V6M14 10V8M6 12C6 12 6 16 10 16C14 16 14 12 14 12V10H6V12Z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <button class="tool-btn" data-tool="zoom" title="Zoom Tool (Z)">
+          <svg width="20" height="20"><circle cx="9" cy="9" r="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13L17 17" stroke="currentColor" stroke-width="2"/><path d="M7 9H11M9 7V11" stroke="currentColor" stroke-width="1.5"/></svg>
+        </button>
+      </div>
+
+      <!-- Color Swatches -->
+      <div class="color-swatches">
+        <div class="swatch-container">
+          <div class="swatch-fg" id="foregroundColor"></div>
+          <div class="swatch-bg" id="backgroundColor"></div>
+          <div class="swatch-swap" title="Swap colors (X)">⇄</div>
+          <div class="swatch-reset" title="Reset colors (D)">⊡</div>
+        </div>
+        <input type="color" id="fgColorPicker" value="#000000" hidden />
+        <input type="color" id="bgColorPicker" value="#ffffff" hidden />
+      </div>
+
+      <!-- Quick View Mode -->
+      <div class="view-modes">
+        <button class="mode-btn active" title="Standard Screen Mode (F)">
+          <svg width="16" height="16"><rect x="2" y="2" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Canvas Area -->
+    <section class="canvas-area">
+      <!-- Options Bar -->
+      <div class="options-bar" id="optionsBar">
+        <!-- Dynamic content based on selected tool -->
+        <div class="options-empty">Select a tool to see options</div>
+      </div>
+
+      <!-- Canvas Viewport -->
+      <div class="viewport-container">
+        <div class="canvas-viewport" id="viewport">
+          <canvas id="backgroundCanvas"></canvas>
+          <canvas id="mainCanvas"></canvas>
+          <canvas id="layerCanvas"></canvas>
+          <canvas id="overlayCanvas"></canvas>
+          <canvas id="cursorCanvas"></canvas>
+        </div>
+        
+        <!-- Canvas Info Bar -->
+        <div class="canvas-info-bar">
+          <div class="info-item">
+            <span id="docInfo">No document</span>
+          </div>
+          <div class="info-item">
+            <span id="zoomInfo">100%</span>
+          </div>
+          <div class="info-item">
+            <span id="posInfo"></span>
+          </div>
+          <div class="info-item">
+            <span id="sizeInfo"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Right Panels -->
+    <aside class="right-panels">
+      <!-- Properties Panel -->
+      <div class="panel-group" id="propertiesPanel">
+        <div class="panel-header">
+          <span class="panel-title">Properties</span>
+          <button class="panel-collapse">−</button>
+        </div>
+        <div class="panel-content" id="propertiesContent">
+          <div class="props-empty">Select a layer or tool</div>
+        </div>
+      </div>
+
+      <!-- Adjustments Panel -->
+      <div class="panel-group" id="adjustmentsPanel">
+        <div class="panel-header">
+          <span class="panel-title">Adjustments</span>
+          <button class="panel-collapse">−</button>
+        </div>
+        <div class="panel-content">
+          <div class="adjustment-grid">
+            <button class="adj-btn" data-adj="brightness">
+              <svg width="24" height="24"><circle cx="12" cy="12" r="8" fill="currentColor" opacity="0.5"/></svg>
+              <span>Brightness</span>
+            </button>
+            <button class="adj-btn" data-adj="levels">
+              <svg width="24" height="24"><path d="M4 20L12 4L20 20" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+              <span>Levels</span>
+            </button>
+            <button class="adj-btn" data-adj="curves">
+              <svg width="24" height="24"><path d="M4 20C4 20 8 12 12 10C16 8 20 4 20 4" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+              <span>Curves</span>
+            </button>
+            <button class="adj-btn" data-adj="hue-sat">
+              <svg width="24" height="24"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+              <span>Hue/Sat</span>
+            </button>
+            <button class="adj-btn" data-adj="color-balance">
+              <svg width="24" height="24"><circle cx="8" cy="12" r="4" fill="#ff0000" opacity="0.5"/><circle cx="16" cy="12" r="4" fill="#00ff00" opacity="0.5"/></svg>
+              <span>Color Balance</span>
+            </button>
+            <button class="adj-btn" data-adj="vibrance">
+              <svg width="24" height="24"><defs><linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#ff0000"/><stop offset="50%" stop-color="#00ff00"/><stop offset="100%" stop-color="#0000ff"/></linearGradient></defs><rect x="4" y="8" width="16" height="8" fill="url(#rainbow)"/></svg>
+              <span>Vibrance</span>
+            </button>
+          </div>
+
+          <div class="quick-adjustments">
+            <div class="adj-control">
+              <label>Brightness</label>
+              <input type="range" id="brightness" min="-100" max="100" value="0" />
+              <span id="brightnessVal">0</span>
+            </div>
+            <div class="adj-control">
+              <label>Contrast</label>
+              <input type="range" id="contrast" min="-100" max="100" value="0" />
+              <span id="contrastVal">0</span>
+            </div>
+            <div class="adj-control">
+              <label>Saturation</label>
+              <input type="range" id="saturation" min="-100" max="100" value="0" />
+              <span id="saturationVal">0</span>
+            </div>
+            <div class="adj-control">
+              <label>Exposure</label>
+              <input type="range" id="exposure" min="-100" max="100" value="0" />
+              <span id="exposureVal">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Layers Panel -->
+      <div class="panel-group" id="layersPanel">
+        <div class="panel-header">
+          <span class="panel-title">Layers</span>
+          <button class="panel-collapse">−</button>
+        </div>
+        <div class="panel-content">
+          <!-- Blend Mode & Opacity -->
+          <div class="layer-controls-top">
+            <select id="blendMode" class="blend-select">
+              <option value="normal">Normal</option>
+              <option value="dissolve">Dissolve</option>
+              <optgroup label="Darken">
+                <option value="darken">Darken</option>
+                <option value="multiply">Multiply</option>
+                <option value="color-burn">Color Burn</option>
+              </optgroup>
+              <optgroup label="Lighten">
+                <option value="lighten">Lighten</option>
+                <option value="screen">Screen</option>
+                <option value="color-dodge">Color Dodge</option>
+              </optgroup>
+              <optgroup label="Contrast">
+                <option value="overlay">Overlay</option>
+                <option value="soft-light">Soft Light</option>
+                <option value="hard-light">Hard Light</option>
+              </optgroup>
+              <optgroup label="Comparative">
+                <option value="difference">Difference</option>
+                <option value="exclusion">Exclusion</option>
+              </optgroup>
+              <optgroup label="Composite">
+                <option value="hue">Hue</option>
+                <option value="saturation">Saturation</option>
+                <option value="color">Color</option>
+                <option value="luminosity">Luminosity</option>
+              </optgroup>
+            </select>
+            <div class="opacity-control">
+              <span class="opacity-label">Opacity:</span>
+              <input type="range" id="layerOpacity" min="0" max="100" value="100" />
+              <span id="opacityValue">100%</span>
+            </div>
+          </div>
+
+          <!-- Lock and FX buttons -->
+          <div class="layer-actions">
+            <button class="layer-action-btn" title="Lock Layer" id="btnLockLayer">
+              <svg width="14" height="14"><rect x="4" y="7" width="6" height="5" fill="none" stroke="currentColor"/><path d="M5 7V5C5 3.9 5.9 3 7 3C8.1 3 9 3.9 9 5V7" fill="none" stroke="currentColor"/></svg>
+            </button>
+            <button class="layer-action-btn" title="Add Layer Style (fx)" id="btnLayerStyle">
+              <svg width="14" height="14"><text x="1" y="11" font-size="10" fill="currentColor" font-style="italic">fx</text></svg>
+            </button>
+            <button class="layer-action-btn" title="Add Layer Mask" id="btnAddMask">
+              <svg width="14" height="14"><circle cx="7" cy="7" r="5" fill="white" stroke="currentColor"/><circle cx="7" cy="7" r="3" fill="black"/></svg>
+            </button>
+            <button class="layer-action-btn" title="Add Adjustment Layer" id="btnAddAdjustment">
+              <svg width="14" height="14"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor"/><circle cx="7" cy="7" r="3" fill="currentColor" opacity="0.5"/></svg>
+            </button>
+          </div>
+
+          <!-- Layers List -->
+          <div class="layers-list" id="layersList">
+            <!-- Layers dynamically added -->
+          </div>
+
+          <!-- Layer Buttons -->
+          <div class="layer-buttons">
+            <button class="layer-btn" title="Delete Layer (Del)" id="btnDeleteLayer">
+              <svg width="16" height="16"><path d="M4 5L5 14H11L12 5M6 3H10M3 5H13" stroke="currentColor" fill="none"/></svg>
+            </button>
+            <button class="layer-btn" title="New Layer (Ctrl+Shift+N)" id="btnNewLayer">
+              <svg width="16" height="16"><path d="M8 3V13M3 8H13" stroke="currentColor" stroke-width="2"/></svg>
+            </button>
+            <button class="layer-btn" title="New Group" id="btnNewGroup">
+              <svg width="16" height="16"><rect x="3" y="5" width="10" height="8" fill="none" stroke="currentColor"/><path d="M5 5V3H11V5" stroke="currentColor"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- History Panel -->
+      <div class="panel-group" id="historyPanel">
+        <div class="panel-header">
+          <span class="panel-title">History</span>
+          <button class="panel-collapse">−</button>
+        </div>
+        <div class="panel-content">
+          <div class="history-list" id="historyList">
+            <div class="history-item">Open</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Input elements -->
+  <input id="fileInput" type="file" accept="image/*" hidden />
+
+  <script src="editor.js"></script>
+</body>
+</html>

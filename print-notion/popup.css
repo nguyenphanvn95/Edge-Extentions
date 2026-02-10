@@ -1,0 +1,172 @@
+/* style.css */
+
+/* Design tokens scoped to popup */
+.popup-box {
+  --pn-bg: #f6f8fc;
+  --pn-surface: #ffffff;
+  --pn-border: #e6e9ef;
+  --pn-text: #1f2937;
+  --pn-muted: #6b7280;
+  --pn-primary: #3b82f6;
+  --pn-primary-600: #2563eb;
+  --pn-primary-700: #1d4ed8;
+}
+
+/* popup 窗口的大小 */
+.popup-box {
+  width: 300px;
+  height: 450px;
+  padding: 16px;
+  margin: 0px;
+  background: linear-gradient(180deg, #f8fafc 0%, var(--pn-bg) 100%);
+  color: var(--pn-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+/* options 窗口的大小 */
+.options-box {
+  height: 200px;
+  padding: 20px;
+  background: #f1f3f4;
+}
+
+.popup-box p,
+.popup-box div {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Card-like inner container */
+.popup-box .content {
+  background: var(--pn-surface);
+  border: 1px solid var(--pn-border);
+  border-radius: 12px;
+  padding: 14px 14px 10px;
+  box-shadow: 0 4px 14px rgba(17, 24, 39, 0.06);
+  height: calc(100% - 0px);
+  overflow-y: auto;
+}
+
+/* Thin scrollbar for overflow */
+.popup-box .content::-webkit-scrollbar {
+  width: 8px;
+}
+.popup-box .content::-webkit-scrollbar-track {
+  background: transparent;
+}
+.popup-box .content::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 8px;
+}
+
+/* Title */
+.popup-box .content h5 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--pn-text);
+  margin: 0 0 8px 0;
+  letter-spacing: 0.2px;
+}
+
+.popup-box .content h5 img {
+  vertical-align: middle;
+  filter: saturate(1.05) contrast(1.05);
+}
+
+/* Info/notification area */
+#msg-result {
+  position: relative;
+  background: rgba(59, 130, 246, 0.06);
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  border-radius: 10px;
+  padding: 10px 12px 10px 12px;
+  margin-bottom: 8px;
+  display: none; /* hide by default when no actual content */
+}
+
+/* Show only when it actually has non-empty text blocks */
+#msg-result:has(p:not(:empty)) {
+  display: block;
+}
+
+#msg-result > p:first-of-type {
+  color: var(--pn-muted);
+  margin: 6px 0 0 0;
+}
+
+#msg-result > p:last-of-type {
+  margin-top: 10px;
+  background-color: var(--pn-primary) !important;
+  color: #ffffff !important;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+/* Close (Bulma .delete) alignment */
+#msg-result .delete {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+/* Star notification styling override while keeping default display none */
+#StarNotification {
+  background: linear-gradient(90deg, var(--pn-primary), var(--pn-primary-600)) !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  padding: 8px 10px !important;
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.25);
+}
+
+/* Buttons */
+.popup-box .button.is-info {
+  background: linear-gradient(180deg, var(--pn-primary), var(--pn-primary-600));
+  border: 1px solid var(--pn-primary-700);
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(59, 130, 246, 0.25);
+  transition: transform 120ms ease, box-shadow 160ms ease, filter 160ms ease;
+}
+
+.popup-box .button.is-info:hover {
+  filter: brightness(1.04);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 18px rgba(37, 99, 235, 0.28);
+}
+
+.popup-box .button.is-info:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.2);
+}
+
+.popup-box .button.is-fullwidth {
+  width: 100%;
+}
+
+/* Sections spacing */
+.popup-box p { 
+  margin: 0 0 8px 0;
+}
+
+.popup-box hr {
+  border: none;
+  border-top: 1px solid var(--pn-border);
+  margin: 8px 0 10px 0;
+}
+
+/* Panels for dynamic info */
+#VIPInfo, #notifications {
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  color: var(--pn-muted);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Hide placeholder panels when they are empty */
+#VIPInfo:empty, #notifications:empty {
+  display: none;
+}

@@ -1,0 +1,282 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion是一种强大的工具，可让您将Notion页面打印为精美的格式文档。"
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒用户手册"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒购买Pro版本"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞报告缺陷"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩反馈"
+    },
+    "page_popup_button_Download": {
+        "message": "📥立即下载！"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "如果您喜欢这个扩展程序，<a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">单击此处以评分5星。</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion是专为Notion用户设计的扩展名，可让您以美丽格式打印Notion页面，使您的Notion页面更加实用和可共享。"
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Print Notion的新版本已发布，欢迎尝试，如果发现缺陷，请单击“报告缺陷”按钮反馈。<a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">如果您喜欢插件，请单击此处对5星级评分。</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "您使用的当前版本是已弃用的历史版本，请转到Chrome网络商店安装最新版本。"
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "感谢您的支持。您当前正在使用Print Notion Pro版本。"
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄从打印页面删除徽标..."
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️带有表数据的打印..."
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒升级Pro版本"
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒用户手册"
+    },
+    "js_content_Menu_InsertPageBreak": {
+        "message": "📄 插入分页符"
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Side Peek打印功能仅在Pro版本中可用，您现在需要购买Pro版本吗？"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "您当前正在使用Notion的黑暗模式。在黑暗模式下打印可能会导致某些元素未正确打印。建议在打印之前切换到光模式。你想继续吗？"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "检测到深色模式"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "您当前正在使用Notion的深色模式。我们将临时切换到浅色模式进行打印，以确保最佳效果。在此过程中屏幕可能会短暂闪烁，这可能会让某些用户感到不适。"
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ 屏幕闪烁警告：此过程可能会导致短暂的屏幕闪烁，对光敏感人群可能会感到不适。"
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "不再显示此警告"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "取消"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "继续使用浅色模式"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "处理...  🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "处理...  🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "处理...  🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "处理...  🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "由Print Notion导出"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Print Notion Pro版本激活成功。"
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Print Notion Pro版本激活失败，请联系支持。"
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️打印"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "加工..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "参数检查"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "在当前页面上未检测到有效的参数。请确认设置参数的格式是否正确。"
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "表中的行总数小于范围的指定开头行。请调整开始行并继续。"
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "表中的行总数小于范围的指定端行。结束行已更新为表数据的最后一行。"
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "在当前页面上未检测到打印参数。请验证页面设置是否正确。您想继续打印吗？"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "在当前页面上未检测到任何侧面窥视。请打开窥视并重试。"
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "已经有一个“打印带有表数据的打印(Main page)”窗口，您想关闭它并打开“使用表数据(Side peek)”窗口打开“打印”？"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "已经有一个“打印带有表数据的打印(Side peek)”窗口，您是否要将其关闭并打开“使用表数据(Main page)”窗口打开“打印”？"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️用表数据打印(Side peek)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️用表数据打印(Main page)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "感谢您的支持。您当前正在使用Print Notion Pro版本。"
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "关闭"
+    },
+    "js_index_SelectSpace": {
+        "message": "空间："
+    },
+    "js_index_Refresh": {
+        "message": "刷新"
+    },
+    "js_index_SelectCollection": {
+        "message": "收藏："
+    },
+    "js_index_SelectCollectionView": {
+        "message": "看法："
+    },
+    "js_index_DataFilter": {
+        "message": "数据过滤器："
+    },
+    "js_index_FirstThreeRows": {
+        "message": "前三行"
+    },
+    "js_index_AllRows": {
+        "message": "所有行"
+    },
+    "js_index_RowsRange": {
+        "message": "行范围"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "打印输出格式："
+    },
+    "js_index_SingleFile": {
+        "message": "所有数据的单个文件"
+    },
+    "js_index_SeparateFiles": {
+        "message": "每行分开文件"
+    },
+    "js_index_ParameterChecking": {
+        "message": "参数检查"
+    },
+    "js_index_Print": {
+        "message": "打印"
+    },
+    "js_index_CheckMatches": {
+        "message": "比赛检查"
+    },
+    "js_index_DataPreview": {
+        "message": "数据预览"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 恢复我的购买"
+    },
+    "js_index_Close": {
+        "message": "关闭"
+    },
+    "js_index_Cancel": {
+        "message": "取消"
+    },
+    "js_index_Confirm": {
+        "message": "确认"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "从Notion连接获取完整数据（包括公式字段）"
+    },
+    "js_index_Authorize": {
+        "message": "授权"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "授权提醒"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Notion连接需要授权才能使用，请点击 '授权' 按钮进行授权"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "确认"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "使用 '每行单独文件' 模式打印时，每个数据行都会出现单独的打印对话框。打印过程中无法取消，目前行数超过100。您是否要继续？"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "范围内的行数超过1000。您确定要继续吗？"
+    },
+    "js_index_ErrorTitle": {
+        "message": "错误"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "范围的起始行不能大于结束行。"
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "范围的结束行不能超过100,000。"
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "范围的结束行必须是正整数。"
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "范围的起始行必须是正整数。"
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "范围的起始行必须大于0。"
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "页面设置功能仅在Pro版本中可用，您现在需要购买Pro版本吗？"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "请确认您已授权Notion连接，如果您连接的数据库是在授权后创建的，您需要重新授权。"
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "未授权"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "分页符标记已复制"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "分页符标记已复制到剪贴板。请将其粘贴到您希望在打印时强制分页的位置。"
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "说明：在您的Notion内容中粘贴'====Print Notion Page Break====='，在打印时该标记将被替换为实际的分页符。"
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "请手动复制此文本："
+    }
+}

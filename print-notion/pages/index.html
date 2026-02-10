@@ -1,0 +1,228 @@
+<!doctype html>
+<html style="margin-top:-30px">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="../libs/jquery-3.7.1.min.js"></script>
+    <script src="../configDev.js"></script>
+    <script src="../api.js"></script>
+    <script src="../logger.js"></script>
+    <script src="../libs/dropdownButton.js"></script>
+    <script src="../localStorageHelper.js"></script>
+    <script src="../extensionIdHelper.js"></script>
+    <script src="index.js"></script>
+    <script src="index.min.js"></script>
+    <style>
+        .custom-modal-position .modal-dialog {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <br /><br />
+    <div class="container-sm">
+        <form>
+            <div class="row mb-1">
+                <label for="selectSpace" class="col-sm-2 col-form-label">__MSG_js_index_SelectSpace__</label>
+                <div class="col-sm-8">
+                    <select id="selectSpace" class="form-select form-select-sm" aria-label="Default select example">
+                    </select>
+                </div>
+                <div class="col-sm-2">
+                    <button id="buttonRefreshSpace" type="button" class="btn btn-secondary btn-sm">
+                        <div class="spinner-border spinner-border-sm" style="display: none" role="status">
+                        </div>
+                        <div class="button-text">__MSG_js_index_Refresh__</div>
+                    </button>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="selectCollection" class="col-sm-2 col-form-label">__MSG_js_index_SelectCollection__</label>
+                <div class="col-sm-8">
+                    <select id="selectCollection" class="form-select form-select-sm"
+                        aria-label="Default select example">
+                    </select>
+                </div>
+                <div class="col-sm-2">
+                    <button id="buttonRefreshCollection" type="button" class="btn btn-secondary btn-sm">
+                        <div class="spinner-border spinner-border-sm" style="display: none" role="status">
+                        </div>
+                        <div class="button-text">__MSG_js_index_Refresh__</div>
+                    </button>
+                </div>
+            </div>
+            <div class="row mb-3" id="rowCollectionView" style="display: none;">
+                <label for="selectCollectionView"
+                    class="col-sm-2 col-form-label">__MSG_js_index_SelectCollectionView__</label>
+                <div class="col-sm-8">
+                    <select id="selectCollectionView" class="form-select form-select-sm"
+                        aria-label="Default select example">
+                    </select>
+                </div>
+                <div class="col-sm-2">
+                    <button id="buttonRefreshCollectionView" type="button" class="btn btn-secondary btn-sm">
+                        <div class="spinner-border spinner-border-sm" style="display: none" role="status">
+                        </div>
+                        <div class="button-text">__MSG_js_index_Refresh__</div>
+                    </button>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="selectCollection" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-8">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkBoxGetDataFromConnection">
+                        <label class="form-check-label" for="checkBoxGetDataFromConnection">
+                            __MSG_js_index_GetDataFromConnection__
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <button id="buttonGetAuthorize" type="button" class="btn btn-secondary btn-sm">
+                        <div class="spinner-border spinner-border-sm" style="display: none" role="status">
+                        </div>
+                        <div class="button-text">__MSG_js_index_Authorize__</div>
+                    </button>
+                </div>
+            </div>
+            <fieldset class="row mb-3">
+                <legend class="col-form-label col-sm-2 pt-0">__MSG_js_index_DataFilter__</legend>
+                <div class="col-sm-10">
+                    <div class="form-check" id="rowsRadiosGroup1">
+                        <input class="form-check-input" type="radio" name="rowsRadios" id="rowsRadios1" value="first"
+                            checked>
+                        <label class="form-check-label" for="rowsRadios1">__MSG_js_index_FirstThreeRows__</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="rowsRadios" id="rowsRadios3" value="all">
+                        <label class="form-check-label" for="rowsRadios3">__MSG_js_index_AllRows__</label>
+                        <label class="ProFlag" style="color: brown; display: none;">__MSG_js_index_ProFlag__</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="rowsRadios" id="rowsRadios2" value="range">
+                        <label class="form-check-label" for="rowsRadios2">__MSG_js_index_RowsRange__</label>
+                        <label class="ProFlag" style="color: brown; display: none;">__MSG_js_index_ProFlag__</label>
+                        <div class="row gx-1 gy-2 align-items-center">
+                            <div class="col-sm-2">
+                                <input id="rangeBegin" type="text" class="form-control form-control-sm">
+                            </div>
+                            <div class="col-sm-1">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">-</label>
+                            </div>
+                            <div class="col-sm-2">
+                                <input id="rangeEnd" type="text" class="form-control form-control-sm">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="row mb-3">
+                <legend class="col-form-label col-sm-2 pt-0">__MSG_js_index_PrintOutputFormat__</legend>
+                <div class="col-sm-10">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="formatRadios" id="formatRadios1"
+                            value="single" checked>
+                        <label class="form-check-label" for="formatRadios1">__MSG_js_index_SingleFile__</label>
+                        <!--All data will be printed to a single file.-->
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="formatRadios" id="formatRadios2"
+                            value="separate">
+                        <label class="form-check-label" for="formatRadios2">__MSG_js_index_SeparateFiles__</label>
+                        <!--Each row's data will be printed to a separate file.-->
+                    </div>
+                </div>
+            </fieldset>
+            <button id="buttonCheckParameters" type="button" class="btn btn-secondary">
+                <div class="spinner-border spinner-border-sm" style="display: none" role="status">
+                </div>
+                <div class="button-text">__MSG_js_index_ParameterChecking__</div>
+            </button>
+            <button id="buttonDataPreview" type="button" class="btn btn-secondary">
+                <div class="spinner-border spinner-border-sm" style="display: none" role="status">
+                </div>
+                <div class="button-text">__MSG_js_index_DataPreview__</div>
+            </button>
+            <button id="buttonPrint" type="button" class="btn btn-primary">
+                <div class="spinner-border spinner-border-sm" style="display: none" role="status">
+                </div>
+                <div class="button-text">__MSG_js_index_Print__</div>
+            </button>
+        </form>
+    </div>
+    <div class="container mt-3">
+        <div class="collapse" id="collapseCheckParameters">
+            <div class="card card-body">
+                <ul class="nav nav-tabs" id="myTab1" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab1" data-bs-toggle="tab"
+                            data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                            aria-selected="true">__MSG_js_index_CheckMatches__</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent1">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                        tabindex="0">
+                        <div class="alert alert-secondary" role="alert">
+                            <div class="table-container">
+                                <table id="tableCheckParameters" class="table table table-striped">
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="collapse" id="collapseDataPreview">
+            <div class="card card-body">
+                <ul class="nav nav-tabs" id="myTab2" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab2" data-bs-toggle="tab"
+                            data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                            aria-selected="true">__MSG_js_index_DataPreview__</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent2">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                        tabindex="0">
+                        <div class="alert alert-secondary" role="alert">
+                            <div class="table-container">
+                                <table id="tableDataPreview" class="table table table-striped">
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade custom-modal-position" id="customModal" tabindex="-1" aria-labelledby="customModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="customModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" style="display: none;" class="btn btn-primary" id="customModalClose"
+                        data-bs-dismiss="modal">__MSG_js_index_Close__</button>
+                    <button type="button" class="btn btn-secondary" id="customModalCancel"
+                        data-bs-dismiss="modal">__MSG_js_index_Cancel__</button>
+                    <button type="button" class="btn btn-primary"
+                        id="customModalConfirm">__MSG_js_index_Confirm__</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

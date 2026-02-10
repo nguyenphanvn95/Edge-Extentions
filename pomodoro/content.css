@@ -1,0 +1,302 @@
+﻿.pomodoro-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.95) 0%, rgba(118, 75, 162, 0.95) 100%);
+  z-index: 2147483647;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.pomodoro-block-content {
+  background: white;
+  padding: 50px 60px;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  max-width: 600px;
+  animation: slideUp 0.6s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.pomodoro-tomato {
+  font-size: 80px;
+  margin-bottom: 20px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.pomodoro-block-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.pomodoro-block-content p {
+  font-size: 18px;
+  color: #4a5568;
+  margin-bottom: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.pomodoro-message {
+  font-size: 20px !important;
+  font-weight: 600;
+  color: #48bb78;
+  margin: 20px 0 30px 0 !important;
+  padding: 15px;
+  background: #f0fff4;
+  border-radius: 10px;
+  border: 2px solid #48bb78;
+}
+
+.pomodoro-tips {
+  background: #f7fafc;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 30px 0;
+  text-align: left;
+}
+
+.pomodoro-tips p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 12px;
+}
+
+.pomodoro-tips ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pomodoro-tips li {
+  font-size: 15px;
+  color: #4a5568;
+  padding: 8px 0;
+  padding-left: 25px;
+  position: relative;
+}
+
+.pomodoro-tips li:before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: #48bb78;
+  font-weight: bold;
+}
+
+.pomodoro-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.pomodoro-btn {
+  padding: 14px 28px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pomodoro-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.pomodoro-btn:active {
+  transform: translateY(0);
+}
+
+.pomodoro-btn-primary {
+  background: #48bb78;
+  color: white;
+}
+
+.pomodoro-btn-primary:hover {
+  background: #38a169;
+}
+
+.pomodoro-btn-secondary {
+  background: #4299e1;
+  color: white;
+}
+
+.pomodoro-btn-secondary:hover {
+  background: #3182ce;
+}
+
+.pomodoro-footer {
+  margin-top: 30px;
+  font-size: 14px !important;
+  color: #a0aec0 !important;
+  font-weight: 500;
+}
+
+/* Inline timer strip (no OS title bar) */
+.pomodoro-inline-strip {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 2147483646;
+  min-width: 360px;
+  max-width: 460px;
+  border-radius: 12px;
+  padding: 10px 12px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: #fff;
+  font-family: "Segoe UI", "Noto Sans", "Roboto", Arial, sans-serif;
+}
+
+.pomodoro-inline-strip.work {
+  background: linear-gradient(135deg, #16a34a 0%, #22c55e 100%);
+}
+
+.pomodoro-inline-strip.short-break {
+  background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+}
+
+.pomodoro-inline-strip.long-break {
+  background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%);
+}
+
+.pomodoro-inline-main {
+  min-width: 160px;
+}
+
+.pomodoro-inline-time {
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-variant-numeric: tabular-nums;
+}
+
+.pomodoro-inline-session {
+  margin-top: 4px;
+  font-size: 13px;
+  opacity: 0.95;
+}
+
+.pomodoro-inline-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.pomodoro-inline-btn {
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  border-radius: 8px;
+  height: 34px;
+  padding: 0 12px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pomodoro-inline-btn.stop {
+  background: rgba(220, 38, 38, 0.85);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.pomodoro-inline-close {
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.pomodoro-inline-strip.alert {
+  animation: inlinePulse 0.5s ease;
+}
+
+@keyframes inlinePulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pomodoro-block-content {
+    padding: 30px 40px;
+    margin: 20px;
+  }
+
+  .pomodoro-tomato {
+    font-size: 60px;
+  }
+
+  .pomodoro-block-content h1 {
+    font-size: 28px;
+  }
+
+  .pomodoro-buttons {
+    flex-direction: column;
+  }
+
+  .pomodoro-btn {
+    width: 100%;
+  }
+
+  .pomodoro-inline-strip {
+    left: 12px;
+    right: 12px;
+    min-width: 0;
+  }
+}
+

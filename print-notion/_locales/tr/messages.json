@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion, Notion sayfalarınızı güzel biçimlendirilmiş belgeler olarak yazdırmanıza olanak tanıyan güçlü bir araçtır."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Kullanım kılavuzu"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Pro sürümü satın al"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Hata bildir"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Geri bildirim"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Şimdi indir!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Bu eklentiyi beğendiyseniz, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">buraya tıklayarak 5 yıldızlı değerlendirme yapabilirsiniz⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion, Notion kullanıcıları için tasarlanmış bir uzantıdır; Notion sayfalarınızı güzel formatlarda yazdırmanızı sağlar, böylece sayfalarınız daha pratik ve paylaşılabilir hale gelir."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Print Notion'ın yeni sürümü yayınlandı, denemek için hoş geldiniz; hatalar bulursanız lütfen \"Hata Bildir\" düğmesine tıklayarak geri bildirimde bulunun.💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Eklentiyi beğendiyseniz buraya tıklayarak 5 yıldızlı değerlendirme yapabilirsiniz⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Kullandığınız şu anki sürüm artık desteklenmeyen bir sürümdür, lütfen en son sürümü yüklemek için Chrome web mağazasına gidin."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Desteğiniz için teşekkür ederiz. Şu anda Print Notion Pro sürümünü kullanıyorsunuz."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Yazdırılan sayfadaki Logoyu kaldır... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Tablo verileri ile yazdırma... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Pro sürümü yükselt "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Kullanım kılavuzu "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Yan bakış yazdırma özelliği yalnızca Pro sürümünde mevcuttur, Pro sürümünü satın almak ister misiniz?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Şu anda Notion'ın karanlık modunu kullanıyorsunuz. Karanlık modda bazı öğelerin doğru şekilde yazdırılmayabileceğini unutmayın. Yazdırmadan önce ışık moduna geçmeniz önerilir. Devam etmek istiyor musunuz?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Karanlık mod algılandı"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Şu anda Notion'ın karanlık modunu kullanıyorsunuz. Optimal sonuçlar sağlamak için yazdırma sırasında geçici olarak aydınlık moda geçeceğiz. Bu işlem sırasında ekran kısaca yanıp sönebilir, bu da bazı kullanıcılar için rahatsızlık yaratabilir."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Ekran yanıp sönme uyarısı: Bu işlem, ışığa duyarlı kişiler için rahatsız edici olabilecek kısa ekran yanıp sönmesine neden olabilir."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Bu uyarıyı tekrar gösterme"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "İptal"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Aydınlık modla devam et"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "İşleniyor... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "İşleniyor... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "İşleniyor... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "İşleniyor... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Print Notion tarafından dışa aktarıldı"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Print Notion Pro sürümü etkinleştirme başarılı."
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Print Notion Pro sürümü etkinleştirme başarısız, lütfen Destek ile iletişime geçin."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Yazdır"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "İşleniyor..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Parametre kontrolü"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Geçerli parametreler mevcut değil. Lütfen ayarlanan parametrelerin doğruluğunu onaylayın."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Tablodaki toplam satır sayısı, belirtilen başlangıç satır aralığından azdır. Başlangıç satırını ayarlayın ve devam edin."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Tablodaki toplam satır sayısı, belirtilen bitiş satır aralığından azdır. Bitiş satırı tablo verilerinin son satırı olarak güncellenmiştir."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Geçerli sayfada yazdırma parametreleri bulunamadı. Sayfa ayarlarının doğru olduğunu doğrulayın. Yazdırmaya devam etmek istiyor musunuz?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Geçerli sayfada yan bakış algılanmadı. Lütfen yan bakışı açın ve yeniden deneyin."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "\"Ana sayfa (Tablo verileri ile yazdırma)\" penceresi zaten mevcut, onu kapatıp \"Yan bakış (Tablo verileri ile yazdırma)\" penceresini açmak ister misiniz?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "\"Yan bakış (Tablo verileri ile yazdırma)\" penceresi zaten mevcut, onu kapatıp \"Ana sayfa (Tablo verileri ile yazdırma)\" penceresini açmak ister misiniz?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Yan bakış ile tablo verileri yazdırma"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Ana sayfa ile tablo verileri yazdırma"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Desteğiniz için teşekkür ederiz. Şu anda Print Notion Pro sürümünü kullanıyorsunuz."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Kapat"
+    },
+    "js_index_SelectSpace": {
+        "message": "Alan:"
+    },
+    "js_index_Refresh": {
+        "message": "Yenile"
+    },
+    "js_index_SelectCollection": {
+        "message": "Koleksiyon:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Görünüm:"
+    },
+    "js_index_DataFilter": {
+        "message": "Veri filtresi:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "İlk üç satır"
+    },
+    "js_index_AllRows": {
+        "message": "Tüm satırlar"
+    },
+    "js_index_RowsRange": {
+        "message": "Satır aralığı"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Yazdırma Çıkış Biçimi:"
+    },
+    "js_index_SingleFile": {
+        "message": "Tüm Veriler İçin Tek Dosya"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Her Satır İçin Ayrı Dosyalar"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Parametre kontrolü"
+    },
+    "js_index_Print": {
+        "message": "Yazdır"
+    },
+    "js_index_CheckMatches": {
+        "message": "Eşleşme kontrolü"
+    },
+    "js_index_DataPreview": {
+        "message": "Veri Önizleme"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Satın alımımı geri yükle"
+    },
+    "js_index_Close": {
+        "message": "Kapat"
+    },
+    "js_index_Cancel": {
+        "message": "İptal"
+    },
+    "js_index_Confirm": {
+        "message": "Onayla"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Notion Bağlantısından tam veriyi al (formül alanları dahil)"
+    },
+    "js_index_Authorize": {
+        "message": "Yetkilendir"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Yetkilendirme hatırlatıcısı"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Notion Bağlantısını kullanmak için yetkilendirme gerekiyor, lütfen yetkilendirmek için 'Yetkilendir' düğmesine tıklayın"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Onayla"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Yazdırma için \"Her Satır İçin Ayrı Dosyalar\" modunu kullanırken, her bir veri satırı için ayrı bir yazdırma iletişim kutusu görünecektir. Yazdırma işlemi yarıda iptal edilemez ve şu anda satır sayısı 100'ü aşıyor. Devam etmek istiyor musunuz?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Aralıktaki satır sayısı 1000'i aşıyor. Devam etmek istediğinizden emin misiniz?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Hata"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Aralığın başlangıç satırı, bitiş satırından büyük olamaz."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Aralığın bitiş satırı 100.000'i aşamaz."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Aralığın bitiş satırı pozitif bir tam sayı olmalıdır."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Aralığın başlangıç satırı pozitif bir tam sayı olmalıdır."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Aralığın başlangıç satırı 0'dan büyük olmalıdır."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Sayfa ayarı özelliği yalnızca Pro sürümünde mevcuttur, şimdi Pro sürümünü satın almak istiyor musunuz?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Lütfen Notion Bağlantısını yetkilendirdiğinizi onaylayın, bağlandığınız Veritabanı yetkilendirmeden sonra oluşturulduysa, yeniden yetkilendirmeniz gerekiyor."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Yetkilendirilmemiş"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Sayfa Sonu İşareti Kopyalandı"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Sayfa sonu işareti panonuza kopyalandı. Yazdırma sırasında zorla sayfa sonlarının oluşmasını istediğiniz yere yapıştırın."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Talimatlar: Sayfa sonları istediğiniz Notion içeriğinizde '====Print Notion Page Break====' yapıştırın. İşaret yazdırma sırasında gerçek sayfa sonları ile değiştirilecektir."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Lütfen bu metni manuel olarak kopyalayın:"
+    }
+}

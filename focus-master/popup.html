@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Master Pro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Premium Header -->
+    <div class="header premium-gradient">
+      <div class="header-content">
+        <div class="logo-section">
+          <img src="images/logo48.png" alt="Logo" class="logo-img">
+          <span class="app-name">Focus Master</span>
+          <span class="pro-badge">PRO</span>
+        </div>
+        <div class="streak-badge" id="streak-badge">
+          🔥 <span id="streak-count">0</span>
+        </div>
+      </div>
+      <div class="tabs">
+        <button class="tab active" data-tab="timer">
+          <span class="tab-icon">⏱️</span>
+          <span class="tab-label">Timer</span>
+        </button>
+        <button class="tab" data-tab="tasks">
+          <span class="tab-icon">✅</span>
+          <span class="tab-label">Tasks</span>
+        </button>
+        <button class="tab" data-tab="projects">
+          <span class="tab-icon">📁</span>
+          <span class="tab-label">Projects</span>
+        </button>
+        <button class="tab" data-tab="analytics">
+          <span class="tab-icon">📊</span>
+          <span class="tab-label">Analytics</span>
+        </button>
+        <button class="tab" data-tab="insights">
+          <span class="tab-icon">🧠</span>
+          <span class="tab-label">Insights</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Timer Tab -->
+    <div class="tab-content active" id="timer-tab">
+      <div class="timer-section">
+        <!-- Quick Stats Bar -->
+        <div class="quick-stats">
+          <div class="quick-stat">
+            <div class="stat-icon">🍅</div>
+            <div class="stat-info">
+              <div class="stat-value" id="today-pomos-quick">0</div>
+              <div class="stat-label">Today</div>
+            </div>
+          </div>
+          <div class="quick-stat">
+            <div class="stat-icon">⏱️</div>
+            <div class="stat-info">
+              <div class="stat-value" id="focus-time-quick">0h</div>
+              <div class="stat-label">Focus</div>
+            </div>
+          </div>
+          <div class="quick-stat">
+            <div class="stat-icon">🎯</div>
+            <div class="stat-info">
+              <div class="stat-value" id="completion-rate-quick">0%</div>
+              <div class="stat-label">Goal</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mode Selector -->
+        <div class="mode-selector-pro">
+          <button class="mode-btn-pro active" data-mode="work">
+            <div class="mode-icon">💼</div>
+            <div class="mode-name">Focus</div>
+            <div class="mode-time" id="work-time">25m</div>
+          </button>
+          <button class="mode-btn-pro" data-mode="shortBreak">
+            <div class="mode-icon">☕</div>
+            <div class="mode-name">Short Break</div>
+            <div class="mode-time" id="short-time">5m</div>
+          </button>
+          <button class="mode-btn-pro" data-mode="longBreak">
+            <div class="mode-icon">🌴</div>
+            <div class="mode-name">Long Break</div>
+            <div class="mode-time" id="long-time">15m</div>
+          </button>
+        </div>
+
+        <!-- Timer Display -->
+        <div class="timer-display-pro">
+          <div class="timer-circle">
+            <svg class="timer-svg" width="280" height="280">
+              <circle class="timer-circle-bg" cx="140" cy="140" r="120"></circle>
+              <circle class="timer-circle-progress" cx="140" cy="140" r="120" id="progress-circle"></circle>
+            </svg>
+            <div class="timer-content">
+              <div class="time-display" id="timer-display">25:00</div>
+              <div class="timer-label" id="timer-label">Ready to Focus</div>
+              <div class="session-count">Session #<span id="session-count">1</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Current Task Display -->
+        <div class="current-task-display" id="current-task-display">
+          <div class="task-label">Working on:</div>
+          <div class="task-name" id="current-task-name">No task selected</div>
+          <button class="btn-link" id="select-task-btn">Select Task</button>
+        </div>
+
+        <!-- Timer Controls -->
+        <div class="timer-controls-pro">
+          <button class="btn-control btn-secondary" id="stop-btn" title="Stop">
+            <span class="btn-icon">⏹️</span>
+          </button>
+          <button class="btn-control btn-primary btn-large" id="start-btn">
+            <span class="btn-icon">▶️</span>
+            <span class="btn-text">Start Focus</span>
+          </button>
+          <button class="btn-control btn-primary btn-large hidden" id="pause-btn">
+            <span class="btn-icon">⏸️</span>
+            <span class="btn-text">Pause</span>
+          </button>
+          <button class="btn-control btn-primary btn-large hidden" id="resume-btn">
+            <span class="btn-icon">▶️</span>
+            <span class="btn-text">Resume</span>
+          </button>
+          <button class="btn-control btn-secondary" id="skip-btn" title="Skip">
+            <span class="btn-icon">⏭️</span>
+          </button>
+        </div>
+
+        <!-- Settings Panel -->
+        <div class="settings-panel collapsible">
+          <div class="panel-header" id="settings-toggle">
+            <h3>⚙️ Timer Settings</h3>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="panel-content" id="settings-content">
+            <div class="setting-row">
+              <label>Focus Duration</label>
+              <div class="input-group">
+                <button class="btn-adjust" data-action="decrease" data-target="work-duration">-</button>
+                <input type="number" id="work-duration" value="25" min="1" max="60">
+                <button class="btn-adjust" data-action="increase" data-target="work-duration">+</button>
+                <span class="unit">min</span>
+              </div>
+            </div>
+            <div class="setting-row">
+              <label>Short Break</label>
+              <div class="input-group">
+                <button class="btn-adjust" data-action="decrease" data-target="short-break">-</button>
+                <input type="number" id="short-break" value="5" min="1" max="30">
+                <button class="btn-adjust" data-action="increase" data-target="short-break">+</button>
+                <span class="unit">min</span>
+              </div>
+            </div>
+            <div class="setting-row">
+              <label>Long Break</label>
+              <div class="input-group">
+                <button class="btn-adjust" data-action="decrease" data-target="long-break">-</button>
+                <input type="number" id="long-break" value="15" min="5" max="60">
+                <button class="btn-adjust" data-action="increase" data-target="long-break">+</button>
+                <span class="unit">min</span>
+              </div>
+            </div>
+            <div class="setting-row">
+              <label>Daily Goal</label>
+              <div class="input-group">
+                <button class="btn-adjust" data-action="decrease" data-target="daily-goal">-</button>
+                <input type="number" id="daily-goal" value="8" min="1" max="20">
+                <button class="btn-adjust" data-action="increase" data-target="daily-goal">+</button>
+                <span class="unit">pomodoros</span>
+              </div>
+            </div>
+            <div class="setting-row">
+              <label class="checkbox-label">
+                <input type="checkbox" id="auto-start-breaks">
+                <span>Auto-start breaks</span>
+              </label>
+            </div>
+            <div class="setting-row">
+              <label class="checkbox-label">
+                <input type="checkbox" id="auto-start-pomodoros">
+                <span>Auto-start next focus session</span>
+              </label>
+            </div>
+            <div class="setting-row">
+              <label class="checkbox-label">
+                <input type="checkbox" id="sound-enabled" checked>
+                <span>Enable sound notifications</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tasks Tab -->
+    <div class="tab-content" id="tasks-tab">
+      <div class="task-section-pro">
+        <!-- Add Task -->
+        <div class="add-task-pro">
+          <input type="text" id="new-task-input" placeholder="What would you like to focus on?">
+          <div class="task-options">
+            <select id="task-priority" class="select-input">
+              <option value="none">No Priority</option>
+              <option value="low">🟢 Low</option>
+              <option value="medium" selected>🟡 Medium</option>
+              <option value="high">🔴 High</option>
+            </select>
+            <select id="task-project" class="select-input">
+              <option value="">No Project</option>
+            </select>
+            <input type="number" id="task-pomodoros" class="number-input" placeholder="Est. 🍅" min="1" value="1">
+          </div>
+          <button class="btn btn-primary btn-block" id="add-task-btn">
+            <span>➕ Add Task</span>
+          </button>
+        </div>
+
+        <!-- Task Filters -->
+        <div class="task-filters-pro">
+          <div class="filter-group">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="active">Active</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+          </div>
+          <div class="sort-group">
+            <select id="task-sort" class="select-input-small">
+              <option value="created">Recently Added</option>
+              <option value="priority">Priority</option>
+              <option value="pomodoros">Pomodoros</option>
+              <option value="name">Name</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Tasks List -->
+        <div class="tasks-list-pro" id="tasks-list">
+          <!-- Tasks rendered here -->
+        </div>
+
+        <!-- Task Footer -->
+        <div class="task-footer">
+          <div class="task-summary">
+            <span id="active-tasks-count">0 tasks</span>
+            <span class="separator">•</span>
+            <span id="total-pomodoros-estimate">0 🍅 estimated</span>
+          </div>
+          <button class="btn-link" id="clear-completed">Clear Completed</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Tab -->
+    <div class="tab-content" id="projects-tab">
+      <div class="projects-section">
+        <div class="section-header">
+          <h2>📁 Projects</h2>
+          <button class="btn btn-primary btn-small" id="add-project-btn">+ New Project</button>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Projects rendered here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Analytics Tab -->
+    <div class="tab-content" id="analytics-tab">
+      <div class="analytics-section">
+        <h2>📊 Your Productivity Analytics</h2>
+        
+        <!-- Time Period Selector -->
+        <div class="period-selector">
+          <button class="period-btn active" data-period="today">Today</button>
+          <button class="period-btn" data-period="week">This Week</button>
+          <button class="period-btn" data-period="month">This Month</button>
+          <button class="period-btn" data-period="all">All Time</button>
+        </div>
+
+        <!-- Main Stats -->
+        <div class="stats-grid">
+          <div class="stat-card premium">
+            <div class="stat-header">
+              <span class="stat-icon">🍅</span>
+              <span class="stat-title">Pomodoros</span>
+            </div>
+            <div class="stat-value-large" id="stat-pomodoros">0</div>
+            <div class="stat-trend" id="stat-pomodoros-trend">—</div>
+          </div>
+          
+          <div class="stat-card premium">
+            <div class="stat-header">
+              <span class="stat-icon">⏱️</span>
+              <span class="stat-title">Focus Time</span>
+            </div>
+            <div class="stat-value-large" id="stat-focus-time">0h 0m</div>
+            <div class="stat-trend" id="stat-focus-trend">—</div>
+          </div>
+          
+          <div class="stat-card premium">
+            <div class="stat-header">
+              <span class="stat-icon">✅</span>
+              <span class="stat-title">Tasks Done</span>
+            </div>
+            <div class="stat-value-large" id="stat-tasks">0</div>
+            <div class="stat-trend" id="stat-tasks-trend">—</div>
+          </div>
+          
+          <div class="stat-card premium">
+            <div class="stat-header">
+              <span class="stat-icon">📈</span>
+              <span class="stat-title">Productivity</span>
+            </div>
+            <div class="stat-value-large" id="stat-productivity">0%</div>
+            <div class="stat-trend" id="stat-productivity-trend">—</div>
+          </div>
+        </div>
+
+        <!-- Charts -->
+        <div class="chart-container">
+          <h3>📈 Focus Time Trend</h3>
+          <canvas id="focus-chart" width="360" height="200"></canvas>
+        </div>
+
+        <div class="chart-container">
+          <h3>🏆 Best Focus Times</h3>
+          <div class="heatmap" id="time-heatmap">
+            <!-- Heatmap rendered here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Insights Tab -->
+    <div class="tab-content" id="insights-tab">
+      <div class="insights-section">
+        <h2>🧠 AI-Powered Insights</h2>
+        
+        <div class="insight-card">
+          <div class="insight-icon">🌟</div>
+          <div class="insight-content">
+            <h3>Peak Performance</h3>
+            <p id="insight-peak">You're most productive between 9 AM - 11 AM</p>
+          </div>
+        </div>
+
+        <div class="insight-card">
+          <div class="insight-icon">📊</div>
+          <div class="insight-content">
+            <h3>Weekly Progress</h3>
+            <p id="insight-progress">You completed 24 pomodoros this week - 20% more than last week! 🎉</p>
+          </div>
+        </div>
+
+        <div class="insight-card">
+          <div class="insight-icon">🎯</div>
+          <div class="insight-content">
+            <h3>Goal Tracking</h3>
+            <p id="insight-goals">You're on track to hit your daily goal of 8 pomodoros!</p>
+            <div class="progress-bar">
+              <div class="progress-fill" id="goal-progress" style="width: 0%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="insight-card">
+          <div class="insight-icon">💡</div>
+          <div class="insight-content">
+            <h3>Smart Suggestions</h3>
+            <ul class="suggestions-list" id="suggestions-list">
+              <li>Try taking regular breaks to maintain focus</li>
+              <li>Your focus sessions are most effective at 25 minutes</li>
+              <li>Consider scheduling deep work during your peak hours</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="insight-card">
+          <div class="insight-icon">🏆</div>
+          <div class="insight-content">
+            <h3>Achievements</h3>
+            <div class="badges-grid" id="badges-grid">
+              <!-- Badges rendered here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modals -->
+  <div id="modal-overlay" class="modal-overlay hidden"></div>
+  
+  <!-- Task Detail Modal -->
+  <div id="task-modal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Task Details</h3>
+        <button class="modal-close">&times;</button>
+      </div>
+      <div class="modal-body" id="task-modal-body">
+        <!-- Task details rendered here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Modal -->
+  <div id="project-modal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>New Project</h3>
+        <button class="modal-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>Project Name</label>
+          <input type="text" id="project-name" placeholder="Enter project name">
+        </div>
+        <div class="form-group">
+          <label>Color</label>
+          <div class="color-picker" id="project-color-picker">
+            <div class="color-option" data-color="#667eea" style="background: #667eea"></div>
+            <div class="color-option" data-color="#f56565" style="background: #f56565"></div>
+            <div class="color-option" data-color="#48bb78" style="background: #48bb78"></div>
+            <div class="color-option" data-color="#ed8936" style="background: #ed8936"></div>
+            <div class="color-option" data-color="#9f7aea" style="background: #9f7aea"></div>
+            <div class="color-option" data-color="#38b2ac" style="background: #38b2ac"></div>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-secondary" id="cancel-project">Cancel</button>
+          <button class="btn btn-primary" id="save-project">Create Project</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

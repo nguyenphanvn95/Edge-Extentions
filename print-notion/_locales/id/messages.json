@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion adalah alat powerful untuk mencetak halaman Notion Anda sebagai dokumen yang diformat indah."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Panduan Pengguna"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Beli versi Pro"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Laporkan bug"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Umpan balik"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Unduh sekarang!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Jika Anda menyukai ekstensi ini, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">klik di sini untuk memberi rating 5 bintang⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion adalah ekstensi yang dirancang khusus untuk pengguna Notion yang memungkinkan Anda mencetak halaman Notion Anda dalam format yang indah, membuat halaman Notion Anda lebih praktis dan dapat dibagikan."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Versi baru dari Print Notion telah dirilis, selamat mencoba. Jika Anda menemukan bug, silakan klik tombol \"Laporkan bug\" untuk memberi umpan balik. 💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Jika Anda menyukai plugin ini, klik di sini untuk memberi rating 5 bintang⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Versi saat ini yang Anda gunakan adalah versi historis yang sudah tidak didukung, silakan kunjungi Chrome Web Store untuk menginstal versi terbaru."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Terima kasih atas dukungannya. Saat ini Anda menggunakan versi Pro Print Notion."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Hapus Logo dari halaman yang dicetak..."
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Mencetak dengan data tabel..."
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Upgrade versi Pro"
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Panduan pengguna"
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Fitur side peek hanya tersedia di versi Pro, apakah Anda ingin membeli versi Pro sekarang?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Anda saat ini menggunakan mode gelap Notion. Mencetak dalam mode gelap dapat menyebabkan beberapa elemen tidak tercetak dengan benar. Disarankan untuk beralih ke mode terang sebelum mencetak. Apakah Anda ingin melanjutkan?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Mode Gelap Terdeteksi"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Anda saat ini menggunakan mode gelap Notion. Kami akan sementara beralih ke mode terang untuk mencetak guna memastikan hasil yang optimal. Layar mungkin berkedip sebentar selama proses ini, yang dapat menyebabkan ketidaknyamanan bagi beberapa pengguna."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Peringatan kedipan layar: Proses ini dapat menyebabkan kedipan layar singkat yang dapat tidak nyaman bagi individu yang sensitif terhadap cahaya."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Jangan tampilkan peringatan ini lagi"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Batal"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Lanjutkan dengan Mode Terang"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Memproses... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Memproses... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Memproses... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Memproses... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Diekspor oleh Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Aktivasi versi Pro Print Notion berhasil."
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Aktivasi versi Pro Print Notion gagal, harap hubungi dukungan."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Cetak"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Memproses..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Pengecekan parameter"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Tidak ada parameter valid yang terdeteksi pada halaman ini. Harap konfirmasi apakah format parameter yang diatur sudah benar."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Total jumlah baris dalam tabel lebih sedikit dari baris awal yang ditentukan dalam rentang. Harap sesuaikan baris awal dan lanjutkan."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Total jumlah baris dalam tabel lebih sedikit dari baris akhir yang ditentukan dalam rentang. Baris akhir telah diperbarui menjadi baris terakhir data tabel."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Tidak ada parameter cetak yang terdeteksi pada halaman ini. Harap verifikasi pengaturan halaman apakah sudah benar. Apakah Anda ingin melanjutkan untuk mencetak?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Tidak ada side peek yang terdeteksi pada halaman ini. Harap aktifkan side peek dan coba lagi."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Sudah ada jendela \"Mencetak dengan data tabel (Halaman utama)\", apakah Anda ingin menutupnya dan membuka jendela \"Mencetak dengan data tabel (Side peek)\"?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Sudah ada jendela \"Mencetak dengan data tabel (Side peek)\", apakah Anda ingin menutupnya dan membuka jendela \"Mencetak dengan data tabel (Halaman utama)\"?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Mencetak dengan data tabel (Side peek)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Mencetak dengan data tabel (Halaman utama)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Terima kasih atas dukungannya. Saat ini Anda menggunakan versi Pro Print Notion."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Tutup"
+    },
+    "js_index_SelectSpace": {
+        "message": "Ruang:"
+    },
+    "js_index_Refresh": {
+        "message": "Segarkan"
+    },
+    "js_index_SelectCollection": {
+        "message": "Koleksi:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Tampilan:"
+    },
+    "js_index_DataFilter": {
+        "message": "Filter Data:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Tiga baris pertama"
+    },
+    "js_index_AllRows": {
+        "message": "Semua baris"
+    },
+    "js_index_RowsRange": {
+        "message": "Rentang Baris"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Format Output Cetak:"
+    },
+    "js_index_SingleFile": {
+        "message": "Satu File untuk Semua Data"
+    },
+    "js_index_SeparateFiles": {
+        "message": "File Terpisah untuk Setiap Baris"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Pengecekan Parameter"
+    },
+    "js_index_Print": {
+        "message": "Cetak"
+    },
+    "js_index_CheckMatches": {
+        "message": "Pengecekan Pencocokan"
+    },
+    "js_index_DataPreview": {
+        "message": "Pratinjau Data"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Pulihkan pembelian saya"
+    },
+    "js_index_Close": {
+        "message": "Tutup"
+    },
+    "js_index_Cancel": {
+        "message": "Batal"
+    },
+    "js_index_Confirm": {
+        "message": "Konfirmasi"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Dapatkan data lengkap (termasuk bidang formula) dari Koneksi Notion"
+    },
+    "js_index_Authorize": {
+        "message": "Otorisasi"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Pengingat otorisasi"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Koneksi Notion memerlukan otorisasi untuk digunakan, silakan klik tombol 'Otorisasi' untuk mengotorisasi"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Konfirmasi"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Saat menggunakan mode \"File Terpisah untuk Setiap Baris\" untuk mencetak, dialog cetak terpisah akan muncul untuk setiap baris data individu. Pencetakan tidak dapat dibatalkan di tengah jalan, dan saat ini, jumlah baris melebihi 100. Apakah Anda ingin melanjutkan?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Jumlah baris dalam rentang melebihi 1000. Apakah Anda yakin ingin melanjutkan?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Kesalahan"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Baris awal rentang tidak boleh lebih besar dari baris akhir."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Baris akhir rentang tidak boleh melebihi 100.000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Baris akhir rentang harus berupa bilangan bulat positif."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Baris awal rentang harus berupa bilangan bulat positif."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Baris awal rentang harus lebih besar dari 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Fitur pengaturan halaman hanya tersedia dalam versi Pro, apakah Anda perlu membeli versi Pro sekarang?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Harap konfirmasi bahwa Anda telah mengotorisasi Koneksi Notion, jika Database yang Anda hubungkan dibuat setelah otorisasi, Anda perlu mengotorisasi ulang."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Tidak diotorisasi"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Penanda Pemisah Halaman Disalin"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Penanda pemisah halaman telah disalin ke clipboard Anda. Tempelkan di tempat Anda ingin pemisah halaman paksa terjadi selama pencetakan."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Petunjuk: Tempelkan '====Print Notion Page Break====' di konten Notion Anda di tempat Anda ingin pemisah halaman. Penanda akan diganti dengan pemisah halaman yang sebenarnya saat mencetak."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Silakan salin teks ini secara manual:"
+    }
+}

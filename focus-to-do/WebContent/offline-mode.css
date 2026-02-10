@@ -1,0 +1,297 @@
+/* Offline Mode CSS Override */
+/* Hide user authentication and sync related elements */
+
+/* Hide login/signup buttons */
+[data-action="login"],
+[data-action="signup"],
+[data-action="sign-in"],
+[data-action="sign-up"],
+.login-btn,
+.signup-btn,
+.sign-in-btn,
+.sign-up-btn,
+#loginButton,
+#signupButton,
+#login-modal,
+#signup-modal {
+    display: none !important;
+}
+
+/* Hide sync related elements */
+[data-action="sync"],
+[data-sync],
+.sync-btn,
+.sync-indicator,
+.sync-status,
+#syncButton,
+#sync-modal {
+    display: none !important;
+}
+
+/* Hide premium/payment related elements */
+[data-action="premium"],
+[data-action="upgrade"],
+[data-action="purchase"],
+[data-premium],
+.premium-btn,
+.upgrade-btn,
+.purchase-btn,
+.premium-badge,
+.premium-feature-lock,
+#premiumButton,
+#upgradeButton,
+#purchase-modal {
+    display: none !important;
+}
+
+/* Hide group/team features */
+[data-action="group"],
+[data-action="team"],
+[data-group],
+.group-btn,
+.team-btn,
+#groupButton,
+#group-modal {
+    display: none !important;
+}
+
+/* Hide online leaderboard/ranking */
+[data-action="leaderboard"],
+[data-action="ranking-online"],
+.leaderboard-online,
+.ranking-online {
+    display: none !important;
+}
+
+/* Hide reset password link */
+[data-action="reset-password"],
+[data-action="forgot-password"],
+.reset-password-link,
+.forgot-password-link {
+    display: none !important;
+}
+
+/* Hide account settings that require online */
+[data-account-online],
+.account-email,
+.account-password,
+.account-sync {
+    display: none !important;
+}
+
+/* Show offline indicator */
+.offline-indicator {
+    display: block !important;
+}
+
+/* Override premium features - enable all */
+.premium-feature-lock {
+    display: none !important;
+}
+
+.premium-feature {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
+/* Style adjustments for offline mode */
+.user-profile-section {
+    display: none !important;
+}
+
+/* Offline mode banner/indicator styling */
+#offline-indicator {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    z-index: 10000;
+    box-shadow: 0 2px 8px rgba(40, 167, 69, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: default;
+    user-select: none;
+}
+
+#offline-indicator::before {
+    content: "●";
+    margin-right: 6px;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+/* Remove cloud/server icons */
+.icon-cloud,
+.icon-server,
+.icon-sync {
+    display: none !important;
+}
+
+/* Hide promotional banners */
+.promo-banner,
+.upgrade-banner,
+.premium-promo {
+    display: none !important;
+}
+
+/* Make sure all core features are accessible */
+.task-list,
+.project-list,
+.timer-controls,
+.statistics,
+.settings,
+.forest,
+.reports {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
+/* Override any trial/limitation messages */
+.trial-message,
+.limit-message,
+.upgrade-message {
+    display: none !important;
+}
+
+/* Footer adjustments */
+.footer-login,
+.footer-upgrade {
+    display: none !important;
+}
+
+/* Sidebar adjustments */
+.sidebar-user-info {
+    display: none !important;
+}
+
+/* Header adjustments */
+.header-user-menu {
+    display: none !important;
+}
+
+/* Remove "Connect to sync" messages */
+.sync-prompt,
+.connect-prompt {
+    display: none !important;
+}
+
+/* Style backup/export buttons prominently */
+.backup-controls {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.backup-btn,
+.export-btn,
+.import-btn {
+    background: #007bff !important;
+    color: white !important;
+    border: none !important;
+    padding: 8px 16px !important;
+    margin: 5px !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    font-weight: 500 !important;
+}
+
+.backup-btn:hover,
+.export-btn:hover,
+.import-btn:hover {
+    background: #0056b3 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #offline-indicator {
+        font-size: 10px;
+        padding: 4px 8px;
+        top: 3px;
+        right: 3px;
+    }
+}
+
+/* Print styles */
+@media print {
+    #offline-indicator {
+        display: none !important;
+    }
+}
+
+/* Accessibility */
+[data-offline-disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+    position: relative;
+}
+
+[data-offline-disabled]::after {
+    content: "Not available offline";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
+
+[data-offline-disabled]:hover::after {
+    opacity: 1;
+}
+
+/* Success messages for offline operations */
+.offline-success {
+    background: #d4edda !important;
+    border-color: #c3e6cb !important;
+    color: #155724 !important;
+}
+
+.offline-info {
+    background: #d1ecf1 !important;
+    border-color: #bee5eb !important;
+    color: #0c5460 !important;
+}
+
+/* Feature announcement for offline mode */
+.offline-features-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.offline-features-list li {
+    padding: 8px 12px;
+    margin: 5px 0;
+    background: #f8f9fa;
+    border-left: 3px solid #28a745;
+    border-radius: 3px;
+}
+
+.offline-features-list li::before {
+    content: "✓ ";
+    color: #28a745;
+    font-weight: bold;
+    margin-right: 8px;
+}

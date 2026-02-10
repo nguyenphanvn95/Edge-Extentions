@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion هي أداة قوية تتيح لك طباعة صفحات Notion الخاصة بك كمستندات منسقة بشكل جميل."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 دليل المستخدم"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 شراء النسخة الاحترافية"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 الإبلاغ عن عطل"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 ملاحظات"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 حمل الآن!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "إذا أعجبتك هذه الإضافة، <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">انقر هنا لتقييمها بخمس نجوم⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion هي إضافة مخصصة لمستخدمي Notion تتيح لك طباعة صفحات Notion الخاصة بك بتنسيقات جميلة، مما يجعل صفحات Notion الخاصة بك أكثر عملية وقابلة للمشاركة."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "تم إصدار نسخة جديدة من Print Notion، مرحبًا بالتجربة، إذا وجدت عيوبًا، يرجى النقر على زر \"الإبلاغ عن عطل\" للإبلاغ.💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">إذا أعجبتك الإضافة، انقر هنا لتقييمها بخمس نجوم⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "الإصدار الحالي الذي تستخدمه هو إصدار قديم تم إيقافه، يرجى الذهاب إلى متجر Chrome لتثبيت أحدث إصدار."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "شكرًا لدعمك. أنت تستخدم حاليًا النسخة الاحترافية من Print Notion."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 إزالة الشعار من الصفحة المطبوعة... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ الطباعة ببيانات الجدول... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 ترقية النسخة الاحترافية "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 دليل المستخدم "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "ميزة الطباعة بلمحة جانبية متاحة فقط في النسخة الاحترافية، هل تحتاج إلى شراء النسخة الاحترافية الآن؟"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "أنت تستخدم حاليًا وضع الظلام في Notion. قد يؤدي الطباعة في وضع الظلام إلى عدم طباعة بعض العناصر بشكل صحيح. يوصى بالتبديل إلى وضع الضوء قبل الطباعة. هل ترغب في المتابعة؟"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "تم اكتشاف الوضع المظلم"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "أنت تستخدم حاليًا الوضع المظلم في Notion. سنقوم بالتبديل مؤقتًا إلى الوضع الفاتح للطباعة لضمان النتائج المثلى. قد تومض الشاشة لفترة وجيزة أثناء هذه العملية، مما قد يسبب عدم الراحة لبعض المستخدمين."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ تحذير من وميض الشاشة: قد تسبب هذه العملية وميضًا قصيرًا للشاشة قد يكون غير مريح للأشخاص الحساسين للضوء."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "لا تظهر هذا التحذير مرة أخرى"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "إلغاء"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "المتابعة بالوضع الفاتح"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "جارٍ المعالجة... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "جارٍ المعالجة... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "جارٍ المعالجة... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "جارٍ المعالجة... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "تم التصدير بواسطة Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "تم تفعيل النسخة الاحترافية من Print Notion بنجاح. "
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "فشل تفعيل النسخة الاحترافية من Print Notion، يرجى الاتصال بالدعم."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ طباعة"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "جارٍ المعالجة..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "فحص المعلمات"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "لم يتم اكتشاف أي معلمات صالحة في الصفحة الحالية. يرجى التأكد من صحة تنسيق المعلمات المحددة."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "إجمالي عدد الصفوف في الجدول أقل من الصف المبدئي المحدد للنطاق. يرجى تعديل الصف المبدئي والمتابعة."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "إجمالي عدد الصفوف في الجدول أقل من الصف النهائي المحدد للنطاق. تم تحديث الصف النهائي إلى آخر صف في بيانات الجدول."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "لم يتم اكتشاف أي معلمات طباعة في الصفحة الحالية. يرجى التحقق مما إذا كانت إعدادات الصفحة صحيحة. هل تريد المتابعة للطباعة؟"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "لم يتم اكتشاف أي لمحة جانبية في الصفحة الحالية. يرجى تشغيل اللمحة الجانبية وإعادة المحاولة."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "يوجد بالفعل نافذة \"الطباعة ببيانات الجدول (الصفحة الرئيسية)\"، هل تريد إغلاقها وفتح نافذة \"الطباعة ببيانات الجدول (لمحة جانبية)\"؟"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "يوجد بالفعل نافذة \"الطباعة ببيانات الجدول (لمحة جانبية)\"، هل تريد إغلاقها وفتح نافذة \"الطباعة ببيانات الجدول (الصفحة الرئيسية)\"؟"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ الطباعة ببيانات الجدول (لمحة جانبية)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ الطباعة ببيانات الجدول (الصفحة الرئيسية)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "شكرًا لدعمك. أنت تستخدم حاليًا النسخة الاحترافية من Print Notion."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "إغلاق"
+    },
+    "js_index_SelectSpace": {
+        "message": "المساحة:"
+    },
+    "js_index_Refresh": {
+        "message": "تحديث"
+    },
+    "js_index_SelectCollection": {
+        "message": "التجميع:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "عرض:"
+    },
+    "js_index_DataFilter": {
+        "message": "مرشح البيانات:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "أول ثلاث صفوف"
+    },
+    "js_index_AllRows": {
+        "message": "جميع الصفوف"
+    },
+    "js_index_RowsRange": {
+        "message": "نطاق الصفوف"
+    },
+    "js_index_ProFlag": {
+        "message": "(احترافي)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "تنسيق مخرجات الطباعة:"
+    },
+    "js_index_SingleFile": {
+        "message": "ملف واحد لجميع البيانات"
+    },
+    "js_index_SeparateFiles": {
+        "message": "ملفات منفصلة لكل صف"
+    },
+    "js_index_ParameterChecking": {
+        "message": "فحص المعلمات"
+    },
+    "js_index_Print": {
+        "message": "طباعة"
+    },
+    "js_index_CheckMatches": {
+        "message": "فحص المطابقات"
+    },
+    "js_index_DataPreview": {
+        "message": "معاينة البيانات"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 استعادة مشترياتي"
+    },
+    "js_index_Close": {
+        "message": "إغلاق"
+    },
+    "js_index_Cancel": {
+        "message": "إلغاء"
+    },
+    "js_index_Confirm": {
+        "message": "تأكيد"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "الحصول على البيانات الكاملة (بما في ذلك حقول الصيغ) من اتصال Notion"
+    },
+    "js_index_Authorize": {
+        "message": "تفويض"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "تذكير بالتفويض"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "يحتاج اتصال Notion إلى تفويض للاستخدام، يرجى النقر على زر 'تفويض' للتفويض"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "تأكيد"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "عند استخدام وضع \"ملفات منفصلة لكل صف\" للطباعة، سيظهر مربع حوار طباعة منفصل لكل صف فردي من البيانات. لا يمكن إلغاء الطباعة في منتصف الطريق، وحاليًا، يتجاوز عدد الصفوف 100. هل ترغب في المتابعة؟"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "عدد الصفوف في النطاق يتجاوز 1000. هل أنت متأكد أنك تريد المتابعة؟"
+    },
+    "js_index_ErrorTitle": {
+        "message": "خطأ"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "لا يمكن أن يكون الصف الأول في النطاق أكبر من الصف الأخير."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "لا يمكن أن يتجاوز الصف الأخير في النطاق 100,000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "يجب أن يكون الصف الأخير في النطاق عددًا صحيحًا موجبًا."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "يجب أن يكون الصف الأول في النطاق عددًا صحيحًا موجبًا."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "يجب أن يكون الصف الأول في النطاق أكبر من 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "ميزة إعداد الصفحة متاحة فقط في النسخة الاحترافية، هل تحتاج إلى شراء النسخة الاحترافية الآن؟"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "يرجى التأكد من أنك قمت بتفويض اتصال Notion، إذا تم إنشاء قاعدة البيانات التي قمت بتوصيلها بعد التفويض، فستحتاج إلى إعادة التفويض."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "غير مفوض"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "تم نسخ علامة فاصل الصفحة"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "تم نسخ علامة فاصل الصفحة إلى الحافظة الخاصة بك. الصقها في المكان الذي تريد حدوث فواصل الصفحات القسرية أثناء الطباعة."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "التعليمات: الصق '====Print Notion Page Break====' في محتوى Notion الخاص بك حيث تريد فواصل الصفحات. سيتم استبدال العلامة بفواصل صفحات فعلية عند الطباعة."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "يرجى نسخ هذا النص يدوياً:"
+    }
+}

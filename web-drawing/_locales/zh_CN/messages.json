@@ -1,0 +1,20 @@
+{
+  "name": {
+    "message": "网络绘画 - 页标记和编辑器"
+  },
+  "description": {
+    "message": "实时在页面上绘制形状，绘制线条，绘制曲线，添加文本。截图或打印。在线绘画。"
+  },
+  "rateDialogNo": {
+    "message": "也许下次吧"
+  },
+  "rateDialogTitle": {
+    "message": "对你有用的应用程序？"
+  },
+  "rateDialogYes": {
+    "message": "好的，确定"
+  },
+  "rateDialogDesc": {
+    "message": "你介意在Chrome网上商店给我们评分吗？谢谢！"
+  }
+}

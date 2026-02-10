@@ -1,0 +1,278 @@
+{
+    "extension_name": {
+        "message": "Print Notion"
+    },
+    "extension_description": {
+        "message": "Print Notion è uno strumento potente che ti permette di stampare le tue pagine di Notion come documenti formattati e belli."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Manuale utente"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Acquista la versione Pro"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Segnala un difetto"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Feedback"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Scarica ora!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Se ti piace questa estensione, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">clicca qui per dare 5 stelle⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion è un'estensione progettata specificamente per gli utenti di Notion che consente di stampare le pagine di Notion in formati belli, rendendo le pagine di Notion più pratiche e condivisibili."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "È stata rilasciata una nuova versione di Print Notion. Benvenuto nel provarla! Se trovi difetti, per favore clicca sul pulsante \"Segnala un difetto\" per darci un feedback.💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Se ti piace il plugin, clicca qui per dare 5 stelle⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "La versione attuale che stai utilizzando è una versione storica che è stata deprecata. Per favore, vai al Chrome Web Store per installare l'ultima versione."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Grazie per il tuo supporto. Attualmente stai utilizzando la versione Pro di Print Notion."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Rimuovi il logo dalla pagina stampata... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Stampa con dati tabella... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Aggiorna alla versione Pro "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Manuale utente "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "La funzione di stampa Side Peek è disponibile solo nella versione Pro. Desideri acquistare la versione Pro ora?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Stai attualmente utilizzando la modalità scura di Notion. La stampa in modalità scura potrebbe comportare la mancata corretta stampa di alcuni elementi. È consigliabile passare alla modalità chiara prima di stampare. Desideri continuare?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Modalità scura rilevata"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Stai attualmente utilizzando la modalità scura di Notion. Passeremo temporaneamente alla modalità chiara per la stampa per garantire risultati ottimali. Lo schermo potrebbe lampeggiare brevemente durante questo processo, il che potrebbe causare disagio ad alcuni utenti."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Avviso lampeggiamento schermo: Questo processo può causare un breve lampeggiamento dello schermo che potrebbe essere scomodo per le persone fotosensibili."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Non mostrare più questo avviso"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Annulla"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Continua con modalità chiara"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Elaborazione... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Elaborazione... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Elaborazione... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Elaborazione... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Esportato da Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Attivazione della versione Pro di Print Notion riuscita. "
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Attivazione della versione Pro di Print Notion fallita, per favore contatta il supporto."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Stampa"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Elaborazione..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Verifica dei parametri"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Non sono stati rilevati parametri validi nella pagina corrente. Si prega di confermare se il formato dei parametri impostati è corretto."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Il numero totale di righe nella tabella è inferiore alla riga di inizio specificata dell'intervallo. Si prega di aggiustare la riga di inizio e continuare."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Il numero totale di righe nella tabella è inferiore alla riga finale specificata dell'intervallo. La riga finale è stata aggiornata all'ultima riga dei dati della tabella."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Non sono stati rilevati parametri di stampa nella pagina corrente. Si prega di verificare se le impostazioni della pagina sono corrette. Desideri procedere con la stampa?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Nessun side peek è stato rilevato nella pagina corrente. Si prega di attivare side peek e riprovare."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "È già presente una finestra \"Stampa con dati tabella (Pagina principale)\", desideri chiuderla e aprire una finestra \"Stampa con dati tabella (Side peek)\"?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "È già presente una finestra \"Stampa con dati tabella (Side peek)\", desideri chiuderla e aprire una finestra \"Stampa con dati tabella (Pagina principale)\"?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Stampa con dati tabella (Side peek)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Stampa con dati tabella (Pagina principale)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Grazie per il tuo supporto. Attualmente stai utilizzando la versione Pro di Print Notion."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Chiudi"
+    },
+    "js_index_SelectSpace": {
+        "message": "Spazio:"
+    },
+    "js_index_Refresh": {
+        "message": "Aggiorna"
+    },
+    "js_index_SelectCollection": {
+        "message": "Collezione:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Vista:"
+    },
+    "js_index_DataFilter": {
+        "message": "Filtro dati:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Primi tre righe"
+    },
+    "js_index_AllRows": {
+        "message": "Tutte le righe"
+    },
+    "js_index_RowsRange": {
+        "message": "Intervallo righe"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Formato di output della stampa:"
+    },
+    "js_index_SingleFile": {
+        "message": "File singolo per tutti i dati"
+    },
+    "js_index_SeparateFiles": {
+        "message": "File separati per ogni riga"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Verifica dei parametri"
+    },
+    "js_index_Print": {
+        "message": "Stampa"
+    },
+    "js_index_CheckMatches": {
+        "message": "Verifica corrispondenze"
+    },
+    "js_index_DataPreview": {
+        "message": "Anteprima dati"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Ripristina il mio acquisto"
+    },
+    "js_index_Close": {
+        "message": "Chiudi"
+    },
+    "js_index_Cancel": {
+        "message": "Annulla"
+    },
+    "js_index_Confirm": {
+        "message": "Conferma"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Ottieni dati completi (inclusi i campi formula) dalla Connessione Notion"
+    },
+    "js_index_Authorize": {
+        "message": "Autorizza"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Promemoria di autorizzazione"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "La Connessione Notion necessita di autorizzazione per essere utilizzata, per favore clicca il pulsante 'Autorizza' per autorizzare"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Conferma"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Quando si utilizza la modalità \"File separati per ogni riga\" per la stampa, apparirà una finestra di dialogo di stampa separata per ogni singola riga di dati. La stampa non può essere annullata a metà, e attualmente il numero di righe supera 100. Vuoi procedere?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Il numero di righe nell'intervallo supera 1000. Sei sicuro di voler continuare?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Errore"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "La riga iniziale dell'intervallo non può essere maggiore della riga finale."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "La riga finale dell'intervallo non può superare 100.000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "La riga finale dell'intervallo deve essere un numero intero positivo."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "La riga iniziale dell'intervallo deve essere un numero intero positivo."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "La riga iniziale dell'intervallo deve essere maggiore di 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "La funzione di impostazione della pagina è disponibile solo nella versione Pro, hai bisogno di acquistare la versione Pro ora?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Per favore conferma di aver autorizzato la Connessione Notion, se il Database che hai connesso è stato creato dopo l'autorizzazione, devi ri-autorizzarlo."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Non autorizzato"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Marcatore di interruzione pagina copiato"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Il marcatore di interruzione pagina è stato copiato negli appunti. Incollalo dove vuoi che si verifichino le interruzioni di pagina forzate durante la stampa."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Istruzioni: Incolla '====Print Notion Page Break====' nel tuo contenuto Notion dove vuoi le interruzioni di pagina. Il marcatore sarà sostituito con vere interruzioni di pagina durante la stampa."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Si prega di copiare questo testo manualmente:"
+    }
+}

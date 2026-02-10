@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TapToQR - Settings</title>
+  <link rel="stylesheet" href="../styles/common.css">
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>TapToQR Settings</h1>
+      <p class="subtitle">Customize your QR code generation preferences</p>
+    </header>
+
+    <main class="main-content">
+      <div class="card">
+        <h2 class="card-title">Display Settings</h2>
+        
+        <div class="form-group">
+          <label class="form-label" for="qrCodeSize">
+            Preview Size: <span id="qrCodeSizeValue" class="value-display">300</span>px
+          </label>
+          <input
+            type="range"
+            id="qrCodeSize"
+            class="range-slider"
+            min="200"
+            max="500"
+            step="10"
+            value="300"
+          >
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="qrCodeDownloadSize">
+            Download Size: <span id="qrCodeDownloadSizeValue" class="value-display">400</span>px
+          </label>
+          <input
+            type="range"
+            id="qrCodeDownloadSize"
+            class="range-slider"
+            min="200"
+            max="1000"
+            step="50"
+            value="400"
+          >
+        </div>
+
+        <div class="form-group">
+          <label class="form-label checkbox-wrapper">
+            <input type="checkbox" id="displayLogo" class="checkbox">
+            <span>Display logo in QR code center</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="card-title">QR Code Customization</h2>
+
+        <div class="form-group">
+          <label class="form-label" for="errorCorrectionLevel">Error Correction Level</label>
+          <select id="errorCorrectionLevel" class="form-select">
+            <option value="L">Low (7%)</option>
+            <option value="M" selected>Medium (15%)</option>
+            <option value="Q">Quartile (25%)</option>
+            <option value="H">High (30%)</option>
+          </select>
+          <small class="form-help">Higher levels allow more damage but make QR codes denser</small>
+        </div>
+
+        <div class="color-row">
+          <div class="form-group">
+            <label class="form-label" for="foregroundColor">Foreground Color</label>
+            <div class="color-input-wrapper">
+              <input type="color" id="foregroundColor" class="color-picker" value="#000000">
+              <input type="text" id="foregroundColorText" class="form-input" value="#000000" readonly>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="backgroundColor">Background Color</label>
+            <div class="color-input-wrapper">
+              <input type="color" id="backgroundColor" class="color-picker" value="#ffffff">
+              <input type="text" id="backgroundColorText" class="form-input" value="#ffffff" readonly>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card preview-card">
+        <h2 class="card-title">Preview</h2>
+        <div class="qr-preview-container">
+          <div id="previewQR" class="qr-display">
+            <div class="spinner"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="saveBtn" class="btn btn-primary">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+          </svg>
+          Save Settings
+        </button>
+        <button id="resetBtn" class="btn btn-secondary">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+          </svg>
+          Reset to Defaults
+        </button>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="floating-timer.css">
+</head>
+<body>
+  <div class="floating-timer">
+    <div class="strip-main">
+      <div class="time-group">
+        <div class="timer-display-floating" id="floating-timer-display">25:00</div>
+        <div class="timer-session" id="floating-timer-label">Đang tập trung</div>
+      </div>
+
+      <div class="strip-controls">
+        <button class="strip-btn strip-btn-pause" id="floating-pause" title="Tạm dừng">Tạm dừng</button>
+        <button class="strip-btn strip-btn-stop" id="floating-stop" title="Dừng">Dừng</button>
+      </div>
+    </div>
+    <button class="close-btn" id="close-floating" title="Đóng">×</button>
+  </div>
+
+  <script src="floating-timer.js"></script>
+</body>
+</html>

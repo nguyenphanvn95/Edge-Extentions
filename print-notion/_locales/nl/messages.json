@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion is een krachtige tool waarmee je je Notion-pagina's kunt afdrukken als mooi opgemaakte documenten."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Gebruikershandleiding"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Koop de Pro-versie"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Rapporteer een fout"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Feedback"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Download nu!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Als je deze extensie leuk vindt, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">klik hier om 5 sterren⭐ te geven.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion is een extensie speciaal ontworpen voor Notion-gebruikers waarmee je je Notion-pagina's kunt afdrukken in mooie formaten, waardoor je Notion-pagina's praktischer en deelbaarder worden."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Er is een nieuwe versie van Print Notion uitgebracht, probeer hem uit. Als je fouten vindt, klik dan op de knop \"Rapporteer een defect\" voor feedback.💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Als je de plugin leuk vindt, klik hier om 5 sterren⭐⭐⭐⭐⭐ te geven</a>."
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "De huidige versie die je gebruikt is een historische versie die is stopgezet. Ga naar de Chrome Web Store om de nieuwste versie te installeren."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Bedankt voor je steun. Je gebruikt momenteel de Print Notion Pro-versie."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Verwijder het logo van de afgedrukte pagina..."
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Afdrukken met tabelgegevens..."
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Upgrade naar Pro-versie"
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Gebruikershandleiding"
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "De zijwaartse blik afdrukfunctie is alleen beschikbaar in de Pro-versie. Wil je nu de Pro-versie kopen?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Je gebruikt momenteel de donkere modus van Notion. Het afdrukken in de donkere modus kan resulteren in sommige elementen die niet correct worden afgedrukt. Het wordt aanbevolen om over te schakelen naar de lichte modus voordat je gaat afdrukken. Wil je doorgaan?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Donkere modus gedetecteerd"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Je gebruikt momenteel de donkere modus van Notion. We schakelen tijdelijk over naar de lichte modus voor het afdrukken om optimale resultaten te garanderen. Het scherm kan kort flikkeren tijdens dit proces, wat ongemak kan veroorzaken bij sommige gebruikers."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Schermflikkering waarschuwing: Dit proces kan kort schermflikkeren veroorzaken dat oncomfortabel kan zijn voor lichtgevoelige personen."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Deze waarschuwing niet meer tonen"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Annuleren"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Doorgaan met lichte modus"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Verwerken... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Verwerken... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Verwerken... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Verwerken... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Geëxporteerd door Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Activering van de Print Notion Pro-versie is gelukt."
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Activering van de Print Notion Pro-versie is mislukt. Neem contact op met de ondersteuning."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Afdrukken"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Verwerken..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Parametercontrole"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Er zijn geen geldige parameters gedetecteerd op de huidige pagina. Bevestig of de instellingen van de pagina correct zijn."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Het totale aantal rijen in de tabel is minder dan de opgegeven beginrij van het bereik. Pas de beginrij aan en ga verder."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Het totale aantal rijen in de tabel is minder dan de opgegeven eindrij van het bereik. De eindrij is bijgewerkt naar de laatste rij van de tabelgegevens."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Er zijn geen afdrukparameters gedetecteerd op de huidige pagina. Controleer of de paginasettings correct zijn ingesteld. Wil je doorgaan met afdrukken?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Er is geen zijwaartse blik gedetecteerd op de huidige pagina. Schakel zijwaartse blik in en probeer opnieuw."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Er is al een \"Afdrukken met tabelgegevens (Hoofdpagina)\" venster. Wil je het sluiten en een \"Afdrukken met tabelgegevens (Zijwaartse blik)\" venster openen?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Er is al een \"Afdrukken met tabelgegevens (Zijwaartse blik)\" venster. Wil je het sluiten en een \"Afdrukken met tabelgegevens (Hoofdpagina)\" venster openen?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Afdrukken met tabelgegevens (Zijwaartse blik)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Afdrukken met tabelgegevens (Hoofdpagina)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Bedankt voor je steun. Je gebruikt momenteel de Print Notion Pro-versie."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Sluiten"
+    },
+    "js_index_SelectSpace": {
+        "message": "Ruimte:"
+    },
+    "js_index_Refresh": {
+        "message": "Vernieuwen"
+    },
+    "js_index_SelectCollection": {
+        "message": "Collectie:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Weergave:"
+    },
+    "js_index_DataFilter": {
+        "message": "Gegevensfilter:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Eerste drie rijen"
+    },
+    "js_index_AllRows": {
+        "message": "Alle rijen"
+    },
+    "js_index_RowsRange": {
+        "message": "Rijenbereik"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Afdrukuitvoerformaat:"
+    },
+    "js_index_SingleFile": {
+        "message": "Eén bestand voor alle gegevens"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Aparte bestanden voor elke rij"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Parametercontrole"
+    },
+    "js_index_Print": {
+        "message": "Afdrukken"
+    },
+    "js_index_CheckMatches": {
+        "message": "Overeenkomsten controleren"
+    },
+    "js_index_DataPreview": {
+        "message": "Gegevensvoorbeeld"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Mijn aankoop herstellen"
+    },
+    "js_index_Close": {
+        "message": "Sluiten"
+    },
+    "js_index_Cancel": {
+        "message": "Annuleren"
+    },
+    "js_index_Confirm": {
+        "message": "Bevestigen"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Volledige gegevens ophalen (inclusief formulevelden) van Notion-verbinding"
+    },
+    "js_index_Authorize": {
+        "message": "Autoriseren"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Autorisatieherinnering"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Notion-verbinding heeft autorisatie nodig om te gebruiken, klik op de knop 'Autoriseren' om te autoriseren"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Bevestigen"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Bij gebruik van de modus \"Aparte bestanden voor elke rij\" voor afdrukken, verschijnt er een apart afdrukvenster voor elke individuele gegevensrij. Afdrukken kan niet halverwege worden geannuleerd, en momenteel overschrijdt het aantal rijen 100. Wilt u doorgaan?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Het aantal rijen in het bereik overschrijdt 1000. Weet u zeker dat u wilt doorgaan?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Fout"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "De beginrij van het bereik kan niet groter zijn dan de eindrij."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "De eindrij van het bereik mag niet groter zijn dan 100.000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "De eindrij van het bereik moet een positief geheel getal zijn."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "De beginrij van het bereik moet een positief geheel getal zijn."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "De beginrij van het bereik moet groter zijn dan 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "De paginainstellingsfunctie is alleen beschikbaar in de Pro-versie. Wilt u nu de Pro-versie aanschaffen?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Bevestig dat u Notion-verbinding heeft geautoriseerd. Als de database die u heeft verbonden na autorisatie is gemaakt, moet u deze opnieuw autoriseren."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Niet geautoriseerd"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Pagina-einde markering gekopieerd"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "De pagina-einde markering is naar uw klembord gekopieerd. Plak het waar u gedwongen pagina-einden wilt laten optreden tijdens het afdrukken."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Instructies: Plak '====Print Notion Page Break====' in uw Notion-inhoud waar u pagina-einden wilt. De markering wordt vervangen door echte pagina-einden bij het afdrukken."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Kopieer deze tekst handmatig:"
+    }
+}

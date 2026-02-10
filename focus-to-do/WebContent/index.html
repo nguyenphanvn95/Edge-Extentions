@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Focus Timer - Offline</title>
+    <link href="main.css" rel="stylesheet">
+    <link href="offline-mode.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root" style="height: 100%; width: 100%;"></div>
+    <div id="modal-root"></div>
+    <div>
+        <div id="task-deadline-width" class="small-font" style="display: inline-block; position: absolute; top: -10000px"></div>
+    </div>
+    
+    <!-- Load offline patch first to override sync/auth functions -->
+    <script type="text/javascript" src="js/offline-patch.js"></script>
+    
+    <!-- Load main application -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

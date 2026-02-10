@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cleaner For Chrome</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    
+    <div class="tabs">
+      <button class="tab-button active" data-tab="cleaner">Cleaner</button>
+      <button class="tab-button" data-tab="system">System</button>
+      <button class="tab-button" data-tab="topsites">Top Sites</button>
+    </div>
+
+    <div id="cleaner" class="tab-content active">
+      <h2>Select data to clean:</h2>
+      <div id="dataTypes" class="checkbox-grid"></div>
+
+      <h2>Cleaning interval:</h2>
+      <select id="timeInterval" class="select-styled">
+        <option value="hour">Last hour</option>
+        <option value="day">Last day</option>
+        <option value="week">Last week</option>
+        <option value="month">Last month</option>
+        <option value="all">All time</option>
+      </select>
+
+      <button id="cleanNow" class="btn primary">Clean Now</button>
+      <div id="cleaningStatus" class="status"></div>
+    </div>
+
+    <div id="system" class="tab-content">
+      <h2>System Information</h2>
+      <div id="systemInfo" class="info-grid"></div>
+      <div id="chartContainer">
+        <canvas id="systemChart"></canvas>
+      </div>
+      <button id="requestSystemPermissions" class="btn secondary">Request System Permissions</button>
+    </div>
+
+    <div id="topsites" class="tab-content">
+      <h2>Top Visited Sites</h2>
+      <ul id="topSitesList" class="top-sites-list"></ul>
+      <button id="requestTopSitesPermissions" class="btn secondary">Request Top Sites Permissions</button>
+    </div>
+  </div>
+  <canvas id="celebration"></canvas>
+  <script src="chart.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

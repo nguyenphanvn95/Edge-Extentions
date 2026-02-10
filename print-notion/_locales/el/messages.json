@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion είναι ένα ισχυρό εργαλείο που σας επιτρέπει να εκτυπώνετε τις σελίδες σας Notion ως όμορφα μορφοποιημένα έγγραφα."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Εγχειρίδιο χρήστη"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Αγοράστε τη Pro έκδοση"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Αναφορά σφάλματος"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Ανατροφοδότηση"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Κατεβάστε τώρα!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Αν σας αρέσει αυτή η επέκταση, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">πατήστε εδώ για να βαθμολογήσετε με 5 αστέρια⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Το Print Notion είναι μια επέκταση που έχει σχεδιαστεί ειδικά για τους χρήστες του Notion και σας επιτρέπει να εκτυπώνετε τις σελίδες σας Notion με όμορφα formats, κάνοντας τις σελίδες σας πιο πρακτικές και επικοινωνιακές."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Έχει κυκλοφορήσει μια νέα έκδοση του Print Notion, καλώς ήλθατε να τη δοκιμάσετε. Αν βρείτε σφάλματα, παρακαλούμε πατήστε το κουμπί \"Αναφορά σφάλματος\" για να μας ενημερώσετε. 💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Αν σας αρέσει το πρόσθετο, πατήστε εδώ για να το βαθμολογήσετε με 5 αστέρια⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Η τρέχουσα έκδοση που χρησιμοποιείτε είναι μια ιστορική έκδοση που έχει αποσυρθεί. Παρακαλούμε μεταβείτε στο Chrome Web Store για να εγκαταστήσετε την τελευταία έκδοση."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Σας ευχαριστούμε για την υποστήριξή σας. Χρησιμοποιείτε προς το παρόν την έκδοση Print Notion Pro."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Αφαίρεση του λογότυπου από την εκτυπωμένη σελίδα..."
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Εκτύπωση με δεδομένα πίνακα..."
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Αναβάθμιση στη Pro έκδοση"
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Εγχειρίδιο χρήστη"
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Η δυνατότητα εκτύπωσης από πλευρική προβολή είναι διαθέσιμη μόνο στη Pro έκδοση. Θέλετε να αγοράσετε τώρα τη Pro έκδοση;"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Χρησιμοποιείτε αυτήν τη στιγμή τη σκοτεινή λειτουργία του Notion. Η εκτύπωση σε σκοτεινή λειτουργία μπορεί να οδηγήσει σε μη σωστή εκτύπωση ορισμένων στοιχείων. Συνιστάται να μεταβείτε στη φωτεινή λειτουργία πριν από την εκτύπωση. Θέλετε να συνεχίσετε;"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Εντοπίστηκε σκοτεινή λειτουργία"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Χρησιμοποιείτε αυτήν τη στιγμή τη σκοτεινή λειτουργία του Notion. Θα αλλάξουμε προσωρινά σε φωτεινή λειτουργία για εκτύπωση για να εξασφαλίσουμε βέλτιστα αποτελέσματα. Η οθόνη μπορεί να αναβοσβήνει σύντομα κατά τη διάρκεια αυτής της διαδικασίας, κάτι που θα μπορούσε να προκαλέσει δυσφορία σε ορισμένους χρήστες."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Προειδοποίηση αναβοσβήματος οθόνης: Αυτή η διαδικασία μπορεί να προκαλέσει σύντομο αναβόσβημα οθόνης που θα μπορούσε να είναι άβολο για φωτοευαίσθητα άτομα."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Μην εμφανίσετε ξανά αυτή την προειδοποίηση"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Ακύρωση"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Συνέχεια με φωτεινή λειτουργία"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Επεξεργασία... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Επεξεργασία... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Επεξεργασία... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Επεξεργασία... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Εξαχθεί από το Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Επιτυχής ενεργοποίηση της Pro έκδοσης του Print Notion."
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Η ενεργοποίηση της Pro έκδοσης του Print Notion απέτυχε. Παρακαλούμε επικοινωνήστε με την Υποστήριξη."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Print"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Επεξεργασία..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Έλεγχος παραμέτρων"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Δεν ανιχνεύθηκαν έγκυρες παράμετροι στην τρέχουσα σελίδα. Παρακαλώ επιβεβαιώστε αν η μορφή των ορισμένων παραμέτρων είναι σωστή."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Ο συνολικός αριθμός γραμμών στον πίνακα είναι μικρότερος από την αρχή της καθορισμένης περιοχής γραμμών. Παρακαλώ προσαρμόστε την αρχή της γραμμής και συνεχίστε."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Ο συνολικός αριθμός γραμμών στον πίνακα είναι μικρότερος από την καθορισμένη τελευταία γραμμή της περιοχής δεδομένων. Η τελευταία γραμμή έχει ενημερωθεί στην τελευταία γραμμή των δεδομένων του πίνακα."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Δεν ανιχνεύθηκαν παράμετροι εκτύπωσης στην τρέχουσα σελίδα. Παρακαλώ ελέγξτε αν οι ρυθμίσεις της σελίδας είναι σωστές. Θέλετε να συνεχίσετε με την εκτύπωση;"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Δεν ανιχνεύθηκε πλευρική προβολή στην τρέχουσα σελίδα. Παρακαλώ ενεργοποιήστε την πλευρική προβολή και προσπαθήστε ξανά."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Υπάρχει ήδη παράθυρο \"Εκτύπωση με δεδομένα πίνακα (Κύρια σελίδα)\". Θέλετε να το κλείσετε και να ανοίξετε ένα παράθυρο \"Εκτύπωση με δεδομένα πίνακα (Πλευρική προβολή)\";"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Υπάρχει ήδη παράθυρο \"Εκτύπωση με δεδομένα πίνακα (Πλευρική προβολή)\". Θέλετε να το κλείσετε και να ανοίξετε ένα παράθυρο \"Εκτύπωση με δεδομένα πίνακα (Κύρια σελίδα)\";"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Εκτύπωση με δεδομένα πίνακα (Πλευρική προβολή)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Εκτύπωση με δεδομένα πίνακα (Κύρια σελίδα)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Σας ευχαριστούμε για την υποστήριξή σας. Χρησιμοποιείτε προς το παρόν την έκδοση Print Notion Pro."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Κλείσιμο"
+    },
+    "js_index_SelectSpace": {
+        "message": "Χώρος:"
+    },
+    "js_index_Refresh": {
+        "message": "Ανανέωση"
+    },
+    "js_index_SelectCollection": {
+        "message": "Συλλογή:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Προβολή:"
+    },
+    "js_index_DataFilter": {
+        "message": "Φίλτρο δεδομένων:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Πρώτες τρεις γραμμές"
+    },
+    "js_index_AllRows": {
+        "message": "Όλες οι γραμμές"
+    },
+    "js_index_RowsRange": {
+        "message": "Εύρος γραμμών"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Μορφή εξόδου εκτύπωσης:"
+    },
+    "js_index_SingleFile": {
+        "message": "Μονό Αρχείο για όλα τα Δεδομένα"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Ξεχωριστά Αρχεία για κάθε Γραμμή"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Έλεγχος παραμέτρων"
+    },
+    "js_index_Print": {
+        "message": "Εκτύπωση"
+    },
+    "js_index_CheckMatches": {
+        "message": "Έλεγχος αντιστοιχίσεων"
+    },
+    "js_index_DataPreview": {
+        "message": "Προεπισκόπηση δεδομένων"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Επαναφορά αγοράς"
+    },
+    "js_index_Close": {
+        "message": "Κλείσιμο"
+    },
+    "js_index_Cancel": {
+        "message": "Ακύρωση"
+    },
+    "js_index_Confirm": {
+        "message": "Επιβεβαίωση"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Λήψη πλήρων δεδομένων (συμπεριλαμβανομένων των πεδίων τύπου) από τη Σύνδεση Notion"
+    },
+    "js_index_Authorize": {
+        "message": "Εξουσιοδότηση"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Υπενθύμιση εξουσιοδότησης"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Η Σύνδεση Notion χρειάζεται εξουσιοδότηση για χρήση, παρακαλώ κάντε κλικ στο κουμπί 'Εξουσιοδότηση' για να εξουσιοδοτήσετε"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Επιβεβαίωση"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Όταν χρησιμοποιείτε τη λειτουργία \"Ξεχωριστά Αρχεία για Κάθε Γραμμή\" για εκτύπωση, θα εμφανιστεί ένα ξεχωριστό παράθυρο διαλόγου εκτύπωσης για κάθε μεμονωμένη γραμμή δεδομένων. Η εκτύπωση δεν μπορεί να ακυρωθεί στη μέση, και αυτή τη στιγμή, ο αριθμός των γραμμών υπερβαίνει τις 100. Θέλετε να συνεχίσετε;"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Ο αριθμός των γραμμών στο εύρος υπερβαίνει τις 1000. Είστε σίγουροι ότι θέλετε να συνεχίσετε;"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Σφάλμα"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Η αρχική γραμμή του εύρους δεν μπορεί να είναι μεγαλύτερη από την τελική γραμμή."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Η τελική γραμμή του εύρους δεν μπορεί να υπερβαίνει τις 100.000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Η τελική γραμμή του εύρους πρέπει να είναι θετικός ακέραιος."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Η αρχική γραμμή του εύρους πρέπει να είναι θετικός ακέραιος."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Η αρχική γραμμή του εύρους πρέπει να είναι μεγαλύτερη από 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Η λειτουργία ρύθμισης σελίδας είναι διαθέσιμη μόνο στην έκδοση Pro, θέλετε να αγοράσετε την έκδοση Pro τώρα;"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Παρακαλώ επιβεβαιώστε ότι έχετε εξουσιοδοτήσει τη Σύνδεση Notion, εάν η Βάση Δεδομένων που συνδέσατε δημιουργήθηκε μετά την εξουσιοδότηση, πρέπει να την επανεξουσιοδοτήσετε."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Μη εξουσιοδοτημένο"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Δείκτης αλλαγής σελίδας αντιγράφηκε"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Ο δείκτης αλλαγής σελίδας αντιγράφηκε στο πρόχειρό σας. Επικολλήστε το εκεί όπου θέλετε να γίνονται εξαναγκασμένες αλλαγές σελίδας κατά την εκτύπωση."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Οδηγίες: Επικολλήστε '====Print Notion Page Break====' στο περιεχόμενο του Notion σας όπου θέλετε αλλαγές σελίδας. Ο δείκτης θα αντικατασταθεί με πραγματικές αλλαγές σελίδας κατά την εκτύπωση."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Παρακαλώ αντιγράψτε αυτό το κείμενο χειροκίνητα:"
+    }
+}

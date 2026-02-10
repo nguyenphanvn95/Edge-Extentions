@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion là một công cụ mạnh mẽ cho phép bạn in các trang Notion của mình dưới dạng tài liệu được định dạng đẹp mắt."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Hướng dẫn người dùng"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Mua phiên bản Pro"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Báo cáo lỗi"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Phản hồi"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Tải xuống ngay!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Nếu bạn thích tiện ích mở rộng này, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">nhấp vào đây để đánh giá 5 sao ⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion là một tiện ích mở rộng dành riêng cho người dùng Notion, cho phép bạn in các trang Notion của mình với các định dạng đẹp mắt, giúp các trang Notion của bạn trở nên thực tế và dễ chia sẻ hơn."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Phiên bản mới của Print Notion đã được phát hành, hãy thử ngay. Nếu bạn phát hiện lỗi, vui lòng nhấp vào nút \"Báo cáo lỗi\" để gửi phản hồi. 💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Nếu bạn thích tiện ích này, hãy nhấp vào đây để đánh giá 5 sao ⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Phiên bản hiện tại bạn đang sử dụng là phiên bản lịch sử đã ngừng hỗ trợ, vui lòng truy cập Chrome web store để cài đặt phiên bản mới nhất."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Cảm ơn bạn đã ủng hộ. Bạn đang sử dụng phiên bản Print Notion Pro."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Loại bỏ logo khỏi trang in..."
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ In với dữ liệu bảng..."
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Nâng cấp phiên bản Pro"
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Hướng dẫn người dùng"
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Chức năng nhìn lượt in phụ chỉ có sẵn trong phiên bản Pro, bạn có muốn mua phiên bản Pro ngay không?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Bạn hiện đang sử dụng chế độ tối của Notion. In ở chế độ tối có thể dẫn đến một số phần tử không được in đúng cách. Khuyến nghị chuyển sang chế độ sáng trước khi in. Bạn có muốn tiếp tục không?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Phát hiện chế độ tối"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Bạn hiện đang sử dụng chế độ tối của Notion. Chúng tôi sẽ tạm thời chuyển sang chế độ sáng để in nhằm đảm bảo kết quả tối ưu. Màn hình có thể nhấp nháy trong thời gian ngắn trong quá trình này, điều này có thể gây khó chịu cho một số người dùng."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Cảnh báo nhấp nháy màn hình: Quá trình này có thể gây nhấp nháy màn hình trong thời gian ngắn có thể không thoải mái cho những người nhạy cảm với ánh sáng."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Không hiển thị cảnh báo này nữa"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Hủy"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Tiếp tục với chế độ sáng"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Đang xử lý... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Đang xử lý... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Đang xử lý... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Đang xử lý... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Được xuất bởi Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Kích hoạt phiên bản Print Notion Pro thành công."
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Kích hoạt phiên bản Print Notion Pro thất bại, vui lòng liên hệ Hỗ trợ."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ In"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Đang xử lý..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Kiểm tra tham số"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Không có tham số hợp lệ được phát hiện trên trang hiện tại. Vui lòng xác nhận nếu định dạng của các tham số đặt là chính xác."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Tổng số hàng trong bảng nhỏ hơn hàng bắt đầu được chỉ định của phạm vi. Vui lòng điều chỉnh hàng đầu và tiếp tục."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Tổng số hàng trong bảng ít hơn hàng kết thúc được chỉ định của phạm vi. Hàng kết thúc đã được cập nhật lên hàng cuối cùng của dữ liệu bảng."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Không có thông số in được phát hiện trên trang hiện tại. Vui lòng xác minh nếu cài đặt trang là chính xác. Bạn có muốn tiến hành in ấn không?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Không có Peek bên được phát hiện trên trang hiện tại. Vui lòng bật bên nhìn và thử lại."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Đã có một cửa sổ \"in với dữ liệu bảng (Main page)\", bạn có muốn đóng nó và mở cửa sổ \"in với dữ liệu bảng (Side peek)\" không?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Đã có một cửa sổ \"in với dữ liệu bảng (Side peek)\", bạn có muốn đóng nó và mở cửa sổ \"in với dữ liệu bảng (Main page)\" không?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ in với dữ liệu bảng (Side peek)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ in với dữ liệu bảng (Main page)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Cảm ơn sự hỗ trợ của bạn. Bạn hiện đang sử dụng phiên bản Print Notion pro."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Đóng"
+    },
+    "js_index_SelectSpace": {
+        "message": "Không gian:"
+    },
+    "js_index_Refresh": {
+        "message": "Làm cho khỏe lại"
+    },
+    "js_index_SelectCollection": {
+        "message": "Bộ sưu tập:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Xem:"
+    },
+    "js_index_DataFilter": {
+        "message": "Bộ lọc dữ liệu:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Ba hàng đầu tiên"
+    },
+    "js_index_AllRows": {
+        "message": "Tất cả các hàng"
+    },
+    "js_index_RowsRange": {
+        "message": "Phạm vi hàng"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Định dạng đầu ra in:"
+    },
+    "js_index_SingleFile": {
+        "message": "Tệp duy nhất cho tất cả dữ liệu"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Các tệp riêng biệt cho mỗi hàng"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Kiểm tra tham số"
+    },
+    "js_index_Print": {
+        "message": "In"
+    },
+    "js_index_CheckMatches": {
+        "message": "Kiểm tra đối sánh"
+    },
+    "js_index_DataPreview": {
+        "message": "Xem trước dữ liệu"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Khôi phục giao dịch mua"
+    },
+    "js_index_Close": {
+        "message": "Đóng"
+    },
+    "js_index_Cancel": {
+        "message": "Hủy"
+    },
+    "js_index_Confirm": {
+        "message": "Xác nhận"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Lấy dữ liệu đầy đủ (bao gồm các trường công thức) từ Kết nối Notion"
+    },
+    "js_index_Authorize": {
+        "message": "Ủy quyền"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Nhắc nhở ủy quyền"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Kết nối Notion cần được ủy quyền để sử dụng, vui lòng nhấp vào nút 'Ủy quyền' để ủy quyền"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Xác nhận"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Khi sử dụng chế độ \"Tệp riêng biệt cho mỗi hàng\" để in, một hộp thoại in riêng sẽ xuất hiện cho từng hàng dữ liệu riêng lẻ. Không thể hủy in giữa chừng, và hiện tại, số lượng hàng vượt quá 100. Bạn có muốn tiếp tục không?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Số lượng hàng trong phạm vi vượt quá 1000. Bạn có chắc chắn muốn tiếp tục không?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Lỗi"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Hàng bắt đầu của phạm vi không thể lớn hơn hàng kết thúc."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Hàng kết thúc của phạm vi không thể vượt quá 100.000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Hàng kết thúc của phạm vi phải là một số nguyên dương."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Hàng bắt đầu của phạm vi phải là một số nguyên dương."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Hàng bắt đầu của phạm vi phải lớn hơn 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Tính năng cài đặt trang chỉ có sẵn trong phiên bản Pro, bạn có cần mua phiên bản Pro ngay bây giờ không?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Vui lòng xác nhận rằng bạn đã ủy quyền Kết nối Notion, nếu Cơ sở dữ liệu bạn kết nối được tạo sau khi ủy quyền, bạn cần ủy quyền lại."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Không được ủy quyền"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Đã sao chép dấu ngắt trang"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Dấu ngắt trang đã được sao chép vào clipboard của bạn. Dán nó vào nơi bạn muốn xảy ra ngắt trang cưỡng bức trong quá trình in."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Hướng dẫn: Dán '====Print Notion Page Break====' vào nội dung Notion của bạn ở nơi bạn muốn ngắt trang. Dấu hiệu sẽ được thay thế bằng ngắt trang thực tế khi in."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Vui lòng sao chép văn bản này theo cách thủ công:"
+    }
+}

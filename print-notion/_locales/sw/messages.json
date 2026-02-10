@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion ni chombo kikali kinachokuwezesha kuchapisha kurasa zako za Notion kama nyaraka nzuri na zenye muundo mzuri."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Mwongozo wa mtumiaji"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Nunua toleo la Pro"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Ripoti kasoro"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Maoni"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Pakua sasa!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Ikiwa unapenda kifaa hiki, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">bonyeza hapa kutoa alama ya 5⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion ni kifaa kilichoundwa mahsusi kwa watumiaji wa Notion ambacho hukuruhusu kuchapisha kurasa zako za Notion kwa muundo mzuri, hivyo kuifanya iwe rahisi kushiriki na kutumia."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Toleo jipya la Print Notion limezinduliwa, karibu upime, ukikuta kasoro, tafadhali bonyeza kitufe cha \"Ripoti kasoro\". 💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Ikiwa unapenda programu-jalizi, bonyeza hapa kutoa alama ya 5⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Toleo la sasa unalotumia ni toleo la zamani ambalo limepitwa na wakati, tafadhali nenda kwenye Duka la Chrome kusakinisha toleo jipya."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "malipo/maelezo.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Asante kwa msaada wako. Kwa sasa unatumia toleo la Pro la Print Notion."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Ondoa nembo kwenye ukurasa uliochapishwa..."
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Kuchapisha na data ya meza..."
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Boresha toleo la Pro"
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Mwongozo wa mtumiaji"
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Kipengele cha kuchapisha upande kinapatikana tu kwenye toleo la Pro, unahitaji kununua toleo la Pro sasa?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Kwa sasa unatumia hali ya giza ya Notion. Kuchapisha katika hali ya giza kunaweza kusababisha baadhi ya vipengele visichapishwe kwa usahihi. Inashauriwa kubadili kwenda hali ya mwanga kabla ya kuchapisha. Je, ungependa kuendelea?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Hali ya Giza Imegunduliwa"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Kwa sasa unatumia hali ya giza ya Notion. Tutabadili kwa muda mfupi kwenda hali ya mwanga kwa ajili ya kuchapisha ili kuhakikisha matokeo bora. Skrini inaweza kung'aa kwa muda mfupi wakati wa mchakato huu, ambayo inaweza kusababisha usumbufu kwa baadhi ya watumiaji."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Onyo la kung'aa kwa skrini: Mchakato huu unaweza kusababisha kung'aa kwa muda mfupi kwa skrini ambayo inaweza kuwa mbaya kwa watu wanaoathiriwa na mwanga."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Usionyeshe onyo hili tena"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Ghairi"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Endelea na Hali ya Mwanga"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Inaprocess... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Inaprocess... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Inaprocess... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Inaprocess... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Imeundwa na Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Ufanisi wa kuanzisha toleo la Pro la Print Notion."
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Kushindwa kuanzisha toleo la Pro la Print Notion, tafadhali wasiliana na Msaada."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Chapisha"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Inaprocess..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Uchambuzi wa vigezo"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Hakuna vigezo halali vilivyogunduliwa kwenye ukurasa wa sasa. Tafadhali thibitisha ikiwa muundo wa vigezo uliowekwa ni sahihi."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Idadi ya jumla ya mistari kwenye meza ni ndogo kuliko mwanzo uliowekwa wa safu. Tafadhali rekebisha mwanzo wa safu na endelea."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Idadi ya jumla ya mistari kwenye meza ni ndogo kuliko mwisho uliowekwa wa safu ya data. Mwisho wa safu umesasishwa hadi safu ya mwisho ya data ya meza."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Hakuna vigezo vya kuchapisha vilivyogunduliwa kwenye ukurasa wa sasa. Tafadhali hakiki mipangilio ya ukurasa ikiwa ni sahihi. Unataka kuendelea na kuchapisha?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Hakuna upande wa kuchungulia uliogunduliwa kwenye ukurasa wa sasa. Tafadhali washa upande wa kuchungulia na jaribu tena."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Tayari kuna dirisha la \"Kuchapisha na data ya meza (Ukurasa mkuu)\", ungependa kulifunga na kufungua dirisha la \"Kuchapisha na data ya meza (Upande wa kuchungulia)\"?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Tayari kuna dirisha la \"Kuchapisha na data ya meza (Upande wa kuchungulia)\", ungependa kulifunga na kufungua dirisha la \"Kuchapisha na data ya meza (Ukurasa mkuu)\"?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Kuchapisha na data ya meza (Upande wa kuchungulia)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Kuchapisha na data ya meza (Ukurasa mkuu)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Asante kwa msaada wako. Kwa sasa unatumia toleo la Pro la Print Notion."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Funga"
+    },
+    "js_index_SelectSpace": {
+        "message": "Nafasi:"
+    },
+    "js_index_Refresh": {
+        "message": "Sasisha"
+    },
+    "js_index_SelectCollection": {
+        "message": "Kukusanya:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Tazama:"
+    },
+    "js_index_DataFilter": {
+        "message": "Kichujio cha data:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Mistari mitatu ya kwanza"
+    },
+    "js_index_AllRows": {
+        "message": "Mistari yote"
+    },
+    "js_index_RowsRange": {
+        "message": "Upeo wa safu"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Muundo wa Kuchapisha:"
+    },
+    "js_index_SingleFile": {
+        "message": "Faili moja kwa Data yote"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Faili tofauti kwa kila safu"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Uchambuzi wa vigezo"
+    },
+    "js_index_Print": {
+        "message": "Chapisha"
+    },
+    "js_index_CheckMatches": {
+        "message": "Uchambuzi wa kulinganisha"
+    },
+    "js_index_DataPreview": {
+        "message": "Hakikisho la Data"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Rejesha ununuzi wangu"
+    },
+    "js_index_Close": {
+        "message": "Funga"
+    },
+    "js_index_Cancel": {
+        "message": "Ghairi"
+    },
+    "js_index_Confirm": {
+        "message": "Thibitisha"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Pata data kamili (ikiwa ni pamoja na sehemu za formula) kutoka kwa Muunganisho wa Notion"
+    },
+    "js_index_Authorize": {
+        "message": "Idhinisha"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Kikumbusho cha idhini"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Muunganisho wa Notion unahitaji idhini ili kutumia, tafadhali bonyeza kitufe cha 'Idhinisha' ili kuidhinisha"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Thibitisha"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Wakati wa kutumia hali ya \"Faili Tofauti kwa Kila Safu\" kwa ajili ya kuchapisha, kidirisha tofauti cha kuchapisha kitaonekana kwa kila safu ya data. Uchapishaji hauwezi kughairiwa katikati, na kwa sasa, idadi ya safu inazidi 100. Je, unataka kuendelea?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Idadi ya safu katika upeo inazidi 1000. Je, una uhakika unataka kuendelea?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Hitilafu"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Safu ya kuanzia ya upeo haiwezi kuwa kubwa kuliko safu ya mwisho."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Safu ya mwisho ya upeo haiwezi kuzidi 100,000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Safu ya mwisho ya upeo lazima iwe nambari nzima chanya."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Safu ya kuanzia ya upeo lazima iwe nambari nzima chanya."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Safu ya kuanzia ya upeo lazima iwe kubwa kuliko 0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Kipengele cha kuweka ukurasa kinapatikana tu katika toleo la Pro, je, unahitaji kununua toleo la Pro sasa?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Tafadhali thibitisha kuwa umeidhinisha Muunganisho wa Notion, ikiwa Hifadhidata uliyounganisha iliundwa baada ya idhini, unahitaji kuidhinisha tena."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Hajaruhusiwa"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Alama ya Kuvunja Ukurasa Imenakiliwa"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Alama ya kuvunja ukurasa imenakiliwa kwenye ubao wako wa kunakili. Ibandike pale ambapo unataka kuvunja ukurasa kwa nguvu kutokea wakati wa kuchapisha."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Maelekezo: Bandika '====Print Notion Page Break====' katika maudhui yako ya Notion pale ambapo unataka kuvunja ukurasa. Alama itabadilishwa na kuvunja ukurasa halisi wakati wa kuchapisha."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Tafadhali nakili maandishi haya kwa mkono:"
+    }
+}

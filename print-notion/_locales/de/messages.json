@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion ist ein leistungsstarkes Tool, mit dem Sie Ihre Notion-Seiten als schön formatierte Dokumente drucken können."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 Benutzerhandbuch"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 Die Pro-Version kaufen"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 Fehler melden"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 Feedback"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 Jetzt herunterladen!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "Wenn Ihnen diese Erweiterung gefällt, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">klicken Sie hier, um 5 Sterne zu vergeben⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion ist eine Erweiterung, die speziell für Notion-Benutzer entwickelt wurde und es Ihnen ermöglicht, Ihre Notion-Seiten in schönen Formaten zu drucken, um Ihre Notion-Seiten praktischer und besser teilbar zu machen."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Eine neue Version von Print Notion wurde veröffentlicht. Willkommen zum Ausprobieren! Wenn Sie Fehler finden, klicken Sie bitte auf die Schaltfläche \"Fehler melden\" zur Rückmeldung.💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">Wenn Ihnen das Plugin gefällt, klicken Sie hier, um 5 Sterne zu vergeben⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "Die aktuelle Version, die Sie verwenden, ist eine veraltete Version. Bitte gehen Sie zum Chrome Web Store, um die neueste Version zu installieren."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "Vielen Dank für Ihre Unterstützung. Sie verwenden derzeit die Print Notion Pro-Version."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 Entfernen Sie das Logo von der gedruckten Seite..."
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ Drucken mit Tabellendaten..."
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 Pro-Version aktualisieren"
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 Benutzerhandbuch"
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Das seitliche Vorschau-Druckfeature ist nur in der Pro-Version verfügbar. Möchten Sie jetzt die Pro-Version kaufen?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "Sie verwenden derzeit den Dark Mode von Notion. Das Drucken im Dark Mode kann dazu führen, dass einige Elemente nicht korrekt gedruckt werden. Es wird empfohlen, zum Light Mode zu wechseln, bevor Sie drucken. Möchten Sie dennoch fortfahren?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "Dark Mode erkannt"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "Sie verwenden derzeit den Dark Mode von Notion. Wir werden vorübergehend zum Light Mode wechseln, um optimale Druckergebnisse zu gewährleisten. Der Bildschirm kann dabei kurz flackern, was bei manchen Benutzern Unbehagen verursachen könnte."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ Bildschirmflackern-Warnung: Dieser Vorgang kann kurzes Bildschirmflackern verursachen, das für lichtempfindliche Personen unangenehm sein könnte."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "Diese Warnung nicht mehr anzeigen"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "Abbrechen"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "Mit Light Mode fortfahren"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "Verarbeitung... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "Verarbeitung... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "Verarbeitung... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "Verarbeitung... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Exportiert von Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Aktivierung der Print Notion Pro-Version erfolgreich."
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Aktivierung der Print Notion Pro-Version fehlgeschlagen. Bitte kontaktieren Sie den Support."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ Drucken"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "Verarbeitung..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "Parameterüberprüfung"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "Auf der aktuellen Seite wurden keine gültigen Parameter erkannt. Bitte bestätigen Sie, ob die Formatierung der gesetzten Parameter korrekt ist."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "Die Gesamtzahl der Zeilen in der Tabelle ist geringer als die angegebene Startzeile des Bereichs. Bitte passen Sie die Startzeile an und fahren Sie fort."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "Die Gesamtzahl der Zeilen in der Tabelle ist geringer als die angegebene Endzeile des Bereichs. Die Endzeile wurde auf die letzte Zeile der Tabellendaten aktualisiert."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "Auf der aktuellen Seite wurden keine Druckparameter erkannt. Bitte überprüfen Sie die Seiteneinstellungen. Möchten Sie mit dem Drucken fortfahren?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "Auf der aktuellen Seite wurde kein seitlicher Blick erkannt. Bitte schalten Sie den seitlichen Blick ein und versuchen Sie es erneut."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "Es gibt bereits ein Fenster \"Drucken mit Tabellendaten (Hauptseite)\", möchten Sie es schließen und ein Fenster \"Drucken mit Tabellendaten (Seitenblick)\" öffnen?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "Es gibt bereits ein Fenster \"Drucken mit Tabellendaten (Seitenblick)\", möchten Sie es schließen und ein Fenster \"Drucken mit Tabellendaten (Hauptseite)\" öffnen?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ Drucken mit Tabellendaten (Seitenblick)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ Drucken mit Tabellendaten (Hauptseite)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "Vielen Dank für Ihre Unterstützung. Sie verwenden derzeit die Print Notion Pro-Version."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "Schließen"
+    },
+    "js_index_SelectSpace": {
+        "message": "Space:"
+    },
+    "js_index_Refresh": {
+        "message": "Aktualisieren"
+    },
+    "js_index_SelectCollection": {
+        "message": "Sammlung:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "Ansicht:"
+    },
+    "js_index_DataFilter": {
+        "message": "Datenfilter:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "Ersten drei Zeilen"
+    },
+    "js_index_AllRows": {
+        "message": "Alle Zeilen"
+    },
+    "js_index_RowsRange": {
+        "message": "Zeilenbereich"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "Druckausgabeformat:"
+    },
+    "js_index_SingleFile": {
+        "message": "Eine Datei für alle Daten"
+    },
+    "js_index_SeparateFiles": {
+        "message": "Getrennte Dateien für jede Zeile"
+    },
+    "js_index_ParameterChecking": {
+        "message": "Parameterüberprüfung"
+    },
+    "js_index_Print": {
+        "message": "Drucken"
+    },
+    "js_index_CheckMatches": {
+        "message": "Übereinstimmung überprüfen"
+    },
+    "js_index_DataPreview": {
+        "message": "Daten-Vorschau"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 Kauf wiederherstellen"
+    },
+    "js_index_Close": {
+        "message": "Schließen"
+    },
+    "js_index_Cancel": {
+        "message": "Abbrechen"
+    },
+    "js_index_Confirm": {
+        "message": "Bestätigen"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Vollständige Daten (einschließlich Formelfelder) von der Notion-Verbindung abrufen"
+    },
+    "js_index_Authorize": {
+        "message": "Autorisieren"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "Autorisierungserinnerung"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Die Notion-Verbindung benötigt eine Autorisierung zur Verwendung. Bitte klicken Sie auf den 'Autorisieren'-Button, um zu autorisieren"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "Bestätigen"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "Bei Verwendung des Modus \"Separate Dateien für jede Zeile\" zum Drucken erscheint für jede einzelne Datenzeile ein separater Druckdialog. Der Druckvorgang kann nicht unterbrochen werden, und derzeit übersteigt die Anzahl der Zeilen 100. Möchten Sie fortfahren?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "Die Anzahl der Zeilen im Bereich übersteigt 1000. Sind Sie sicher, dass Sie fortfahren möchten?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "Fehler"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "Die Startzeile des Bereichs kann nicht größer sein als die Endzeile."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "Die Endzeile des Bereichs darf 100.000 nicht überschreiten."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "Die Endzeile des Bereichs muss eine positive ganze Zahl sein."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "Die Startzeile des Bereichs muss eine positive ganze Zahl sein."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "Die Startzeile des Bereichs muss größer als 0 sein."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "Die Seiteneinstellungsfunktion ist nur in der Pro-Version verfügbar. Möchten Sie jetzt die Pro-Version erwerben?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Bitte bestätigen Sie, dass Sie die Notion-Verbindung autorisiert haben. Wenn die von Ihnen verbundene Datenbank nach der Autorisierung erstellt wurde, müssen Sie sie erneut autorisieren."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "Nicht autorisiert"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "Seitenumbruch-Markierung kopiert"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "Die Seitenumbruch-Markierung wurde in Ihre Zwischenablage kopiert. Fügen Sie sie dort ein, wo beim Drucken erzwungene Seitenumbrüche auftreten sollen."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "Anweisungen: Fügen Sie '====Print Notion Page Break====' in Ihren Notion-Inhalt ein, wo Sie Seitenumbrüche wünschen. Die Markierung wird beim Drucken durch tatsächliche Seitenumbrüche ersetzt."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "Bitte kopieren Sie diesen Text manuell:"
+    }
+}

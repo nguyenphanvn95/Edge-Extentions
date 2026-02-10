@@ -1,0 +1,279 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notion הוא כלי עצום שמאפשר לך להדפיס דפי Notion שלך כמסמכים מעוצבים ויפים."
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒 מדריך למשתמש"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 קנה את גרסת Pro"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞 דווח על בעיה"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩 משוב"
+    },
+    "page_popup_button_Download": {
+        "message": "📥 הורד עכשיו!"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "אם אהבתם את התוסף הזה, <a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">לחצו כאן לדירוג 5 כוכבים⭐.</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notion הוא הרחבה שנועדה במיוחד עבור משתמשי Notion שמאפשרת להדפיס דפי Notion שלך בפורמטים יפים, מה שהופך אותם ליותר פרקטיים וניתנים לשיתוף."
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "יצאה גרסה חדשה של Print Notion, ברוכים הבאים לנסות אותה. אם מצאתם בעיות, אנא לחצו על לחצן \"דווח על בעיה\" כדי לתת משוב.💗 <a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">אם אהבתם את התוסף, לחצו כאן לדירוג 5 כוכבים⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "הגרסה הנוכחית שאתם משתמשים בה היא גרסה היסטורית שהוסרה, אנא עברו לחנות האינטרנט של Chrome כדי להתקין את הגרסה האחרונה."
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "תודה על התמיכה שלך. אתה משתמש כעת בגרסה Pro של Print Notion."
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄 הסרת הלוגו מהדף המודפס... "
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️ הדפסה עם נתוני טבלה... "
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒 שדרוג לגרסת Pro "
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒 מדריך למשתמש "
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "תכונת הדפסת Side Peek זמינה רק בגרסה Pro, האם ברצונך לרכוש את גרסת Pro כעת?"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "אתה משתמש כעת במצב האפל של Notion. הדפסה במצב כהה עשויה להוביל לאי-דיוקים בהדפסת אלמנטים מסוימים. מומלץ לעבור למצב אור לפני ההדפסה. האם ברצונך להמשיך?"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "זוהה מצב כהה"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "אתה משתמש כעת במצב כהה של Notion. אנו נעבור זמנית למצב בהיר להדפסה כדי להבטיח תוצאות אופטימליות. המסך עלול להבהב לזמן קצר במהלך תהליך זה, מה שעלול לגרום לאי נוחות לחלק מהמשתמשים."
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ אזהרת הבהוב מסך: תהליך זה עלול לגרום להבהוב קצר של המסך שעלול להיות לא נוח לאנשים רגישים לאור."
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "אל תציג אזהרה זו שוב"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "ביטול"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "המשך במצב בהיר"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "מעבד... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "מעבד... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "מעבד... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "מעבד... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "יוצא על ידי Print Notion"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "הפעלה הצליחה של גרסת Pro של Print Notion. "
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "הפעלה של גרסת Pro של Print Notion נכשלה, אנא צור קשר עם התמיכה."
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️ הדפסה"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "מעבד..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "בדיקת פרמטרים"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "לא זוהו פרמטרים תקפים בעמוד הנוכחי. אנא אמת אם פורמט הפרמטרים שנקבע."
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "מספר השורות הכולל בטבלה קטן מהשורה הראשונה המצוינת בטווח. אנא התאם את השורה הראשונה והמשך."
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "מספר השורות הכולל בטבלה קטן מהשורה האחרונה המצוינת בטווח. השורה האחרונה עודכנה לשורה האחרונה בנתוני הטבלה."
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "לא זוהו פרמטרים הדפסה בעמוד הנוכחי. אנא אמת אם הגדרות העמוד נכונות. האם ברצונך להמשיך עם ההדפסה?"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "לא זוהתה תצוגה צדדית בעמוד הנוכחי. אנא הפעל את התצוגה הצדדית ונסה שוב."
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "כבר קיים חלון \"הדפסה עם נתוני טבלה (דף ראשי)\", האם ברצונך לסגור אותו ולפתוח חלון \"הדפסה עם נתוני טבלה (תצוגה צדדית)\"?"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "כבר קיים חלון \"הדפסה עם נתוני טבלה (תצוגה צדדית)\", האם ברצונך לסגור אותו ולפתוח חלון \"הדפסה עם נתוני טבלה (דף ראשי)\"?"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️ הדפסה עם נתוני טבלה (תצוגה צדדית)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️ הדפסה עם נתוני טבלה (דף ראשי)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "תודה על התמיכה שלך. אתה משתמש כעת בגרסה Pro של Print Notion."
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "סגור"
+    },
+    "js_index_SelectSpace": {
+        "message": "מרווח:"
+    },
+    "js_index_Refresh": {
+        "message": "רענון"
+    },
+    "js_index_SelectCollection": {
+        "message": "אוסף:"
+    },
+    "js_index_SelectCollectionView": {
+        "message": "תצוגה:"
+    },
+    "js_index_DataFilter": {
+        "message": "סינון נתונים:"
+    },
+    "js_index_FirstThreeRows": {
+        "message": "שלושת השורות הראשונות"
+    },
+    "js_index_AllRows": {
+        "message": "כל השורות"
+    },
+    "js_index_RowsRange": {
+        "message": "טווח שורות"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "פורמט הדפסה:"
+    },
+    "js_index_SingleFile": {
+        "message": "קובץ אחד עבור כל הנתונים"
+    },
+    "js_index_SeparateFiles": {
+        "message": "קבצים נפרדים לכל שורה"
+    },
+    "js_index_ParameterChecking": {
+        "message": "בדיקת פרמטרים"
+    },
+    "js_index_Print": {
+        "message": "הדפס"
+    },
+    "js_index_CheckMatches": {
+        "message": "בדיקת התאמה"
+    },
+    "js_index_DataPreview": {
+        "message": "תצוגה מקדימה של הנתונים"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 שחזר את הרכישה שלי"
+    },
+    "js_index_Close": {
+        "message": "סגור"
+    },
+    "js_index_Cancel": {
+        "message": "ביטול"
+    },
+    "js_index_Confirm": {
+        "message": "אישור"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "קבל נתונים מלאים (כולל שדות נוסחה) מחיבור Notion"
+    },
+    "js_index_Authorize": {
+        "message": "אשר"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "תזכורת אישור"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "חיבור Notion דורש אישור לשימוש, אנא לחץ על כפתור 'אשר' כדי לאשר"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "אישור"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "בעת שימוש במצב \"קבצים נפרדים לכל שורה\" להדפסה, תופיע תיבת דו-שיח נפרדת להדפסה עבור כל שורת נתונים בודדת. לא ניתן לבטל את ההדפסה באמצע, וכרגע, מספר השורות עולה על 100. האם ברצונך להמשיך?"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "מספר השורות בטווח עולה על 1000. האם אתה בטוח שברצונך להמשיך?"
+    },
+    "js_index_ErrorTitle": {
+        "message": "שגיאה"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "השורה ההתחלתית של הטווח לא יכולה להיות גדולה מהשורה הסופית."
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "השורה הסופית של הטווח לא יכולה לעלות על 100,000."
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "השורה הסופית של הטווח חייבת להיות מספר שלם חיובי."
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "השורה ההתחלתית של הטווח חייבת להיות מספר שלם חיובי."
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "השורה ההתחלתית של הטווח חייבת להיות גדולה מ-0."
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "תכונת הגדרת העמוד זמינה רק בגרסת Pro, האם אתה צריך לרכוש את גרסת Pro עכשיו?"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "אנא אשר שאישרת את חיבור Notion, אם מסד הנתונים שחיברת נוצר לאחר האישור, עליך לאשר אותו מחדש."
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "לא מורשה"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "סמן מעבר עמוד הועתק"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "סמן מעבר העמוד הועתק ללוח העריכה שלך. הדבק אותו במקום בו אתה רוצה שיתרחשו מעברי עמוד כפויים במהלך ההדפסה."
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "הוראות: הדבק '====Print Notion Page Break====' בתוכן ה-Notion שלך במקום בו אתה רוצה מעברי עמוד. הסמן יוחלף במעברי עמוד אמיתיים בעת ההדפסה."
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "אנא העתק את הטקסט הזה באופן ידני:"
+    }
+}

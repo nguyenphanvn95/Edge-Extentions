@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "TapToQR Enhanced",
+  "version": "2.0.0",
+  "description": "Generate QR codes instantly with history tracking, customization, and side panel support",
+  "author": "Enhanced Version",
+  "icons": {
+    "128": "public/icons/ic_TapToQR_128.png",
+    "64": "public/icons/ic_TapToQR_64.png",
+    "48": "public/icons/ic_TapToQR_48.png",
+    "32": "public/icons/ic_TapToQR_32.png",
+    "16": "public/icons/ic_TapToQR_16.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "sidePanel",
+    "contextMenus"
+  ],
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_title": "TapToQR Enhanced"
+  },
+  "side_panel": {
+    "default_path": "src/sidepanel/sidepanel.html"
+  },
+  "options_ui": {
+    "page": "src/options/options.html",
+    "open_in_tab": true
+  },
+  "background": {
+    "service_worker": "src/background/background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "public/icons/ic_TapToQR.svg"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}

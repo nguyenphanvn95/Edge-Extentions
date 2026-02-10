@@ -1,0 +1,282 @@
+{
+    "extension_name": {
+        "message": "Print Notion",
+        "description": ""
+    },
+    "extension_description": {
+        "message": "Print Notionは、美しいフォーマットされたドキュメントとしてNotionページを印刷できる強力なツールです。"
+    },
+    "page_popup_title": {
+        "message": "Print Notion"
+    },
+    "page_popup_button_UserManual": {
+        "message": "📒ユーザーマニュアル"
+    },
+    "page_popup_button_BuyPro": {
+        "message": "🛒 PROバージョンを購入します"
+    },
+    "page_popup_button_ReportBug": {
+        "message": "🐞欠陥を報告します"
+    },
+    "page_popup_button_Feedback": {
+        "message": "📩フィードバック"
+    },
+    "page_popup_button_Download": {
+        "message": "📥今すぐダウンロード！"
+    },
+    "page_popup_notify_StarNotification": {
+        "message": "あなたがこの拡張機能が好きなら、<a id=\"rate_btn\" style=\"color: white;\" target=\"_blank\">ここをクリックして5つ星を評価してください。</a>"
+    },
+    "page_popup_notify_introduce": {
+        "message": "Print Notionは、Notion_ユーザー向けに特別に設計された拡張機能であり、Notionページを美しい形式で印刷できるため、Notion_ページがより実用的で共有可能になります。"
+    },
+    "page_popup_notify_NewVersion": {
+        "message": "Print Notionの新しいバージョンがリリースされました、Welcome To Try The Try、欠陥が見つかった場合は、「欠陥を報告する」ボタンフィードバックをクリックしてください。<a id=\"rate_btn_newVersion\" style=\"color: white;\" href=\"https://chromewebstore.google.com/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha/reviews?from=rate\" target=\"_blank\">プラグインが好きなら、ここをクリックして5つ星を評価します⭐⭐⭐⭐⭐</a>"
+    },
+    "js_popup_msg_NewVersion": {
+        "message": "使用している現在のバージョンは、非推奨されている履歴バージョンです。Chrome Webストアにアクセスして、最新バージョンをインストールしてください。"
+    },
+    "js_popup_url_ChromeDownload": {
+        "message": "https://chrome.google.com/webstore/detail/print-notion/ijaopicbldggjdgbnfdlkljeggibmcha"
+    },
+    "js_popup_url_EdgeDownload": {
+        "message": "https://microsoftedge.microsoft.com/addons/detail/dkejjajekpajnhlmkoboicbifhdafpid"
+    },
+    "js_popup_url_Payment": {
+        "message": "payment/products.html"
+    },
+    "js_popup_url_UserManual": {
+        "message": "PrintNotionUserManual.html"
+    },
+    "js_popup_msg_ProUser": {
+        "message": "ご協力ありがとうございます。現在、Print Notion proバージョンを使用しています。"
+    },
+    "js_content_Menu_PrintNotion": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_Menu_RemoveLogo": {
+        "message": "📄印刷されたページからロゴを削除してください..."
+    },
+    "js_content_Menu_PrintingWithTable": {
+        "message": "🖨️テーブルデータを使用した印刷..."
+    },
+    "js_content_Menu_UpgradePro": {
+        "message": "🛒アップグレードProバージョン"
+    },
+    "js_content_Menu_UserManual": {
+        "message": "📒ユーザーマニュアル"
+    },
+    "js_content_Menu_InsertPageBreak": {
+        "message": "📄 改ページを挿入"
+    },
+    "js_content_Msg_SidePeekPurchase": {
+        "message": "Proバージョンでのみ利用可能なサイドピーク印刷機能、Proバージョンを今すぐ購入する必要がありますか？"
+    },
+    "js_content_Msg_DarkMode": {
+        "message": "現在、Notionのダークモードを使用しています。暗いモードでの印刷により、一部の要素が正しく印刷されていない場合があります。印刷する前にライトモードに切り替えることをお勧めします。続けたいですか？"
+    },
+    "js_content_Modal_DarkModeTitle": {
+        "message": "ダークモードが検出されました"
+    },
+    "js_content_Modal_DarkModeMessage": {
+        "message": "現在、Notionのダークモードを使用しています。最適な結果を確保するため、印刷時に一時的にライトモードに切り替えます。この処理中に画面が短時間点滅する可能性があり、一部のユーザーに不快感を与える場合があります。"
+    },
+    "js_content_Modal_DarkModeWarning": {
+        "message": "⚠️ 画面点滅警告：この処理により短時間の画面点滅が発生する可能性があり、光過敏症の方には不快感を与える場合があります。"
+    },
+    "js_content_Modal_DarkModeCheckbox": {
+        "message": "この警告を再度表示しない"
+    },
+    "js_content_Modal_DarkModeCancel": {
+        "message": "キャンセル"
+    },
+    "js_content_Modal_DarkModeContinue": {
+        "message": "ライトモードで続行"
+    },
+    "js_content_Msg_Processing1of5": {
+        "message": "処理... 🟩⬜⬜⬜⬜"
+    },
+    "js_content_Msg_Processing2of5": {
+        "message": "処理... 🟩🟩⬜⬜⬜"
+    },
+    "js_content_Msg_Processing3of5": {
+        "message": "処理... 🟩🟩🟩⬜⬜"
+    },
+    "js_content_Msg_Processing4of5": {
+        "message": "処理... 🟩🟩🟩🟩⬜"
+    },
+    "js_content_Msg_ExportedBy": {
+        "message": "Print Notionによってエクスポート"
+    },
+    "js_content_Msg_ActivationSuccess": {
+        "message": "Print Notion Proバージョンのアクティベーションの成功。"
+    },
+    "js_content_Msg_ActivationFailed": {
+        "message": "Print Notion Proバージョンのアクティベーションが失敗しました。サポートに連絡してください。"
+    },
+    "js_content_ButtonNameFull": {
+        "message": "🖨️ Print Notion"
+    },
+    "js_content_ButtonNameShort": {
+        "message": "🖨️印刷"
+    },
+    "js_content_Modal_Msg_Processing": {
+        "message": "処理..."
+    },
+    "js_content_Modal_ParameterChecking": {
+        "message": "パラメーターチェック"
+    },
+    "js_content_Modal_NoValidParameters": {
+        "message": "現在のページで有効なパラメーターは検出されませんでした。セットパラメーターの形式が正しいかどうかを確認してください。"
+    },
+    "js_content_Modal_Msg_LessBeginningRow": {
+        "message": "テーブル内の行の総数は、範囲の指定された開始行よりも少ないです。開始行を調整して続行してください。"
+    },
+    "js_content_Modal_Msg_LessEndingRow": {
+        "message": "テーブル内の列の総数は、範囲の指定されたエンド行よりも少ないです。終了行は、テーブルデータの最後の行に更新されました。"
+    },
+    "js_content_Modal_Msg_NoPrintParameters": {
+        "message": "現在のページでは、印刷パラメーターは検出されませんでした。ページ設定が正しいかどうかを確認してください。印刷を進めたいですか？"
+    },
+    "js_content_Msg_NoSidePeek": {
+        "message": "現在のページではサイドピークは検出されませんでした。サイドピークをオンにして再試行してください。"
+    },
+    "js_form_AlreadyExistMainPage": {
+        "message": "すでに「テーブルデータ付きの印刷(Main page)」ウィンドウがあります。「テーブルデータを使用した印刷(Side peek)」ウィンドウを閉じて開きますか？"
+    },
+    "js_form_AlreadyExistSidePeek": {
+        "message": "すでに「テーブルデータ付きの印刷(Side peek)」ウィンドウがあります。「テーブルデータを使用した印刷(Main page)」ウィンドウを閉じて開きますか？"
+    },
+    "js_form_PrintingSidePeek": {
+        "message": "🖨️テーブルデータ付きの印刷(Side peek)"
+    },
+    "js_form_PrintingMainPage": {
+        "message": "🖨️テーブルデータ付きの印刷(Main page)"
+    },
+    "js_form_Msg_ProVersion": {
+        "message": "ご協力ありがとうございます。現在、Print Notion proバージョンを使用しています。"
+    },
+    "js_form_Modal_ButtonClose": {
+        "message": "近い"
+    },
+    "js_index_SelectSpace": {
+        "message": "空間："
+    },
+    "js_index_Refresh": {
+        "message": "リフレッシュします"
+    },
+    "js_index_SelectCollection": {
+        "message": "コレクション："
+    },
+    "js_index_SelectCollectionView": {
+        "message": "ビュー："
+    },
+    "js_index_DataFilter": {
+        "message": "データフィルター："
+    },
+    "js_index_FirstThreeRows": {
+        "message": "最初の3行"
+    },
+    "js_index_AllRows": {
+        "message": "すべての行"
+    },
+    "js_index_RowsRange": {
+        "message": "行の範囲"
+    },
+    "js_index_ProFlag": {
+        "message": "(Pro)"
+    },
+    "js_index_PrintOutputFormat": {
+        "message": "出力形式の印刷："
+    },
+    "js_index_SingleFile": {
+        "message": "すべてのデータの単一ファイル"
+    },
+    "js_index_SeparateFiles": {
+        "message": "各行のファイルを個別にします"
+    },
+    "js_index_ParameterChecking": {
+        "message": "パラメーターチェック"
+    },
+    "js_index_Print": {
+        "message": "印刷"
+    },
+    "js_index_CheckMatches": {
+        "message": "一致するチェック"
+    },
+    "js_index_DataPreview": {
+        "message": "データプレビュー"
+    },
+    "js_index_ActivationLicense": {
+        "message": "🔑 購入を復元"
+    },
+    "js_index_Close": {
+        "message": "閉じる"
+    },
+    "js_index_Cancel": {
+        "message": "キャンセル"
+    },
+    "js_index_Confirm": {
+        "message": "確認"
+    },
+    "js_index_GetDataFromConnection": {
+        "message": "Notion接続から完全なデータ（数式フィールドを含む）を取得する"
+    },
+    "js_index_Authorize": {
+        "message": "認証"
+    },
+    "js_index_AuthorizeReminder": {
+        "message": "認証リマインダー"
+    },
+    "js_index_AuthorizeReminderContent": {
+        "message": "Notion接続を使用するには認証が必要です。'認証'ボタンをクリックして認証してください"
+    },
+    "js_index_ConfirmTitle": {
+        "message": "確認"
+    },
+    "js_index_ConfirmContent_SeparateFiles": {
+        "message": "「各行に対して別々のファイル」モードで印刷する場合、各データ行に対して個別の印刷ダイアログが表示されます。印刷は途中でキャンセルできず、現在、行数が100を超えています。続行しますか？"
+    },
+    "js_index_ConfirmContent_PrintWarning": {
+        "message": "範囲内の行数が1000を超えています。続行してもよろしいですか？"
+    },
+    "js_index_ErrorTitle": {
+        "message": "エラー"
+    },
+    "js_index_ErrorContent_RangeBeginGreaterThanEnd": {
+        "message": "範囲の開始行は終了行より大きくすることはできません。"
+    },
+    "js_index_ErrorContent_RangeEndExceeds100000": {
+        "message": "範囲の終了行は100,000を超えることはできません。"
+    },
+    "js_index_ErrorContent_RangeEndMustBePositiveInteger": {
+        "message": "範囲の終了行は正の整数でなければなりません。"
+    },
+    "js_index_ErrorContent_RangeBeginMustBePositiveInteger": {
+        "message": "範囲の開始行は正の整数でなければなりません。"
+    },
+    "js_index_ErrorContent_RangeBeginMustBeGreaterThan0": {
+        "message": "範囲の開始行は0より大きくなければなりません。"
+    },
+    "js_index_ConfirmContent_ProVersion": {
+        "message": "ページ設定機能はProバージョンでのみ利用可能です。今すぐProバージョンを購入しますか？"
+    },
+    "js_index_ErrorContent_GetDataFromConnection": {
+        "message": "Notion接続を認証したことを確認してください。接続したデータベースが認証後に作成された場合は、再認証が必要です。"
+    },
+    "js_index_ErrorTitle_NotAuthorized": {
+        "message": "認証されていません"
+    },
+    "js_content_Modal_PageBreakTitle": {
+        "message": "改ページマーカーがコピーされました"
+    },
+    "js_content_Modal_PageBreakMessage": {
+        "message": "改ページマーカーがクリップボードにコピーされました。印刷時に強制改ページを行いたい場所に貼り付けてください。"
+    },
+    "js_content_Modal_PageBreakInstructions": {
+        "message": "手順：Notionコンテンツで改ページしたい場所に'====Print Notion Page Break====='を貼り付けてください。印刷時にマーカーは実際の改ページに置き換えられます。"
+    },
+    "js_content_Modal_PageBreakManualCopy": {
+        "message": "このテキストを手動でコピーしてください："
+    }
+}

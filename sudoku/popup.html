@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Master Pro</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/themes.css">
+</head>
+<body data-theme="default">
+    <div class="container">
+        <!-- Header với settings -->
+        <div class="header">
+            <div class="header-left">
+                <h1>SUDOKU MASTER PRO</h1>
+                <div class="daily-badge" id="daily-badge" style="display: none;">
+                    <span>🏆 Daily Challenge</span>
+                </div>
+            </div>
+            <div class="header-right">
+                <button class="icon-btn" id="stats-btn" title="Thống kê">📊</button>
+                <button class="icon-btn" id="theme-btn" title="Themes">🎨</button>
+                <button class="icon-btn" id="settings-btn" title="Cài đặt">⚙️</button>
+            </div>
+        </div>
+
+        <div class="timer-display">
+            <span id="timer">00:00</span>
+            <button class="icon-btn-small" id="pause-btn" title="Pause/Resume">⏸️</button>
+        </div>
+
+        <!-- Difficulty & Controls -->
+        <div class="controls-top">
+            <div class="difficulty-selector">
+                <button class="diff-btn" data-level="easy">Dễ</button>
+                <button class="diff-btn active" data-level="medium">Trung bình</button>
+                <button class="diff-btn" data-level="hard">Khó</button>
+                <button class="diff-btn" data-level="expert">Chuyên gia</button>
+            </div>
+            <button id="new-game" class="btn-primary">Game mới</button>
+        </div>
+
+        <!-- Quick actions -->
+        <div class="quick-actions">
+            <button class="quick-btn" id="daily-challenge-btn" title="Thử thách hàng ngày">
+                <span>📅</span> Daily
+            </button>
+            <button class="quick-btn" id="save-game-btn" title="Lưu game (Ctrl+S)">
+                <span>💾</span> Lưu
+            </button>
+            <button class="quick-btn" id="load-game-btn" title="Tải game">
+                <span>📂</span> Tải
+            </button>
+            <button class="quick-btn" id="export-btn" title="Export puzzle">
+                <span>📤</span> Export
+            </button>
+            <button class="quick-btn" id="import-btn" title="Import puzzle">
+                <span>📥</span> Import
+            </button>
+        </div>
+
+        <!-- Sudoku Grid -->
+        <div id="sudoku-board" class="sudoku-board"></div>
+
+        <!-- Number Pad -->
+        <div class="number-pad">
+            <button class="num-btn" data-num="1">1</button>
+            <button class="num-btn" data-num="2">2</button>
+            <button class="num-btn" data-num="3">3</button>
+            <button class="num-btn" data-num="4">4</button>
+            <button class="num-btn" data-num="5">5</button>
+            <button class="num-btn" data-num="6">6</button>
+            <button class="num-btn" data-num="7">7</button>
+            <button class="num-btn" data-num="8">8</button>
+            <button class="num-btn" data-num="9">9</button>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button id="undo-btn" class="action-btn" title="Undo (Ctrl+Z hoặc -)">
+                <span>↶</span> Undo
+            </button>
+            <button id="erase-btn" class="action-btn" title="Xóa (Delete hoặc Backspace)">
+                <span>⌫</span> Xóa
+            </button>
+            <button id="note-btn" class="action-btn" title="Chế độ ghi chú (X)">
+                <span>✎</span> Ghi chú
+            </button>
+            <button id="hint-btn" class="action-btn" title="Gợi ý (H)">
+                <span>💡</span> Gợi ý
+            </button>
+            <button id="solve-btn" class="action-btn" title="Giải (S)">
+                <span>✓</span> Giải
+            </button>
+        </div>
+
+        <!-- Game Info -->
+        <div class="game-info">
+            <div class="info-item">
+                <span>Lỗi: <strong id="mistakes">0</strong>/3</span>
+            </div>
+            <div class="info-item">
+                <span>Gợi ý: <strong id="hints-left">3</strong></span>
+            </div>
+            <div class="info-item" id="saved-indicator" style="display: none;">
+                <span style="color: #28a745;">✓ Đã lưu</span>
+            </div>
+        </div>
+
+        <!-- Keyboard Shortcuts Guide -->
+        <div class="shortcuts-guide">
+            <details>
+                <summary>⌨️ Phím tắt</summary>
+                <div class="shortcuts-content">
+                    <div class="shortcut-group">
+                        <h4>Di chuyển:</h4>
+                        <p><kbd>Arrow Keys</kbd> Di chuyển ô</p>
+                        <p><kbd>Tab</kbd> / <kbd>Shift+Tab</kbd> Ô tiếp/trước</p>
+                    </div>
+                    <div class="shortcut-group">
+                        <h4>Nhập số:</h4>
+                        <p><kbd>1-9</kbd> Điền số</p>
+                        <p><kbd>Shift+1-9</kbd> Ghi chú nhanh</p>
+                    </div>
+                    <div class="shortcut-group">
+                        <h4>Chế độ:</h4>
+                        <p><kbd>X</kbd> Chế độ ghi chú</p>
+                        <p><kbd>C</kbd> Chế độ điền số</p>
+                        <p><kbd>D</kbd> Dark mode</p>
+                    </div>
+                    <div class="shortcut-group">
+                        <h4>Thao tác:</h4>
+                        <p><kbd>Ctrl+S</kbd> Lưu game</p>
+                        <p><kbd>Ctrl+O</kbd> Tải game</p>
+                        <p><kbd>Delete</kbd> Xóa</p>
+                        <p><kbd>Ctrl+Z</kbd> Undo</p>
+                        <p><kbd>H</kbd> Gợi ý</p>
+                        <p><kbd>N</kbd> Game mới</p>
+                    </div>
+                </div>
+            </details>
+        </div>
+
+        <!-- Statistics Modal -->
+        <div id="stats-modal" class="modal hidden">
+            <div class="modal-content stats-content">
+                <div class="modal-header">
+                    <h2>📊 Thống kê</h2>
+                    <button class="close-btn" data-modal="stats-modal">×</button>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-games">0</div>
+                        <div class="stat-label">Tổng số game</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="games-won">0</div>
+                        <div class="stat-label">Đã hoàn thành</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="win-rate">0%</div>
+                        <div class="stat-label">Tỷ lệ thắng</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-time">0:00</div>
+                        <div class="stat-label">Tổng thời gian</div>
+                    </div>
+                </div>
+                <h3 style="margin-top: 20px;">🏆 Thời gian tốt nhất</h3>
+                <div class="best-times">
+                    <div class="time-row">
+                        <span>Dễ:</span>
+                        <strong id="best-easy">--:--</strong>
+                    </div>
+                    <div class="time-row">
+                        <span>Trung bình:</span>
+                        <strong id="best-medium">--:--</strong>
+                    </div>
+                    <div class="time-row">
+                        <span>Khó:</span>
+                        <strong id="best-hard">--:--</strong>
+                    </div>
+                    <div class="time-row">
+                        <span>Chuyên gia:</span>
+                        <strong id="best-expert">--:--</strong>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <button class="btn-danger" id="reset-stats-btn">🗑️ Reset thống kê</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Theme Modal -->
+        <div id="theme-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>🎨 Chọn Theme</h2>
+                    <button class="close-btn" data-modal="theme-modal">×</button>
+                </div>
+                <div class="theme-grid">
+                    <div class="theme-card" data-theme="default">
+                        <div class="theme-preview default-preview"></div>
+                        <div class="theme-name">Default</div>
+                    </div>
+                    <div class="theme-card" data-theme="dark">
+                        <div class="theme-preview dark-preview"></div>
+                        <div class="theme-name">Dark</div>
+                    </div>
+                    <div class="theme-card" data-theme="ocean">
+                        <div class="theme-preview ocean-preview"></div>
+                        <div class="theme-name">Ocean</div>
+                    </div>
+                    <div class="theme-card" data-theme="forest">
+                        <div class="theme-preview forest-preview"></div>
+                        <div class="theme-name">Forest</div>
+                    </div>
+                    <div class="theme-card" data-theme="sunset">
+                        <div class="theme-preview sunset-preview"></div>
+                        <div class="theme-name">Sunset</div>
+                    </div>
+                    <div class="theme-card" data-theme="purple">
+                        <div class="theme-preview purple-preview"></div>
+                        <div class="theme-name">Purple</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Settings Modal -->
+        <div id="settings-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>⚙️ Cài đặt</h2>
+                    <button class="close-btn" data-modal="settings-modal">×</button>
+                </div>
+                <div class="settings-list">
+                    <div class="setting-item">
+                        <label>
+                            <input type="checkbox" id="auto-save-toggle" checked>
+                            <span>Tự động lưu game</span>
+                        </label>
+                    </div>
+                    <div class="setting-item">
+                        <label>
+                            <input type="checkbox" id="sound-toggle">
+                            <span>Âm thanh</span>
+                        </label>
+                    </div>
+                    <div class="setting-item">
+                        <label>
+                            <input type="checkbox" id="highlight-toggle" checked>
+                            <span>Highlight số giống nhau</span>
+                        </label>
+                    </div>
+                    <div class="setting-item">
+                        <label>
+                            <input type="checkbox" id="error-check-toggle" checked>
+                            <span>Kiểm tra lỗi tức thì</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Import/Export Modal -->
+        <div id="import-export-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="ie-modal-title">📥 Import Puzzle</h2>
+                    <button class="close-btn" data-modal="import-export-modal">×</button>
+                </div>
+                <div class="import-export-content">
+                    <textarea id="puzzle-data" rows="10" placeholder="Paste puzzle data here..."></textarea>
+                    <div class="modal-actions">
+                        <button class="btn-primary" id="confirm-import">Import</button>
+                        <button class="btn-secondary" id="copy-export">Copy to Clipboard</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Win Modal -->
+        <div id="win-modal" class="modal hidden">
+            <div class="modal-content">
+                <h2>🎉 Chúc mừng!</h2>
+                <p>Bạn đã hoàn thành Sudoku!</p>
+                <p>Thời gian: <strong id="final-time">00:00</strong></p>
+                <p id="new-record" style="display: none; color: #28a745; font-weight: bold;">
+                    🏆 Kỷ lục mới!
+                </p>
+                <div class="modal-actions">
+                    <button id="new-game-modal" class="btn-primary">Chơi lại</button>
+                    <button id="view-stats-btn" class="btn-secondary">Xem thống kê</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Saved Games Modal -->
+        <div id="saved-games-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>💾 Game đã lưu</h2>
+                    <button class="close-btn" data-modal="saved-games-modal">×</button>
+                </div>
+                <div id="saved-games-list" class="saved-games-list">
+                    <!-- Will be populated by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/sudoku-generator.js"></script>
+    <script src="js/sudoku-solver.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/statistics.js"></script>
+    <script src="js/themes.js"></script>
+    <script src="js/daily-challenge.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
