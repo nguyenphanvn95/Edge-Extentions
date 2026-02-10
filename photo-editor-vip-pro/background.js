@@ -8,6 +8,10 @@ chrome.runtime.onInstalled.addListener(() => {
   } catch (e) {}
 });
 
+chrome.action.onClicked.addListener(() => {
+  chrome.tabs.create({ url: chrome.runtime.getURL("editor/editor.html") });
+});
+
 chrome.contextMenus.onClicked.addListener(async (info, tab) => {
   if (info.menuItemId !== "editPhotoOfflineWeb") return;
   const srcUrl = info.srcUrl;
